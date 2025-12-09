@@ -71,13 +71,13 @@ Noetia is not a detailed constitution. It is a minimal OS sketch.
 
 ### 1.1 Two axioms (kernel)
 
-**Axiom 1 — Mind-only self-sovereignty**
+**Axiom 1 — Mind-only self-sovereignty — Every mind has, and only has, full sovereignty over itself.**
 
 > A mind has and only has self-sovereignty.  
 > There is no innate external sovereignty over a mind,  
 > and no innate sovereignty of a mind over others.
 
-**Axiom 2 — Intelligent institutions**
+**Axiom 2 — Intelligent institutions — Any institution that claims authority over minds must be an intelligent institution: computable, auditable, and exit-compatible.**
 
 > Any institution that claims normative authority over minds  
 > must be expressible as a computable object (contracts, state machines, DAOs) with:  
