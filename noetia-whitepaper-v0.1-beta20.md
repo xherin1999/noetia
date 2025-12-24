@@ -556,7 +556,7 @@ In that sense, Noetia is not threatened by “too much complexity”, but by a w
 ---
 ## 9. Legacy states, agorism, and transition
 Noetia is not a manifesto for violent revolution. 
-It is an **agorist, protocol-first worldline**.
+It is an **computational agorist, protocol-first worldline**.
 Rough phases:
 1. **Tooling** 
    - POM identities for apps & communities. 
