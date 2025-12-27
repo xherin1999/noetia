@@ -1,5 +1,5 @@
 # Noetia – A Mind-Native Worldline 
-**Whitepaper v0.1-beta20**
+**Whitepaper v0.1-beta21**
 *Working draft. This is not a product, not a token, not legal advice. 
  Just axioms and sketches for an alternative worldline.*
 
