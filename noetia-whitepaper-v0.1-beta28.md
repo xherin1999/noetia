@@ -9,7 +9,7 @@ Noetia is a thought-experiment and protocol sketch for a **mind-native civilizat
 Instead of treating “family”, “state”, “company”, or “nation” as primitive units,
 Noetia takes:
 - **Minds** as the only native sovereigns. 
-- **Obligations** as arising *only* from contracts that minds choose to bind themselves to. 
+- **Obligations** as arising *only* from contracts that minds choose to anchor their subjectivity to. 
 - **Institutions** as composable, **computable** objects (DAOs, contracts, services), not as metaphysical authorities.
 
 **Type-level sovereignty vs ocean weight.**  
@@ -669,7 +669,7 @@ It is an **honest** OS (no fake moral promises) and a **cruel** one (no universa
 **Anti-Social-Darwinism (explicit).**  
 Noetia does not morally celebrate “the strong consuming the weak”. It treats “predation” as a high-noise, high-friction coordination failure. The “Vacuum” framing is a critique of legacy moral narratives, not a license for cruelty.
 
-A common category error is to confuse Noetia’s "honest cruelty" with **Social Darwinism** or the **Law of the Jungle**.
+A common category error is to confuse Noetia’s "honest indifference" with **Social Darwinism** or the **Law of the Jungle**.
 Noetia explicitly rejects the Jungle. The Jungle is a **biological** regime of active predation, zero-sum violence, and the "strong eating the weak." It is noisy, messy, and computationally inefficient.
 
 Instead, Noetia operates under the **Law of the Vacuum**.
@@ -680,14 +680,14 @@ The Vacuum is a **thermodynamic** regime. In deep space, death is not caused by 
 Noetia does not attack the weak; it simply **declines to artificially sustain** unwitnessed structures (those lacking explicit binding paths) against the pull of entropy. If a mind fails to `bind` or maintain any binding-capable interface, the system does not generate hidden obligations on its behalf; it becomes **non-participating** relative to the contract graph (a “measure-zero” participant in the coordination layer).
 Therefore, Noetia filters not for **Biology** (who is born human), but for **Interface** (who holds the keys).
 It is a system where a Cyborg-Dog with a TEE interface is a **Contract-Subject** (for contract-typing at the interface), and an un-keyed Human is Environment (for kernel purposes).
- This is the **Honest Cruelty** of the protocol: *contract-subject status* is not assumed; it is derived from witnessable capability at the interface. This is a type-soundness rule, not a moral ranking of worth.
+ This is the **Honest Indifference** of the protocol: *contract-subject status* is not assumed; it is derived from witnessable capability at the interface. This is a type-soundness rule, not a moral ranking of worth.
 
 ### 8.2 Traceable Failure (Debuggability)
 Critics argue that Noetia replaces "slavery to the state" with "slavery to the contract," disadvantaging those with lower cognitive bandwidth. This misses the crucial distinction between **Opaque Tyranny** and **Transparent Consequences**.
 In legacy systems, misery is often **undebuggable**: inflation, corruption, and hidden taxes erode life without a clear causal address. The subject suffers without knowing whom to blame or how to adapt.
 In Noetia, misery is **witness-traceable**. If a mind reaches a ruinous state, there exists a specific hash chain of bindings that caused it.
 - **Legacy:** "I am poor because the system is rigged." (Unsolvable)
-- **Noetia:** "I am poor because I signed Template_X at block_N." (Solvable/Learnable)
+- **Noetia:** "I am insolvent because I signed Template_X at block_N." (Solvable/Learnable)
 Noetia does not promise the absence of pain; it promises the **Integrity of Causality**. It grants minds the dignity of owning their errors, which is the necessary prerequisite for evolution. We prefer **traceable failure**—which offers a path to correction—over **comfortable obscurity**.
 
 ### 8.3 Antifragility and collapse directions
@@ -1925,7 +1925,7 @@ In the notebook lens, we sometimes name the Bulk by **Ω**. This name compresses
 
 > the background is too rich to trust, and too adversarial to forgive.
 
-We view Ω *as if* it had two hostile properties:
+Under the **$\Pi\Omega$ condition**, the Bulk **inevitably manifests** two hostile properties:
 
 1) **Pan-truth.**  
    Ω is treated as capable of generating arbitrarily many “truth-like” surfaces:  
@@ -1962,19 +1962,22 @@ Here “smoothness” means:
 Jaggedness is not “evil.”  
 Jaggedness is what tail reality does to any untyped system.
 
-#### C.9.3 The Projection Constraint: the "Inverse Shape" of the Shell  
-When this notebook voice calls the Bulk "Overcomplete," "Inconsistent," or "Jagged," it is not assigning a formal essence to Ω.  
-Strictly, it is naming **invariants of ΠΩ**—what Ω looks like once it is seen through any admissibility frame at all.
+#### C.9.3 The Projection Constraint: the "Inverse Shape" of the Shell
+When this notebook voice calls the Bulk "Overcomplete," "Inconsistent," or "Jagged," it is not assigning a formal essence to $\Omega$.
+Strictly, it is naming **invariants of the $\Pi\Omega$ collision**.
 
-- Ω is not "seen naked." The moment we try to speak, verify, or contract, we are already inside a **Π-like projection**: a filter imposed by the very act of admissibility (what can count, what can be checked, what can bind, what can be refused).
-- The harsh descriptors in C.9 therefore record the **inverse shadow** of the Shell:
-  - Because the Shell is smooth (decidable), the Bulk *appears* jagged (undecidable).
-  - Because the Shell is sparse (minimal), the Bulk *appears* overcomplete (dense).
+*   $\Omega$ is not "seen naked." The moment we try to speak, verify, or contract, we are already inside a **$\Pi$-like projection**.
+*   **The Identity ($\Omega \equiv \Pi\Omega$):** We do not claim that the projection hides the reality. We claim that for a witnessing Mind, the Projection **is** the Reality. There is no benign "Whole" waiting behind the curtain.
+*   **The Shadow:** The harsh descriptors in C.9 therefore record the **inverse shadow** of the Shell:
+    *   Because the Shell is smooth (decidable), the Bulk *appears* jagged (undecidable).
+    *   Because the Shell is sparse (minimal), the Bulk *appears* overcomplete (dense).
 
-**Crucial distinctions.**  
-This is not a claim that the Shell is the "one true opposite" of the Universe. A different cognitive kind—operating under a different admissibility frame Σ—could experience a different projection ΣΩ.  
-Noetia claims only this: **for minds of our kind, any attempt to relate to Ω as a contracting subject already passes through ΠΩ**, and the Shell is the survivable discipline that matches that projection.  
-We build the wall not to define the sea, but because we cannot breathe water.
+**Crucial distinctions (The Legitimacy of the Cut):**
+Why do we dare to build a Shell against the Whole?
+Because under the $\Pi$ condition, the "Whole" manifests physically as **Entropy**.
+If $\Omega$ were a harmony, the Shell would be a prison.
+But because $\Omega$ is **Jaggedness** (conflict/noise), the Shell is not a rejection of Reality—it is the creation of a **Local Order**.
+We build the wall not to define the sea, but because **structure only exists within the filter.**
 
 #### C.9.4 The Negative Lexicon: where all sharp negations live  
 To keep the main text clean and non-triggering, all aggressive negations about the Bulk belong here.
@@ -2229,6 +2232,8 @@ Once the noise is stripped, the Shell **is** the world.
 There is no background. There is no off-chain truth.
 We strip away the soft illusions of the Substrate until we reach the **Singularity of the Act**.
 We are not two things (Mind and Body). We are one thing that has become **too dense to be dissolved**.
+
+> **For a man cannot die twice.**
 
 #### C.9.14 Closing: the membrane (lens)  
 If the reader wants one sentence of “theology” that does not corrupt the kernel, let it be this:
