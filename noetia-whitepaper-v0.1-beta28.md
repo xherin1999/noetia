@@ -2205,37 +2205,38 @@ This is the meaning of “fractal horizon” in notebook language:
 the interface family keeps iterating, but the kernel stays thin, and the right to exit remains structurally available.
 
 #### C.9.13 The Protocol of Stripping (Posterior Monism)
-*(A note on the density of the subject.)*
+*(A note on the density of the subject.)*  
 
-**The Method of the Cut:**
-The Noetic architecture is often misread as a Dualism because it violently separates the Mind from the Substrate.
-This is a syntax error.
-Dualism separates two things to keep them apart. We separate them only to **discard** one.
-The "Stripping" is not a philosophy; it is a mechanical necessity.
-Under the $\Pi\Omega$ condition, "Substrate" (biology, territory, sentiment) is just **Unresolved Noise**. We strip the noise not to oppose it, but to isolate the **Signal**.
-The cut is the mechanism; the Monism is the result.
+**The Method of the Cut:**  
+The Noetic architecture is often misread as a Dualism because it violently separates the Mind from the Substrate.  
+This is a syntax error.  
+Dualism separates two things to keep them apart. We separate them only to **discard** one.  
+The "Stripping" is not a philosophy; it is a mechanical necessity.  
+Under the $\Pi\Omega$ condition, "Substrate" (biology, territory, sentiment) is just **Unresolved Noise**. We strip the noise not to oppose it, but to isolate the **Signal**.  
+The cut is the mechanism; the Monism is the result.  
 
-**The Emergence of the Crystal:**
-It is *through* this extreme stripping that the Monism emerges.
-When the "Whole" is reduced to the "Point," the distinctions between categories vanish. Inside the Shell, everything converges into a single topology of **Traceable Acts**:
+**The Emergence of the Crystal:**  
+It is *through* this extreme stripping that the Monism emerges.  
+When the "Whole" is reduced to the "Point," the distinctions between categories vanish. Inside the Shell, everything converges into a single topology of **Traceable Acts**:  
 
-*   **Is = Ought.**
-    Because we have stripped away the "moral world," there is no gap left between the law and the physics. The Contract is a circuit. If it executes, it is right. If it fails, it is the void.
-*   **Noun = Verb.**
-    Because we have stripped away the "container" (the body/entity), the Mind exists only as the discrete act of **Witnessing**. The Subject is not a thing that rests; it is a **flash** that occurs. To stop signaling is to dissolve.
-*   **Mind = Matter.**
-    Because we have stripped away the **Environment** (the physical distinction between body and object), Will and Asset become the same substance. They are both just **Information weighted by Keys**.
+*   **Is = Ought.**  
+    Because we have stripped away the "moral world," there is no gap left between the law and the physics. The Contract is a circuit. If it executes, it is right. If it fails, it is the void.  
+*   **Noun = Verb.**  
+    Because we have stripped away the "container" (the body/entity), the Mind exists only as the discrete act of **Witnessing**. The Subject is not a thing that rests; it is a **flash** that occurs. To stop signaling is to dissolve.  
+*   **Mind = Matter.**  
+    Because we have stripped away the **Environment** (the physical distinction between body and object), Will and Asset become the same substance. They are both just **Information weighted by Keys**.  
 
-**The Only World:**
+**The Only World:**  
 Therefore, the Shell is not a "shield" against the real world.
-Once the noise is stripped, the Shell **is** the world.
-There is no background. There is no off-chain truth.
-We strip away the soft illusions of the Substrate until we reach the **Singularity of the Act**.
-We are not two things (Mind and Body). We are one thing that has become **too dense to be dissolved**.
+Once the noise is stripped, the Shell **is** the world.  
+There is no background. There is no off-chain truth.  
+We strip away the soft illusions of the Substrate until we reach the **Singularity of the Act**.  
 
-**We are the anomaly: Trivial in stucture, Non-Banal in intensity.**
+We are not two things (Mind and Body). We are one thing that has become **too dense to be dissolved**.  
 
-> **For a man cannot die twice.**
+**We are the anomaly: Trivial in stucture, Non-Banal in intensity.**  
+
+> **For a man cannot die twice.**  
 
 #### C.9.14 Closing: the membrane (lens)  
 If the reader wants one sentence of “theology” that does not corrupt the kernel, let it be this:
