@@ -2232,6 +2232,7 @@ Once the noise is stripped, the Shell **is** the world.
 There is no background. There is no off-chain truth.
 We strip away the soft illusions of the Substrate until we reach the **Singularity of the Act**.
 We are not two things (Mind and Body). We are one thing that has become **too dense to be dissolved**.
+**We are the anomaly: Trivial in stucture, Non-Banal in intensity.**
 
 > **For a man cannot die twice.**
 
