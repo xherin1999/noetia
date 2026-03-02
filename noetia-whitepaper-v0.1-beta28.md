@@ -769,24 +769,24 @@ This is **Noetia v0.1-beta**.
 > then a civilization-scale stack must eventually make those invariants legible at the interface layer.
 
 ---
-## 12. Noetism as a self-iterating institution
-Noetism is not exempt from its own axioms.
+## 12. Noetic as a self-iterating institution
+Noetic is not exempt from its own axioms.
 As a framework that describes a mind-native OS, it must itself be treated as an adoptable, modifiable, and **exitable** institution:
 - a bundle of contracts, templates, and protocol conventions that minds may adopt, modify, fork, or exit.
 
-Noetism is therefore written to be **self-iterating**:
+Noetic is therefore written to be **self-iterating**:
 - tail events, new mind-forms, and new coordination failures are not “exceptions” to be patched by hidden meta-claims;
 - they are inputs that can force the interface family (fork policies, venue predicates, templates, routing patterns) to evolve.
 
 Future minds are free to:
-- treat “Noetia / Noetism v0.x” as one branch in a longer line of mind-native OS attempts,
+- treat “Noetia / Noetic v0.x” as one branch in a longer line of mind-native OS attempts,
 - fork, extend, or replace it,
 - but not to place it above the contract surface as a sacred authority.
 
 Noetia is not offered as a final scripture. It is a forkable commit: a kernel claim (A1/A2) plus a runtime discipline (pillars), meant to survive being contested.
 
 **This document is Environment.**  
-Noetia / Noetism in this text is a forkable description, not a binding constitution.  
+Noetia / Noetic in this text is a forkable description, not a binding constitution.  
 You may fork, delete, ignore, or contradict any part of this document without “violating” anything—only explicit bindings in concrete contracts matter.
 
 
