@@ -1107,8 +1107,7 @@ Appendix C is therefore the place where “Noetia as an idea” becomes “Noeti
 ### C.2 Introducing $\Pi\Omega$ — Risk Background, Protocol-Anthropic Move, and Shell Constraints
 This section introduces **$\Pi\Omega$ (Pi-Omega)** as a *protocol lens* for the downstream risk background in which Noetia must remain implementable.
 
-- **Bulk / $\Omega$** (in this appendix) names the downstream complexity domain: the space of uncontrolled facts, adversarial incentives, and high-dimensional interaction outcomes.
-- **$\Pi\Omega$** names the *inevitable cognitive/epistemic interface* by which contracting Minds can relate to that Bulk without collapsing the kernel into metaphysics.
+- **Bulk / $\Pi\Omega$ (frequently written simply as $\Omega$ in this appendix)** names the downstream complexity domain: the space of uncontrolled facts, adversarial incentives, and high-dimensional interaction outcomes. Crucially, this domain is **operationally inseparable** from the inevitable cognitive/epistemic interface constraint of the Mind itself; there is no independent "Bulk" waiting behind the projection.
 - **Shell / Boundary** names the minimal admissibility surface: what the interface is allowed to “count” as a valid claim.
 
 Nothing here is a claim about physical cosmology. The point is: **if you insist on contracting Minds and exit-capable institutions, you inherit a certain boundary discipline.**
@@ -1590,7 +1589,7 @@ From the notebook lens: Boundary Minimalism is “anti-idolatry” in a precise 
 - “Idolatry” here names a *category error*:
   treating a boundary closure mechanism as a rightful global authority.
 
-- Minimalism is the refusal to let the Shell impersonate $\Omega$.
+- Minimalism is the refusal to let the Shell impersonate $\Pi\Omega$.
 
 So the Shell stays humble:
 - it does not contain the Bulk,
@@ -1912,9 +1911,8 @@ This section is deliberately written in a **notebook / theological register**. I
 - Default reading is: **“viewed as / treated as / as-if / under the $\Pi\Omega$ risk lens.”**  
 - If a sentence sounds like “I define the universe,” you should treat it as *rhetorical pressure*, not ontology.
 
-**Three-layer split is still enforced:**  
-- **Bulk / $\Omega$:** the downstream complexity domain—uncontrolled facts, adversarial incentives, tail risks, and story-explosions.  
-- **$\Pi\Omega$:** the interface inevitability—constraints induced by reflexive mindhood + contracting.  
+**Two-layer operational split:**  
+- **Bulk / $\Pi\Omega$ (or simply $\Omega$):** the downstream complexity domain—uncontrolled facts, adversarial incentives, tail risks, and story-explosions. (Structurally inseparable. "$\Omega$" is merely a contextual alias for "$\Pi\Omega$"; see C.9.3).  
 - **Shell / Boundary:** the admissibility surface—finite witness + explicit exit.
 
 **Firewall rule:**  
