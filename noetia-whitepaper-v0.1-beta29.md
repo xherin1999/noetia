@@ -1973,8 +1973,8 @@ Strictly, it is naming **invariants of the $\Pi\Omega$ collision**.
 **Crucial distinctions (The Legitimacy of the Cut):**
 Why do we dare to build a Shell against the Whole?
 Because under the $\Pi$ condition, the "Whole" manifests physically as **Entropy**.
-If $\Omega$ were a harmony, the Shell would be a prison.
-But because $\Omega$ is **Jaggedness** (conflict/noise), the Shell is not a rejection of Reality—it is the creation of a **Local Order**.
+If $\Pi\Omega$ were a harmony, the Shell would be a prison.
+But because $\Pi\Omega$ is **Jaggedness** (conflict/noise), the Shell is not a rejection of Reality—it is the creation of a **Local Order**.
 We build the wall not to define the sea, but because **structure only exists within the filter.**
 
 #### C.9.4 The Negative Lexicon: where all sharp negations live  
