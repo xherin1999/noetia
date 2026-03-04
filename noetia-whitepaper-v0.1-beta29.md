@@ -103,7 +103,7 @@ Noetia treats “what counts” at the interface as an admissibility question: �
 This is an interface rule that operationalizes A1/A2; it does not add a new normative axiom.
 
 **Interface admissibility: witness-traceability.**
-A claim is *traceable* (at the interface layer) if there exists a finite witness $\Pi$ (often a Zero-Knowledge Proof) such that an agreed verifier accepts it: `Verifier($\Pi$) = True`.
+A claim is *traceable* (at the interface layer) if there exists a finite witness $\Pi$ (often a Zero-Knowledge Proof) such that an agreed verifier accepts it: `Verifier(Π) = True`.
 The interface layer is verification-only: it admits or rejects interface-level claims, and it requires at least one declared settle/exit path where applicable. “Verification admits **receipts of admissibility** under declared rules; it does not admit environment facts as standalone authorities.”
 
 **Deep layer freedom.**
@@ -901,7 +901,7 @@ struct BindingEvent<C: Contract> {
 
 5.  **Broadcasting to the Shell:**
     *   `Alice` broadcasts the `BindingEvent`.
-    *   Network nodes run `Verifier($\pi$)`: They verify the proof satisfies `logic_circuit` without seeing Alice's private wallet state.
+    *   Network nodes run `Verifier(Π)`: They verify the proof satisfies `logic_circuit` without seeing Alice's private wallet state.
     *   *Verification Success:* The causal clock `CausalTime` ticks; the measure is solidified on the Shell.
 
 6.  **Lifecycle Termination (Exit):**
@@ -1016,7 +1016,7 @@ Readers may skip Appendix C without losing any kernel rule; Appendix C exists to
 
 #### What this appendix is **not**
 - It is **not** a claim about physical cosmology.
-- It is **not** an assertion of what “$\Omega$ truly is.”
+- It is **not** an assertion of what “ $\Omega$ truly is.”
 - It is **not** an attempt to legislate metaphysics into Noetia’s kernel.
 
 Whenever this appendix uses $\Omega$-language, it must be read as: **treated as / viewed as / modeled as** a downstream complexity-risk background, not as an ontological decree.
@@ -1766,7 +1766,7 @@ It is intentionally written so a reader can:
 **Scope discipline (again):**
 - Appendix C is a **lens**.
 - It adds **no** new obligations beyond **Axiom 1** and **Axiom 2**.
-- “$\Pi\Omega$ / $\Omega$ / Bulk” names the **risk background** (a worst-case complexity lens), not a metaphysical claim about the universe’s essence.
+- “ $\Pi\Omega$ / $\Omega$ / Bulk” names the **risk background** (a worst-case complexity lens), not a metaphysical claim about the universe’s essence.
 - “Shell / Boundary / MZKP” names the **survivable interface discipline** required for contracting Minds.
 
 #### C.8.1 The chain, as a single line
@@ -1912,7 +1912,7 @@ This section is deliberately written in a **notebook / theological register**. I
 - If a sentence sounds like “I define the universe,” you should treat it as *rhetorical pressure*, not ontology.
 
 **Two-layer operational split:**  
-- **Bulk / $\Pi\Omega$ (or simply $\Omega$):** the downstream complexity domain—uncontrolled facts, adversarial incentives, tail risks, and story-explosions. (Structurally inseparable. "$\Omega$" is merely a contextual alias for "$\Pi\Omega$"; see C.9.3).  
+- **Bulk / $\Pi\Omega$ (or simply $\Omega$):** the downstream complexity domain—uncontrolled facts, adversarial incentives, tail risks, and story-explosions. (Structurally inseparable. " $\Omega$ " is merely a contextual alias for " $\Pi\Omega$ "; see C.9.3).  
 - **Shell / Boundary:** the admissibility surface—finite witness + explicit exit.
 
 **Firewall rule:**  
@@ -1981,11 +1981,11 @@ We build the wall not to define the sea, but because **structure only exists wit
 To keep the main text clean and non-triggering, all aggressive negations about the Bulk belong here.
 
 In this register, we may write statements like:  
-- “$\Omega$ is *as if* it were not-well-founded, because infinite descent appears as audit ambiguity,”  
-- “$\Omega$ is *as if* it were not-globally-choosable, because any trusted global chooser becomes a throne,”  
-- “$\Omega$ is *as if* it were not-extensional, because identity dissolves when proof is not required,”  
-- “$\Omega$ is *as if* it were not-finalizable-as-a-single-model, because new forks keep creating new axes,”  
-- “$\Omega$ is *as if* it were not-consistent-as-a-promise, because the environment offers no safety guarantee.”
+- “ $\Omega$ is *as if* it were not-well-founded, because infinite descent appears as audit ambiguity,”  
+- “ $\Omega$ is *as if* it were not-globally-choosable, because any trusted global chooser becomes a throne,”  
+- “ $\Omega$ is *as if* it were not-extensional, because identity dissolves when proof is not required,”  
+- “ $\Omega$ is *as if* it were not-finalizable-as-a-single-model, because new forks keep creating new axes,”  
+- “ $\Omega$ is *as if* it were not-consistent-as-a-promise, because the environment offers no safety guarantee.”
 
 **Important:** these are not claims about set theory, model theory, or cosmology.  
 They are refusal-markers:
