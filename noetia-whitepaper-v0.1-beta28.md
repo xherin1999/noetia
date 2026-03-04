@@ -103,7 +103,7 @@ Noetia treats “what counts” at the interface as an admissibility question: �
 This is an interface rule that operationalizes A1/A2; it does not add a new normative axiom.
 
 **Interface admissibility: witness-traceability.**
-A claim is *traceable* (at the interface layer) if there exists a finite witness π (often a Zero-Knowledge Proof) such that an agreed verifier accepts it: `Verifier(π) = True`.
+A claim is *traceable* (at the interface layer) if there exists a finite witness $\Pi$ (often a Zero-Knowledge Proof) such that an agreed verifier accepts it: `Verifier($\Pi$) = True`.
 The interface layer is verification-only: it admits or rejects interface-level claims, and it requires at least one declared settle/exit path where applicable. “Verification admits **receipts of admissibility** under declared rules; it does not admit environment facts as standalone authorities.”
 
 **Deep layer freedom.**
@@ -1005,7 +1005,7 @@ Noetia is not a new territory on the map of Flatland; it is the Pen that redraws
 
 
 ---
-# Appendix C: ΠΩ, MZKP, and the Boundary Shell  
+# Appendix C: $\Pi\Omega$, MZKP, and the Boundary Shell  
 *On protocol-anthropic constraints, finite-witness admissibility, and the minimal primitives that make Axiom 1/2 implementable.*
 
 ### C.0 Reader Note — Lens, Not Kernel (Layer Split)
@@ -1016,18 +1016,18 @@ Readers may skip Appendix C without losing any kernel rule; Appendix C exists to
 
 #### What this appendix is **not**
 - It is **not** a claim about physical cosmology.
-- It is **not** an assertion of what “Ω truly is.”
+- It is **not** an assertion of what “$\Omega$ truly is.”
 - It is **not** an attempt to legislate metaphysics into Noetia’s kernel.
 
-Whenever this appendix uses Ω-language, it must be read as: **treated as / viewed as / modeled as** a downstream complexity-risk background, not as an ontological decree.
+Whenever this appendix uses $\Omega$-language, it must be read as: **treated as / viewed as / modeled as** a downstream complexity-risk background, not as an ontological decree.
 
 #### Three-layer split (do not mix)
 This appendix uses a strict three-layer vocabulary. The rest of the document follows the same separation:
 
-1) **Bulk / ΠΩ (downstream risk background)**
-   - **Ω** names the *downstream complexity domain* (open-ended, tail-heavy, adversarial, semantically lossy).
-   - **ΠΩ** names the *admissibility projection pressure*: the fact that any “view of Ω” available to contracting Minds is already filtered through Mind’s own boundary constraints.
-   - In this appendix, ΠΩ is treated as a *protocol risk model* and a *writing discipline*, not as a cosmological statement.
+1) **Bulk / $\Pi\Omega$ (downstream risk background)**
+   - **$\Omega$** names the *downstream complexity domain* (open-ended, tail-heavy, adversarial, semantically lossy).
+   - **$\Pi\Omega$** names the *admissibility projection pressure*: the fact that any “view of $\Omega$” available to contracting Minds is already filtered through Mind’s own boundary constraints.
+   - In this appendix, $\Pi\Omega$ is treated as a *protocol risk model* and a *writing discipline*, not as a cosmological statement.
 
 2) **Shell / Boundary (interface admissibility surface)**
    - The **Shell** is the minimal surface where obligations and authority claims may be *admitted* at all.
@@ -1035,7 +1035,7 @@ This appendix uses a strict three-layer vocabulary. The rest of the document fol
    - The Shell is intentionally thin: it does not inherit Bulk’s metaphysical weight; it only enforces admissibility and settlement.
 
 3) **MZKP discipline (finite-witness survival strategy)**
-   - **MZKP** names the boundary discipline required to keep contracting subjecthood stable under ΠΩ-risk: finite-witness admissibility, bounded verification, provenance discipline, and explicit settlement/exit.
+   - **MZKP** names the boundary discipline required to keep contracting subjecthood stable under $\Pi\Omega$-risk: finite-witness admissibility, bounded verification, provenance discipline, and explicit settlement/exit.
    - MZKP is **not** an extra axiom; it is an operational reading of “traceable” and “exit-capable” already required by Axiom 1/2.
 
 #### Why “mathematical primitives” appear here
@@ -1044,14 +1044,14 @@ This is used as a *minimal interface language* for admissibility—**not** as a 
 
 #### Rule of interpretation
 If a sentence in Appendix C can be misread as “Noetia declares the universe is X,” then it should be read in the weaker, intended form:
-> “Given ΠΩ-risk and the existence of contracting Minds, Noetia treats X as a useful boundary lens for survivable interface design.”
+> “Given $\Pi\Omega$-risk and the existence of contracting Minds, Noetia treats X as a useful boundary lens for survivable interface design.”
 
 #### Non-equivalence lock (read once, do not reinterpret)
-- **ΠΩ is not the Shell.** ΠΩ names the *risk/background projection* (what the Mind can even formulate about Ω).  
+- **$\Pi\Omega$ is not the Shell.** $\Pi\Omega$ names the *risk/background projection* (what the Mind can even formulate about $\Omega$).  
   The **Shell** names the *engineered interface surface* (what claims are admitted by finite witness + exit/settle).
-- **ΠΩ is not MZKP.** ΠΩ is the *pressure model*; **MZKP** is the *survival discipline* chosen in response.
-- **The Five primitives are Shell vocabulary, not ΠΩ vocabulary.**  
-  They describe the minimal receipt-logic the **Shell** may rely on; they do not describe Ω, and they do not define ΠΩ.
+- **$\Pi\Omega$ is not MZKP.** $\Pi\Omega$ is the *pressure model*; **MZKP** is the *survival discipline* chosen in response.
+- **The Five primitives are Shell vocabulary, not $\Pi\Omega$ vocabulary.**  
+  They describe the minimal receipt-logic the **Shell** may rely on; they do not describe $\Omega$, and they do not define $\Pi\Omega$.
 
 This is the only intended reading of Appendix C.
 
@@ -1078,25 +1078,25 @@ Noetia’s kernel refuses to solve these by decree. Instead, it requires a **bou
 
 #### What “C” provides (and what it does not)
 Appendix C provides:
-- A **layered vocabulary** (Bulk / ΠΩ vs Shell / Boundary vs witness discipline) so the paper can use sharp language without collapsing into cosmology.
+- A **layered vocabulary** (Bulk / $\Pi\Omega$ vs Shell / Boundary vs witness discipline) so the paper can use sharp language without collapsing into cosmology.
 - A **compilation target** for normative claims: a minimal interface notion of admissibility by finite witness + explicit exit/settle.
 - A **bridge** between the philosophical kernel (A1/A2) and the runtime stacks (POM, BSC, LDAO, routing): i.e., how the axioms become enforceable constraints in protocol objects.
 
 Appendix C does **not** provide:
 - any new “ought” beyond A1/A2,
-- any claim that Ω is the universe’s essence,
+- any claim that $\Omega$ is the universe’s essence,
 - any global metaphysical verdict about identity, time, or value.
 
 #### The design thesis (boundary-first)
 Noetia’s core thesis can be stated as a boundary requirement:
 
-> If Minds are to exist as contracting subjects under ΠΩ-risk, then the interface must enforce a **finite-witness admissibility discipline** that prevents hidden meta-authority and guarantees explicit settlement/exit.
+> If Minds are to exist as contracting subjects under $\Pi\Omega$-risk, then the interface must enforce a **finite-witness admissibility discipline** that prevents hidden meta-authority and guarantees explicit settlement/exit.
 
 Everything in this appendix is in service of that thesis.
 
 #### What to expect in the remainder of Appendix C
 The rest of Appendix C will:
-1) introduce a **risk background** (ΠΩ) as a protocol lens (not cosmology),
+1) introduce a **risk background** ($\Pi\Omega$) as a protocol lens (not cosmology),
 2) argue for a **survivable Shell** discipline (finite witness, bounded verification, provenance, exit),
 3) name a minimal set of **boundary witness primitives** as implementation vocabulary,
 4) map those primitives to the **four POM-Base invariants**, and
@@ -1104,11 +1104,11 @@ The rest of Appendix C will:
 
 Appendix C is therefore the place where “Noetia as an idea” becomes “Noetia as an implementable interface family.”
 
-### C.2 Introducing ΠΩ — Risk Background, Protocol-Anthropic Move, and Shell Constraints
-This section introduces **ΠΩ (Pi-Omega)** as a *protocol lens* for the downstream risk background in which Noetia must remain implementable.
+### C.2 Introducing $\Pi\Omega$ — Risk Background, Protocol-Anthropic Move, and Shell Constraints
+This section introduces **$\Pi\Omega$ (Pi-Omega)** as a *protocol lens* for the downstream risk background in which Noetia must remain implementable.
 
-- **Bulk / Ω** (in this appendix) names the downstream complexity domain: the space of uncontrolled facts, adversarial incentives, and high-dimensional interaction outcomes.
-- **ΠΩ** names the *inevitable cognitive/epistemic interface* by which contracting Minds can relate to that Bulk without collapsing the kernel into metaphysics.
+- **Bulk / $\Omega$** (in this appendix) names the downstream complexity domain: the space of uncontrolled facts, adversarial incentives, and high-dimensional interaction outcomes.
+- **$\Pi\Omega$** names the *inevitable cognitive/epistemic interface* by which contracting Minds can relate to that Bulk without collapsing the kernel into metaphysics.
 - **Shell / Boundary** names the minimal admissibility surface: what the interface is allowed to “count” as a valid claim.
 
 Nothing here is a claim about physical cosmology. The point is: **if you insist on contracting Minds and exit-capable institutions, you inherit a certain boundary discipline.**
@@ -1215,20 +1215,20 @@ We can state the Shell constraints as *requirements on admissibility*:
 
 These constraints are exactly what set up the rest of Appendix C:
 
-- C.3 will formalize the **ΠΩ ↔ MZKP** idea: Bulk risk forces a minimal survivable witness discipline.
+- C.3 will formalize the **$\Pi\Omega$ ↔ MZKP** idea: Bulk risk forces a minimal survivable witness discipline.
 - C.4 will connect that discipline to a minimal vocabulary of **boundary witness primitives** (without expanding the kernel).
 - C.5 will map those primitives to the **four POM-Base invariants**, making “Mind” operational at the interface.
 - Later sections will show how this is what makes Axiom 1/2 *implementable* rather than rhetorical.
 
 In short:
 
-> **ΠΩ is the protocol-anthropic lens:**
+> **$\Pi\Omega$ is the protocol-anthropic lens:**
 > *If Minds must contract under Bulk risk, then the Shell must be a finite-witness, exit-capable admissibility surface—otherwise sovereignty and delegation cannot remain stable types.*
 
-### C.3 Dual Arrow I — ΠΩ ↔ MZKP (why the Shell must be “witness-native”)
+### C.3 Dual Arrow I — $\Pi\Omega$ ↔ MZKP (why the Shell must be “witness-native”)
 This section makes the first explicit **bidirectional link** in Appendix C:
 
-> **ΠΩ ↔ MZKP**
+> **$\Pi\Omega$ ↔ MZKP**
 > (Bulk risk + reflexive mindhood) ↔ (a minimal finite-witness discipline that keeps contracting subjectivity implementable)
 
 This is still **lens-level**. It does not add obligations beyond Axiom 1/2.
@@ -1250,16 +1250,16 @@ MZKP is therefore an *implementation discipline* for “traceable” and “exit
 What MZKP does **not** claim:
 - It does not claim the Bulk is “made of proofs”.
 - It does not claim a global ontology, global chooser, or global time.
-- It does not claim any metaphysical completion of Ω.
+- It does not claim any metaphysical completion of $\Omega$.
 
-#### C.3.2 Arrow direction 1 — ΠΩ ⇒ MZKP (why ΠΩ forces a witness discipline)
-From C.2, ΠΩ is the protocol-anthropic lens: *if contracting Minds exist under Bulk risk*, then the boundary cannot be a soft philosophical narrative.
+#### C.3.2 Arrow direction 1 — $\Pi\Omega$ ⇒ MZKP (why $\Pi\Omega$ forces a witness discipline)
+From C.2, $\Pi\Omega$ is the protocol-anthropic lens: *if contracting Minds exist under Bulk risk*, then the boundary cannot be a soft philosophical narrative.
 
-The forcing pressure comes from three ΠΩ features:
+The forcing pressure comes from three $\Pi\Omega$ features:
 
 1) **Adversarial pressure turns semantics into an exploit surface.**
    If obligations can be asserted via rhetoric, tradition, or “obviousness”, then the boundary becomes a priesthood interface.
-   ΠΩ therefore forces: *only what can be checked counts*.
+   $\Pi\Omega$ therefore forces: *only what can be checked counts*.
 
 2) **Tail dominance kills “human moderation” as an interface assumption.**
    In a tail-heavy worldline, you cannot rely on “reasonable people” or “rare edge cases.”
@@ -1269,18 +1269,18 @@ The forcing pressure comes from three ΠΩ features:
    A Mind cannot safely import a global meta-court to validate its own obligations without collapsing the subject/object split.
    The only stable move is: push meaning inward (Bulk), keep the boundary as receipts.
 
-So, ΠΩ does not *morally prefer* MZKP.
+So, $\Pi\Omega$ does not *morally prefer* MZKP.
 It **structurally selects** it as a survivable stance.
 
 A compact way to say it:
 
-> Under ΠΩ, any boundary that admits obligations without finite witness becomes a meta-authority channel.
-> Therefore, ΠΩ pushes the Shell toward MZKP.
+> Under $\Pi\Omega$, any boundary that admits obligations without finite witness becomes a meta-authority channel.
+> Therefore, $\Pi\Omega$ pushes the Shell toward MZKP.
 
-#### C.3.3 Arrow direction 2 — MZKP ⇒ ΠΩ (why witness discipline presupposes a ΠΩ-style split)
+#### C.3.3 Arrow direction 2 — MZKP ⇒ $\Pi\Omega$ (why witness discipline presupposes a $\Pi\Omega$-style split)
 The reverse arrow matters because otherwise readers think “ZK is just a crypto gimmick.”
 
-If you adopt MZKP as the boundary stance, you are *implicitly* accepting the ΠΩ split:
+If you adopt MZKP as the boundary stance, you are *implicitly* accepting the $\Pi\Omega$ split:
 
 1) **You accept that the Bulk is not safely importable as a native authority surface.**
    Otherwise you would not need a strict admissibility Shell in the first place.
@@ -1293,14 +1293,14 @@ If you adopt MZKP as the boundary stance, you are *implicitly* accepting the Π�
    In practice, this means the boundary must preserve the minimal capabilities required for a contracting subject:
    refusal, binding, termination, provenance (this will be mapped later).
 
-So MZKP is not neutral: it encodes the ΠΩ worldview that says:
+So MZKP is not neutral: it encodes the $\Pi\Omega$ worldview that says:
 
 > “We do not get to speak the Whole; we only get to verify receipts that keep contracting Minds coherent.”
 
-This is the reverse arrow: MZKP operationally *is* a ΠΩ-shaped response.
+This is the reverse arrow: MZKP operationally *is* a $\Pi\Omega$-shaped response.
 
-#### C.3.4 The practical payload: what ΠΩ ↔ MZKP gives Noetia
-With ΠΩ ↔ MZKP established, we get a clean interface mandate:
+#### C.3.4 The practical payload: what $\Pi\Omega$ ↔ MZKP gives Noetia
+With $\Pi\Omega$ ↔ MZKP established, we get a clean interface mandate:
 
 - **No normative claim at the boundary without finite witness.**
 - **No institution without at least one witnessable exit/settle path.**
@@ -1309,7 +1309,7 @@ With ΠΩ ↔ MZKP established, we get a clean interface mandate:
 
 This is exactly how Appendix C avoids becoming cosmology:
 
-- ΠΩ names the *risk and reflexivity pressure* that makes soft metaphysics unstable.
+- $\Pi\Omega$ names the *risk and reflexivity pressure* that makes soft metaphysics unstable.
 - MZKP names the *minimal boundary discipline* that survives that pressure while keeping Axiom 1/2 implementable.
 
 ### C.4 Dual Arrow II — MZKP ↔ The Five Boundary Witness Axioms (the minimal primitive set)
@@ -1590,7 +1590,7 @@ From the notebook lens: Boundary Minimalism is “anti-idolatry” in a precise 
 - “Idolatry” here names a *category error*:
   treating a boundary closure mechanism as a rightful global authority.
 
-- Minimalism is the refusal to let the Shell impersonate Ω.
+- Minimalism is the refusal to let the Shell impersonate $\Omega$.
 
 So the Shell stays humble:
 - it does not contain the Bulk,
@@ -1767,25 +1767,25 @@ It is intentionally written so a reader can:
 **Scope discipline (again):**
 - Appendix C is a **lens**.
 - It adds **no** new obligations beyond **Axiom 1** and **Axiom 2**.
-- “ΠΩ / Ω / Bulk” names the **risk background** (a worst-case complexity lens), not a metaphysical claim about the universe’s essence.
+- “$\Pi\Omega$ / $\Omega$ / Bulk” names the **risk background** (a worst-case complexity lens), not a metaphysical claim about the universe’s essence.
 - “Shell / Boundary / MZKP” names the **survivable interface discipline** required for contracting Minds.
 
 #### C.8.1 The chain, as a single line
-> **ΠΩ ↔ MZKP ↔ (Five Boundary Witness Axioms) ↔ (Four Base Invariants / POM-Base) ↔ (Axiom 1/2) ↔ (Three Pillars)**
+> **$\Pi\Omega$ ↔ MZKP ↔ (Five Boundary Witness Axioms) ↔ (Four Base Invariants / POM-Base) ↔ (Axiom 1/2) ↔ (Three Pillars)**
 
 Each arrow is **bidirectional**:
 - left-to-right explains “why the next layer is forced,”
 - right-to-left explains “what the previous layer was actually for.”
 
-#### C.8.2 Arrow 1 — ΠΩ ↔ MZKP
-**ΠΩ (protocol-anthropic / conditional anthropic move):**
+#### C.8.2 Arrow 1 — $\Pi\Omega$ ↔ MZKP
+**$\Pi\Omega$ (protocol-anthropic / conditional anthropic move):**
 Not “the universe is X,” but:
 
 > **If** contracting Minds exist as interface subjects (can bind / refuse),
-> **and** they must operate under a worst-case complexity / adversarial background (ΠΩ),
+> **and** they must operate under a worst-case complexity / adversarial background ($\Pi\Omega$),
 > **then** the interface must adopt a survivable discipline for admissibility.
 
-ΠΩ is the *reason we don’t get to be naive*:
+$\Pi\Omega$ is the *reason we don’t get to be naive*:
 - the Bulk can be tail-heavy,
 - adversarial,
 - and filled with unbounded internal complexity.
@@ -1797,8 +1797,8 @@ The survival response:
 > and does not import Bulk metaphysics as boundary primitives.
 
 **Bidirection (why it’s ↔):**
-- **ΠΩ → MZKP:** worst-case background forces a minimal, robust admissibility surface.
-- **MZKP → ΠΩ:** once you commit to finite-witness boundary discipline, you are explicitly acknowledging a hostile/open-ended background where “trust the Bulk” is not an option.
+- **$\Pi\Omega$ → MZKP:** worst-case background forces a minimal, robust admissibility surface.
+- **MZKP → $\Pi\Omega$:** once you commit to finite-witness boundary discipline, you are explicitly acknowledging a hostile/open-ended background where “trust the Bulk” is not an option.
 
 #### C.8.3 Arrow 2 — MZKP ↔ Five Boundary Witness Axioms (MZKP → MZKP-in-ZFC form)
 MZKP is a *discipline*, but readers will ask:
@@ -1909,40 +1909,40 @@ This section is deliberately written in a **notebook / theological register**. I
 - **No cosmology claim.** Bulk-language is never a statement of “what the universe truly is.” It is an *as-if* stance for threat modeling.
 
 **How to parse every strong sentence in C.9:**  
-- Default reading is: **“viewed as / treated as / as-if / under the ΠΩ risk lens.”**  
+- Default reading is: **“viewed as / treated as / as-if / under the $\Pi\Omega$ risk lens.”**  
 - If a sentence sounds like “I define the universe,” you should treat it as *rhetorical pressure*, not ontology.
 
 **Three-layer split is still enforced:**  
-- **Bulk / Ω:** the downstream complexity domain—uncontrolled facts, adversarial incentives, tail risks, and story-explosions.  
-- **ΠΩ:** the interface inevitability—constraints induced by reflexive mindhood + contracting.  
+- **Bulk / $\Omega$:** the downstream complexity domain—uncontrolled facts, adversarial incentives, tail risks, and story-explosions.  
+- **$\Pi\Omega$:** the interface inevitability—constraints induced by reflexive mindhood + contracting.  
 - **Shell / Boundary:** the admissibility surface—finite witness + explicit exit.
 
 **Firewall rule:**  
 > Bulk may be spoken of in mythic terms here, but it may never become a default authority surface at the boundary.
 
-#### C.9.1 Ω as a risk-name: pan-truth and overcompleteness (as-if)  
-In the notebook lens, we sometimes name the Bulk by **Ω**. This name compresses a single warning:
+#### C.9.1 $\Omega$ as a risk-name: pan-truth and overcompleteness (as-if)  
+In the notebook lens, we sometimes name the Bulk by **$\Omega$**. This name compresses a single warning:
 
 > the background is too rich to trust, and too adversarial to forgive.
 
 Under the **$\Pi\Omega$ condition**, the Bulk **inevitably manifests** two hostile properties:
 
 1) **Pan-truth.**  
-   Ω is treated as capable of generating arbitrarily many “truth-like” surfaces:  
+   $\Omega$ is treated as capable of generating arbitrarily many “truth-like” surfaces:  
    - competing narratives that each “explain everything,”  
    - evidence regimes that can be tuned to pass naive filters,  
    - local equilibria that look stable until a new fork appears.  
    In a pan-true background, “truth” is not scarce; **trusted admissibility** is scarce.
 
 2) **Overcompleteness.**  
-   Ω is treated as **too full**: it supplies endless structure, endless edge cases, endless unexpected adjacencies.  
+   $\Omega$ is treated as **too full**: it supplies endless structure, endless edge cases, endless unexpected adjacencies.  
    The risk is not that the world is empty; the risk is that it is saturated enough that any unguarded interface becomes a throne.
 
 This is not a theorem. It is a defensive stance: over long horizons, the environment can always produce a new exploit class.  
 So “adding more metaphysical structure” rarely increases safety; it often increases attack surface.
 
 #### C.9.2 Infinite jaggedness: why “more definition” often makes things worse (as-if)  
-Viewed through this lens, Ω is *as if* it were **infinitely jagged**:
+Viewed through this lens, $\Omega$ is *as if* it were **infinitely jagged**:
 
 - Between any two apparently stable notions (“fair,” “adult,” “citizen,” “ownership,” “consent”),  
   there exists a deep fractal of subcases: edge conditions, coercion channels, proof tricks, social capture, timing attacks, interpreter ambiguity, and governance drift.  
@@ -1983,23 +1983,23 @@ We build the wall not to define the sea, but because **structure only exists wit
 To keep the main text clean and non-triggering, all aggressive negations about the Bulk belong here.
 
 In this register, we may write statements like:  
-- “Ω is *as if* it were not-well-founded, because infinite descent appears as audit ambiguity,”  
-- “Ω is *as if* it were not-globally-choosable, because any trusted global chooser becomes a throne,”  
-- “Ω is *as if* it were not-extensional, because identity dissolves when proof is not required,”  
-- “Ω is *as if* it were not-finalizable-as-a-single-model, because new forks keep creating new axes,”  
-- “Ω is *as if* it were not-consistent-as-a-promise, because the environment offers no safety guarantee.”
+- “$\Omega$ is *as if* it were not-well-founded, because infinite descent appears as audit ambiguity,”  
+- “$\Omega$ is *as if* it were not-globally-choosable, because any trusted global chooser becomes a throne,”  
+- “$\Omega$ is *as if* it were not-extensional, because identity dissolves when proof is not required,”  
+- “$\Omega$ is *as if* it were not-finalizable-as-a-single-model, because new forks keep creating new axes,”  
+- “$\Omega$ is *as if* it were not-consistent-as-a-promise, because the environment offers no safety guarantee.”
 
 **Important:** these are not claims about set theory, model theory, or cosmology.  
 They are refusal-markers:
 > do not grant the Bulk a privileged global interface by default.
 
 #### C.9.5 In Chaos We Trust — as a minimax-regret commitment.
-Noetia’s only serious bet is not that Ω *is* chaos, but that **we cannot safely exclude chaos** from the Bulk risk background.  
+Noetia’s only serious bet is not that $\Omega$ *is* chaos, but that **we cannot safely exclude chaos** from the Bulk risk background.  
 Under that uncertainty, the correct move is minimax regret: we choose a Shell that remains survivable even if the world is adversarial, overcomplete, and tail-dominant.  
-If Ω turns out to be bright and orderly, the Shell is an unnecessary discipline—a self-imposed confinement. If Ω turns out to be infernal, the same discipline is what prevents the Subject from being eaten by the Bulk.  
+If $\Omega$ turns out to be bright and orderly, the Shell is an unnecessary discipline—a self-imposed confinement. If $\Omega$ turns out to be infernal, the same discipline is what prevents the Subject from being eaten by the Bulk.  
 Noetia would rather regret being too cautious in paradise than regret being naïve in hell.
 
-#### C.9.6 The Holographic Hostage (Closure Under ΠΩ)
+#### C.9.6 The Holographic Hostage (Closure Under $\Pi\Omega$)
 
 There is a particular kind of terror in Noetia—not emotional terror, but **structural** terror.  
 A reader thinks they are asking for a small, local guarantee:
@@ -2011,7 +2011,7 @@ A reader thinks they are asking for a small, local guarantee:
 In legacy regimes, such requests are treated as *decorations*: negotiable, partial, exception-ridden.  
 They survive only because the legacy world is allowed to be blurry—because the background tolerates contradiction, drift, and informal mythic patching.
 
-Noetia does not allow blur. Under **ΠΩ** (the hostile, tail-dominant background lens), a “local guarantee” cannot float.  
+Noetia does not allow blur. Under **$\Pi\Omega$** (the hostile, tail-dominant background lens), a “local guarantee” cannot float.  
 If it is not **closed** under adversarial migration, it is not a guarantee—it is bait.
 
 ##### The Closure Trap
@@ -2019,14 +2019,14 @@ The moment you grant even a *thin* fragment of exit, a question becomes unavoida
 
 > “Exit from **what**, exactly?”
 
-Because under ΠΩ, power does not stay where you point at it.  
+Because under $\Pi\Omega$, power does not stay where you point at it.  
 Power migrates into whatever layer is least inspectable, least exitable, least witnessable.  
 If “exit” exists only inside one UI path, one contract wrapper, one friendly operator—then authority simply reappears *outside that path* and calls itself “environment,” “policy,” “emergency,” “custom,” “time,” “procedure,” or “reality.”
 
 So the system forces a closure:
 
 - Either **exit is a boundary-level invariant**—a callable, witness-admissible settlement cut that severs residual normative force,  
-- or “exit” is a word that names nothing stable in ΠΩ.
+- or “exit” is a word that names nothing stable in $\Pi\Omega$.
 
 This is not moral maximalism. It is **adversarial completeness**: if a right is not defined at the boundary, it is not a right—only a narrative.
 
@@ -2044,7 +2044,7 @@ You pick up a pebble (“a small exit”), and it unfolds into a mountain range:
 - Once you accept that boundary discipline, the rest of the backbone is no longer optional taste; it becomes the minimal scaffolding that prevents your “small right” from being hollowed out by migration.
 
 This is why Noetia cannot be consumed à la carte.  
-Not because it demands loyalty, but because ΠΩ punishes any promise that is not closed under the ways power actually moves.
+Not because it demands loyalty, but because $\Pi\Omega$ punishes any promise that is not closed under the ways power actually moves.
 
 ##### The Hostage Name (as a Lens)
 Call it **Holographic Hostage**: a local desire holds the whole structure hostage.  
@@ -2055,7 +2055,7 @@ A single non-zero demand for exit drags behind it the entire machinery required 
 You thought you were asking for one clause.  
 You were actually asking for a world in which clauses cannot be dissolved by moving the authority one layer outward.
 
-And under ΠΩ, that world is not a slogan.  
+And under $\Pi\Omega$, that world is not a slogan.  
 It is an interface discipline—or it is nothing.
 
 #### C.9.7 Anti-Idolatry I: simulated globals (the oldest exploit)  
@@ -2066,7 +2066,7 @@ Examples (legacy):
 - “the Moral Majority,” “the Sacred Law,” “the One True Identity,”  
 - any concept elevated into a default meta-authority.
 
-From the ΠΩ lens, simulated globals are idols: they promise to compress pan-truth into one voice, to replace jaggedness with one court.
+From the $\Pi\Omega$ lens, simulated globals are idols: they promise to compress pan-truth into one voice, to replace jaggedness with one court.
 
 But under Noetia’s kernel, that compression is the exploit:  
 - it creates a single semantic choke point,  
@@ -2103,7 +2103,7 @@ it refuses to mint global operators as admissibility primitives,
 and it forces any expansion of meaning to occur behind explicit contracts, not as ambient authority.
 
 #### C.9.9 The Missing Operators: why the boundary refuses “global closure” (lens)  
-Under the ΠΩ lens, the most dangerous move is not violence.  
+Under the $\Pi\Omega$ lens, the most dangerous move is not violence.  
 It is **globalization at the boundary**.
 
 A boundary that admits “global closure” operators as *default admissibility primitives* tends to drift into a hidden throne:  
@@ -2135,10 +2135,10 @@ What is refused is the move where the boundary itself starts acting like an unea
 #### C.9.10 The Noetic Trinity: a rhetorical map of the stack (lens)  
 This appendix permits a triadic metaphor, not as religion, but as a compression of the architecture.
 
-**(1) Ω — the Source (Bulk)**  
-Ω names the downstream risk background: pan-truth, overcompleteness, tail hazards, adversarial incentives, and the endless invention of new exploit classes.  
-Ω is not “evil.”  
-Ω is simply too large to be granted a default interface.
+**(1) $\Omega$ — the Source (Bulk)**  
+$\Omega$ names the downstream risk background: pan-truth, overcompleteness, tail hazards, adversarial incentives, and the endless invention of new exploit classes.  
+$\Omega$ is not “evil.”  
+$\Omega$ is simply too large to be granted a default interface.
 
 **(2) Witness — the Spirit (Boundary discipline)**  
 Witness is the intermediary: the only thing the boundary is allowed to admit without collapsing into priesthood.  
@@ -2153,12 +2153,12 @@ It is valuable precisely because it is forkable and exitable.
 This triad is a lens for readers who instinctively reach for metaphysical language:  
 - if you worship the Source, you drown;  
 - if you worship the Construct, you become a church;  
-- if you honor the Witness as interface discipline, you can keep sovereignty alive under ΠΩ.
+- if you honor the Witness as interface discipline, you can keep sovereignty alive under $\Pi\Omega$.
 
 #### C.9.11 The Inverted U of Liberty: dissolution vs determinism (lens)  
 The notebook lens treats liberty as a topology, not as a slogan.
 
-In the ΠΩ background, liberty dies in two symmetric ways:
+In the $\Pi\Omega$ background, liberty dies in two symmetric ways:
 
 **Left tail: dissolution (too little boundary)**  
 If the boundary is too permissive, identity becomes smear:  
@@ -2186,13 +2186,13 @@ This is why the kernel aims for a narrow claim:
 > liberty is the existence of a subject that can refuse, bind, and exit without appealing to a global court.
 
 #### C.9.12 Eschatology of the Shell: sharpening, never finishing (lens)  
-Under ΠΩ, “completion” is a trap concept.  
+Under $\Pi\Omega$, “completion” is a trap concept.  
 A civilization that declares itself finished is inviting capture: the finished thing becomes a temple.
 
 So the notebook stance is eschatological in a specific way:
 
 - The Shell **sharpens** as witness discipline spreads: more clauses become machine-checkable, more exits become callable, more provenance becomes legible.  
-- But the Shell is never “done,” because Ω never stops generating new axes.  
+- But the Shell is never “done,” because $\Omega$ never stops generating new axes.  
 New forks, new services, new mind-forms, new coercion channels, new evidence standards—  
 the basis keeps accreting.
 
@@ -2247,7 +2247,7 @@ The membrane is not a wall.
 It is not a utopia generator.  
 It is a discipline against the oldest exploit: the return of ambient authority.
 
-- Ω is allowed to be vast.  
+- $\Omega$ is allowed to be vast.  
 - Minds are allowed to be sovereign.  
 - Institutions are allowed to be powerful.  
 - But power must cross the membrane as witness, and it must remain cuttable by exit.
