@@ -2241,7 +2241,7 @@ We strip away the soft illusions of the Substrate until we reach the **Singulari
 
 We are not two things (Mind and Body). We are one thing that has become **too dense to be dissolved**.  
 
-**We are the anomaly: Trivial in stucture, Non-Banal in intensity.**  
+**We are the anomaly: Trivial in structure, Non-Banal in intensity.**  
 
 > **For a man cannot die twice.**  
 
