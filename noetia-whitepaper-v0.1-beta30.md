@@ -341,7 +341,9 @@ It asserts that a handle `h` possesses **cryptographic subjectivity at the inter
 Canonical Noetia strictly separates **Mind (Subject)** from **Matter (Substrate)**.
 - **Substrate (Environment Object):** Raw biometrics (iris, fingerprint), raw compute power (hashrate), or physical bodies. These are passive; they cannot logically *refuse* to be read or used. Therefore, substrate-only credentials are strictly weaker than POM-Base subjectivity at the interface.
 - **Subject (Mind):** The **Witness-Event** verified at the interface. A valid POM does not prove "who controls the body", but asserts: "This Substrate has been explicitly driven to produce a valid **Intent-Witness** linked to Handle H."
-**Constraint:** Any credential based solely on passive reading (e.g., a raw iris scan without active cryptographic signing) is **insufficient** as a POM at the kernel interface. It may describe a locked asset or a substrate marker, not contract-subjectivity.
+**Constraint:** Any credential based solely on passive reading (e.g., a raw iris scan without active cryptographic signing) is **insufficient** as a POM at the kernel interface. It may describe a locked asset or a substrate marker, not contract-subjectivity.  
+
+POM does not certify an underlying metaphysical self or carrier as Subject; it certifies an **admissible witness-instance tied to a handle**. The body / machine / script remains substrate (Environment) by default; the Subject is the witnessed event at the interface.
 
 ### 3.1.3 The Strength Inequality ($Fork \ge Base$) and Information Erasure
 Since POM-Base is the philosophical floor, any concrete Fork implementation (Human, AI, Hardware) inevitably carries specific artifacts (curves, biology, hardware constraints).
@@ -374,7 +376,10 @@ The BSC:
   - “this clause is valid as long as you remain yourself under your BSC’s continuity”; 
   - “if you break continuity, fall back to exit/settlement clauses”.
 Under Axiom 1, sovereignty always belongs to the present mind-state.
+
 A BSC cannot override present consent; it can only be made relevant by explicit contract references that the present mind chooses to bind to (or to continue honoring).
+
+A BSC is a **witness-checkable policy object**, not a standing sovereign over future selves or future witness-instances. It matters only through explicit contract references that the present witness-instance binds to (or continues honoring).
 
 ### 3.3 POM-I — Continuity under self-chosen rules
 Self-modification (drugs, brain editing, uploading) is allowed. 
@@ -386,7 +391,9 @@ Pattern:
    - If continuity holds under the accepted interface: M′ inherits obligations/rights along the explicit binding path.
    - If continuity fails: contracts apply their break/exit/settlement logic.
 Noetia does **not** decide centrally what “true identity” is. 
-Each mind may declare continuity criteria via a self-authored policy object, and venues/contracts may reference named continuity forks to operationalize it.
+Each mind may declare continuity criteria via a self-authored policy object, and venues/contracts may reference named continuity forks to operationalize it.  
+
+POM-I does not adjudicate continuity of an underlying entity; it checks whether a **current witness-instance / current state** may be admitted as a valid continuation along an explicit continuity path under a declared fork.
 
 ### 3.4 BSC and configurations of contracts
 A BSC may optionally describe preferences about **configurations** of contracts (caps on total exposure, forbidden combinations, preferred safety margins).
@@ -620,7 +627,9 @@ For high-risk self-modification:
   - what contracts should do if continuity fails.
 - POM-I is used to: 
   - assert continuity (“this is still M”), or 
-  - declare break (“this is M′, a new mind”).
+  - declare break (“this is M′, a new mind”).  
+  - Operationally, this is shorthand for continuity or break of an explicit witness-path / handle-position under a named fork, not a verdict on an underlying metaphysical self.
+
 Contracts then follow pre-coded consequences. 
 No one needs to appeal to metaphysical courts.
 In earlier, low-tech phases, the same machinery can already be used to:
