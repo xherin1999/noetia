@@ -1619,7 +1619,7 @@ C.7 shows what that means for Noetia’s runtime stack.
 #### C.7.1 Type split (kernel discipline, restated)
 Noetia’s kernel type cut is strict:
 
-- **Mind (Subject):** an entity that can produce admissible interface witnesses (in particular, can refuse and can bind under an accepted fork).
+- **Mind (Subject):** an admissible event that can produce interface witnesses (in particular, can refuse and can bind under an accepted fork).
 - **Institution (Object):** a contract-like state machine that can accept witnesses and expose a declared exit/settle path.
 - **Environment:** everything else (facts, bodies, tools, resources, off-chain events).
 
