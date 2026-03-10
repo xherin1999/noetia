@@ -233,7 +233,7 @@ We stay agnostic about metaphysical “essence”.
 Operationally, a Mind is defined not by biology, but by **cryptographic subjectivity at the interface**.
 Concretely, “Mind” is always relative to an explicitly named POM fork: a Mind is any entity that satisfies that fork’s **minimum interface-admissibility predicate** (the floor is the set of **Four POM-Base Invariants**: Negation, Binding, Termination, and Groundedness, as witnessed at the interface).
 
-**Type cut (interface-level).** Any entity (including biological bodies, brains, hardware, or code) that lacks an interface-level ability to produce a witness satisfying the **Four POM-Base Invariants** (Negation, Binding, Termination, and Groundedness) is treated as **Environment Object** for kernel purposes.
+**Type cut (interface-level).** Any entity (including biological bodies, brains, hardware, or code) that lacks an interface-level ability to produce a witness satisfying the **Four POM-Base Invariants** (Negation, Binding, Termination, and Groundedness) is treated as Environment for boundary typing purposes.
 This is a typing rule for obligation-bearing at the interface, not a metaphysical claim about sentience or moral worth.
 
 (“Understanding” and human interpretability are not kernel requirements; forks and venues may add their own thresholds if they wish.)
@@ -262,7 +262,7 @@ We treat **`Obl(m, φ)`** (“mind m has an obligation φ”) not as a new indep
 Informally:
 - If `Obl(m, φ)` is true at some time `t`, 
   then there must exist at least one contract `C` such that:
-  - C is a contract object, 
+  - C is a contract-term in the interface language, 
   - `bind(m, C, t)` holds, and 
   - φ follows from clauses of C that apply to m at t.
 Conversely, if there is no such contract, `Obl(m, φ)` is false.
@@ -280,7 +280,7 @@ An obligation-claim that cannot be supported by an admissible provenance witness
 
 ### 2.3.1 α–β–γ Exposure Composition (Regime Semantics)
 In a mind-native context, we replace “punishment” with **liability exposure and settlement**.
-A “Regime” (Γ) is not a physical territory, but a descriptive name for recurring contract implementations under a shared interface bundle: a shared interface bundle that may (optionally) specify entry predicates, evidence standards, and baseline exposure templates.
+A “Regime” (Γ) is not a physical territory, but a descriptive name for recurring contract implementations under a shared interface bundle that may (optionally) specify entry predicates, evidence standards, and baseline exposure templates.
 Some regimes use a baseline (`γ`); others omit it entirely.
 
 Given an interaction within Regime Γ involving a claimant mind A and a counterparty mind B:
@@ -303,7 +303,7 @@ If Γ defines no baseline, entry is governed solely by Γ’s other declared pre
 ### 2.4 Meta→Contract principle (Noetic Reduction Principle)
 Canonical Noetia states a **default move**:
 > **M1. Noetic Reduction Principle (Hosting Discipline)**
-> **By structural default**, push metaphysical and philosophical disputes down into POM forks, BSC patterns, and contract interfaces. (The Kernel treats any metaphysical claim not formally reducible to a contract object as **ill-typed** at the boundary).
+> **By structural default**, push metaphysical and philosophical disputes down into POM forks, BSC patterns, and contract interfaces. (The Kernel treats any metaphysical claim not formally reducible to a contract term as **ill-typed** at the boundary).
 
 Examples:
 - “Are AGIs minds?” 
@@ -1706,7 +1706,7 @@ Interface role:
 - BSC supplies local policy primitives: “what counts as my valid bind,” “what I refuse,” “what continuity conditions I require,” etc.
 
 So BSC is the implementation locus of the Noetic Reduction move:
-- metaphysical or personal rules live as **opt-in policyartifacts**, not as kernel claims.
+- metaphysical or personal rules live as **opt-in policy artifacts**, not as kernel claims.
 
 #### C.7.5 Institutions as decidable state machines with declared exit
 An **Institution** (including DAO- and ServiceDAO-like arrangements, or regime-level recurring contract implementations) is interface-legible only if it exposes:
@@ -2161,7 +2161,7 @@ Witness is the intermediary: the only thing the boundary is allowed to admit wit
 Witness is not “truth.”  
 Witness is what a finite verifier can accept under declared rules—receipts of admissibility.
 
-**(3) Construct — the Image (local equilibria / contract clusters)**  
+**(3) Construct — the Image (local equilibria / recurring contract implementations)**  
 Every working regime is a constructed image: a local, contingent coordination optimum—  
 a venue baseline, a template family, an audit graph, a routing equilibrium.  
 It is valuable precisely because it is forkable and exitable.
