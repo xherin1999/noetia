@@ -136,7 +136,7 @@ At the boundary, Noetia has only two operative primitives: **Subjects** and **Pr
 - A **Subject** is a **witness-instance** addressable by a handle (Mind = Witness).
 - The term **“Contract”** names the implementation-pattern of the **discrete mutual witnessing** between a Subject and a Predicate (or another Subject).
   - **Mechanics:** the Subject witnesses intent (binds); the Predicate witnesses admissibility (verifies). The apparent "state" of an institution is strictly the **historical compression** of these discrete mutual witnesses.
-The “ocean” is simply the discrete The “ocean” is simply the discrete set of **witnessed events** by which Subjects bind, execute, settle/exit, attest, audit, deposit, insure, reroute, and prove under declared rules (illustrative, not exhaustive). Because the ocean is event-native, it is **discrete** at the interface; any “flow” language is a coarse-grained compression of many atomic witness-events.
+The “ocean” is simply the discrete set of **witnessed events** by which Subjects bind, execute, settle/exit, attest, audit, deposit, insure, reroute, and prove under declared rules (illustrative, not exhaustive). Because the ocean is event-native, it is **discrete** at the interface; any “flow” language is a coarse-grained compression of many atomic witness-events.
 
 Terms such as *venue*, *regime*, *DAO*, *router*, *market*, *corridor*, or *deep water* are therefore descriptive names for recurring contract implementations and the P2P relations/histories they induce (admission, binding, routing, audit, insurance). They introduce **no new kernel term**.
 
@@ -174,7 +174,7 @@ This is why Noetia is written as an **interface family** (forks + venues + templ
 Noetia’s kernel (Axiom 1/2) is topologically mutually exclusive with **Global Consistency (C)** from the CAP theorem.
 **Axiomatic Rejection:** Accepting Axiom 1 (Mind-only Sovereignty) implies accepting permanent divergence and forks regarding truth and rules (**Partition**). Mandating Uniform Consistency (C)—requiring all nodes to accept the same truth simultaneously—is functionally equivalent to **Sovereignty Blocking** and a negation of Axiom 1.
 **AP as Default:** The P2P Admissibility Ocean is structurally the result of **completely expelling** the requirement for global consistency. It is a pure **AP System** (Availability + Partition Tolerance): any local interaction executes and settles instantly provided the local witnesses are valid, without waiting for a global "Sea Level" consensus.
-**Consistency as Optional Service:** Consistency is demoted from an environmental constant to an **expensive, local, optional safety contract** (see 2.4.1). Minds possess consistency only within specific scope-limited clusters they explicitly bind to (e.g., a specific blockchain or strict jurisdiction); in the Ocean’s default state, the **Locality Valve** strictly prioritizes local read/write Availability over global coherence.
+**Consistency as Optional Service:** Consistency is demoted from an environmental constant to an **expensive, local, optional safety contract** (see 2.4.1). Minds possess consistency only within specific scope-limited contract implementations they explicitly bind to (e.g., a specific blockchain or strict jurisdiction); in the Ocean’s default state, the **Locality Valve** strictly prioritizes local read/write Availability over global coherence.
 
 ### 1.2 Three pillars (canonical runtime)
 Canonical Noetia rests on three structural pillars:  
@@ -333,7 +333,7 @@ Properties:
 **POM-Base** is the interface-level floor (Minimum ZK Subjectivity).  
 It asserts that a handle `h` possesses **cryptographic subjectivity at the interface**: four invariant capabilities that any higher-assurance fork may strengthen but must not undercut:  
 1. Selectivity / Negation: The power to discern and exclude. It utilizes a decidable filtering shell to selectively accept or reject interactions, with a canonical zero state (result value) of non-participation.  
-2. Intentionality / Binding: The power to connect. It combines a stable identity boundary with the capacity to create a verifiable link between witness and object, transforming a static record into a directed, composable commitment.  
+2. Intentionality / Binding: The power to connect. It combines a stable identity boundary with the capacity to create a verifiable link between witness and clause/event, transforming a static record into a directed, composable commitment.  
 3. Finitude / Termination: The constraint of decidability. It requires that all witness-judgments occur over a locally bounded, enumerable domain, and that verification is guaranteed to terminate via a well-founded validation path.  
 4. Groundedness / Provenance: The constraint of authenticity. The proof-chain is non-circular and well-founded, eventually terminating at a defined genesis root (a base witness), ensuring the Mind is not a self-referential hallucination.  
 
@@ -539,7 +539,7 @@ This is purely a hosting rule: the kernel does not adjudicate metaphysics; it on
 Reproduction is a common place where systems smuggle in unbound obligations. Noetia treats it as a type/hosting problem: how to talk about dependents and future subjects without introducing non-consensual normative force.
 
 **Instantiation vs emergence.** Canonical Noetia distinguishes:
-- **Instantiation:** creation of an environment object (a body, substrate, dependent, running instance, or other physical/virtual carrier).
+- **Instantiation:** creation of an environment-side carrier (a body, substrate, dependent, running instance, or other physical/virtual carrier).
 - **Mind emergence:** the first time, under an accepted fork, some handle becomes a contract-subject (can validly `bind` and can, in principle, complete `bind → execution → exit/settle`).
 
 ### 6.1 We do *not* axiomatize “birth duties”
@@ -1518,7 +1518,7 @@ Noetia distinguishes:
   You can prove things about large structures, economics, geometry, recursion, even “multiplication-like” behaviors—*as long as the verifier only checks a finite witness*.
 
 - **Primitive complexity (at the boundary):**
-  These are the operations the boundary treats as *built-in ontology constructors*.
+  These are the operations the boundary treats as its minimal interface constructors.
   Boundary Minimalism says: keep these primitives extremely small (the Five), otherwise the boundary begins to behave like a hidden meta-constitution.
 
 So we explicitly separate:
