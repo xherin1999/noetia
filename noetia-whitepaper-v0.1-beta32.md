@@ -10,11 +10,11 @@ Instead of treating “family”, “state”, “company”, or “nation” as
 Noetia takes:
 - **Minds** as the only native sovereigns. 
 - **Obligations** as arising *only* from contracts that minds choose to anchor their subjectivity to. 
-- **Institutions** as composable, **computable** interface terms (DAOs, contracts, services), not as metaphysical authorities.
+- **Institutions** as composable, **computable** interface terms (descriptive DAO-labels, contracts, services), not as metaphysical authorities.
 
 **Type-level sovereignty vs ocean weight.**  
 In this document, “sovereignty” is **type-level**: a handle that can produce an admissible witness under an accepted fork is a Subject for obligation-typing.  
-De facto leverage (“weight”) is an emergent property of the **P2P admissibility ocean** (acceptance graphs, routing reach, service access, collateral/insurance depth, audit connectivity).  
+De facto leverage (“weight”) is an emergent property of the **P2P admissibility ocean** (acceptance histories, routing reach, service access, collateral/insurance depth, audit connectivity).  
 Noetia makes **no guarantee** that type-level sovereignty implies safety, bargaining power, or protection in the environment.
 
 **Computable (in Noetia)** means: an institution’s normative surface is realized through a **witness-admissible interface**, such that (i) any claimed obligation can be traced to explicit bindings plus declared rules by a **finite witness** (typically a **Zero-Knowledge Proof**), and (ii) the institution exposes at least one well-defined **termination / settlement (exit)** semantics.
@@ -32,21 +32,21 @@ In such spaces, as dimensionality grows, coordination becomes tail-sensitive: �
 Noetia therefore treats tail states—extreme minds, extreme risks, extreme behaviors—as first-class citizens in the OS design, not as anomalies to be hand-waved away.
 
 Two north-star targets sharpen the runtime picture:
-- **Large-cardinal recursion:** normative consequences propagate as feedback over institutional graphs; recursion tends to emerge as the mechanism by which local tail events reshape global flows and deterrence without a single Leviathan.
+- **Large-cardinal recursion:** normative consequences propagate as feedback over witnessed event-fields; recursion tends to emerge as the mechanism by which local tail events reshape global flows and deterrence without a single Leviathan.
 - **A hyperdimensional weather map (open-ended dimensionality):** civilization is modeled as a hyperdimensional flow field (capital, services, legitimacy, risk, identity forks, venue rules). Here “hyperdimensional” means open-ended dimensional growth in the state space of coordination: forks and institutions can add new (effectively orthogonal) risk/service/identity axes, and tail mass becomes typical. Recursion both sustains emergent “currents” and prevents a final, completed constitution: Noetia is structurally an evolving interface family, not a terminal scripture.
 
 At the highest level:
 - **Two axioms** define what counts as Noetia at all. 
 - **Three pillars** define the “canonical” Noetia worldline: 
   1. A POM stack for minds and continuity. 
-  2. An LDAO stack for liquid, recursive coordination. 
+  2. An LDAO-labelled runtime appearance-family for liquid, recursive coordination.  
   3. A Meta→Contract principle: whenever possible, push metaphysical and philosophical disputes down into POM forks and contract interfaces.
 In this document, the label **Noetia** refers to systems that satisfy, at minimum, these two axioms.
 This document sets out:
 1. The **core axioms** (mind-only sovereignty; intelligent institutions). 
 2. The three pillars: **POM**, **LDAO**, and the **Meta→Contract principle**. 
 3. A sharpened view on **reproduction and children** that stays fully inside these axioms. 
-4. The role of **recursive Liquid DAOs** as both coordination fabric and deterrence mechanism. 
+4. The role of **recursive liquid coordination appearances** as both coordination fabric and deterrence mechanism. 
 5. A candid view of stratification, risk, and “honest cruelty”: this is a **mind-elitist system**, not an equality-first one. 
 6. The engineering bar implied by taking the axioms literally: Noetia as a civilization-scale software stack, not just an “ideology”. 
 7. Far-worldline lens (non-guarantee): Noetia is written for later, higher-risk regimes. It makes **no** stability, safety, or survivability guarantees.
@@ -138,13 +138,13 @@ At the boundary, Noetia has only two operative primitives: **Subjects** and **Pr
   - **Mechanics:** the Subject witnesses intent (binds); the Predicate witnesses admissibility (verifies). The apparent "state" of an institution is strictly the **historical compression** of these discrete mutual witnesses.
 The “ocean” is simply the discrete set of **witnessed events** by which Subjects bind, execute, settle/exit, attest, audit, deposit, insure, reroute, and prove under declared rules (illustrative, not exhaustive). Because the ocean is event-native, it is **discrete** at the interface; any “flow” language is a coarse-grained compression of many atomic witness-events.
 
-Terms such as *venue*, *regime*, *DAO*, *router*, *market*, *corridor*, or *deep water* are therefore descriptive names for recurring contract implementations and the P2P relations/histories they induce (admission, binding, routing, audit, insurance). They introduce **no new kernel term**.
+Terms such as *venue*, *regime*, *DAO*, *router*, *market*, *corridor*, or *deep water* are therefore descriptive names for recurring contract implementations and the P2P pair-relations / event-histories they induce (admission, binding, routing, audit, insurance). They introduce **no new kernel term**.
 
-**Non-reification rule:** any noun beyond “Subject” in this document must be read as either a descriptive interface term or an example-level compression, never as a kernel primitive.
+**Non-reification rule:** any noun beyond “Subject” in this document must be read as either a descriptive interface term or an example-level compression, never as a kernel primitive. Accordingly, whenever terms such as DAO, router, market, corridor, service surface, or routing surface are used below, they should be read as outward compressions of discrete P2P witness-events and pair-relations, never as thick entities, node-clusters, or implicit unions.
 
 “Depth” has no global scalar meaning. In an accreting, effectively unbounded coordination basis, *deep/shallow* only makes sense **relative to a projection** (a chosen slice of predicates) and a purpose—e.g., service reach, collateral/insurance depth, audit connectivity, bridge compatibility (examples only). In this sense, “decentralized centralization” is an expected ocean phenomenon: deep-water corridors can form and matter, while remaining, in principle, forkable and exit-capable at the interface (even when exit-feasibility is costly).
 
-“Boiling” names persistent turbulence: continuous contract/fork introduction and tail-triggered rerouting continuously recompose the graph. This is a descriptive lens, not a stability or safety guarantee.
+“Boiling” names persistent turbulence: continuous contract/fork introduction and tail-triggered rerouting continuously recompose the event-field. This is a descriptive lens, not a stability or safety guarantee.
 
 #### Coordinate view
 Let the “state of civilization” be described by an evolving coordinate system:
@@ -172,7 +172,7 @@ This is why Noetia is written as an **interface family** (forks + venues + templ
 
 #### Radical AP Topology (Axiomatic Rejection of Consistency)
 Noetia’s kernel (Axiom 1/2) is topologically mutually exclusive with **Global Consistency (C)** from the CAP theorem.
-**Axiomatic Rejection:** Accepting Axiom 1 (Mind-only Sovereignty) implies accepting permanent divergence and forks regarding truth and rules (**Partition**). Mandating Uniform Consistency (C)—requiring all nodes to accept the same truth simultaneously—is functionally equivalent to **Sovereignty Blocking** and a negation of Axiom 1.
+**Axiomatic Rejection:** Accepting Axiom 1 (Mind-only Sovereignty) implies accepting permanent divergence and forks regarding truth and rules (**Partition**). Mandating Uniform Consistency (C)—requiring all local positions to accept the same truth simultaneously—is functionally equivalent to **Sovereignty Blocking** and a negation of Axiom 1.  
 **AP as Default:** The P2P Admissibility Ocean is structurally the result of **completely expelling** the requirement for global consistency. It is a pure **AP System** (Availability + Partition Tolerance): any local interaction executes and settles instantly provided the local witnesses are valid, without waiting for a global "Sea Level" consensus.
 **Consistency as Optional Service:** Consistency is demoted from an environmental constant to an **expensive, local, optional safety contract** (see 2.4.1). Minds possess consistency only within specific scope-limited contract implementations they explicitly bind to (e.g., a specific blockchain or strict jurisdiction); in the Ocean’s default state, the **Locality Valve** strictly prioritizes local read/write Availability over global coherence.
 
@@ -185,13 +185,13 @@ These pillars should be read as runtime tool-families and coordination patterns,
    - Who counts as a mind (for a given context). 
    - What counts as the *same* mind over time and modifications. 
    - How a mind writes its own meta-rules (BSC).
-2. **LDAO stack (LDAO / ServiceDAO / routing & recursion)** 
-   - How coordination, capital, and services are structured as liquid, forkable DAOs. 
+2. **LDAO-labelled runtime appearances (LDAO / ServiceDAO labels / routing & recursion)** 
+   - How coordination, capital, and services appear as liquid, forkable, recurrent P2P routing / settlement patterns. 
    - How flows are routed and can be re-routed by each mind. 
-   - How recursive credit and audit graphs can deter abuse (including VaaS). Recursion is hosted inside institutions’ deep-layer internals; the interface layer observes only finite witnesses of admissible transitions.
+   - How recursive credit and audit event-fields can deter abuse (including VaaS). Recursion is hosted inside institutions’ deep-layer internals; the interface layer observes only finite witnesses of admissible transitions.
 
-   **Default runtime pattern:** In canonical Noetia, **LDAO / ServiceDAO patterns** are a default runtime form for coordination, services, and “organizations”.
-   Venue rules may or may not include a baseline regime contract (γ): some recurring implementations impose an entry baseline; others are purely bilateral and template-driven.
+   **Default runtime appearance:** In canonical Noetia, `LDAO` / `ServiceDAO` are descriptive labels for recurring runtime appearances of coordination, services, and organization-like effects.
+   Venue rules may or may not include a baseline regime contract (γ): some recurring implementations impose an entry baseline; others remain purely P2P, bilateral, and template-driven.
 
 4. **Meta→Contract principle (Noetic Reduction Principle)** 
    - When there is a philosophical dispute (“Is X a mind?”, “Is Y the same person?”), 
@@ -203,17 +203,16 @@ This gives:
 - A thick, flexible runtime (how minds, institutions, and metaphysics actually behave).
 **No implicit transitional union.** A “double-stack” world does not mean mutual acceptance of variables or obligations. Any cross-stack effect must be mediated by explicit bridge contracts that translate specific interface claims; otherwise, the stacks remain semantically disjoint by default.
 
-**Holographic reconstruction (type-soundness / unimplementability).** In a complete canonical runtime, (i) POM fork explicitness + present-handle binding + contract-grounded obligation tracing makes any “unbound obligation” ill-typed, forcing Axiom 1 as a necessary consistency condition; and (ii) LDAO routing/exit semantics + binding/flow provenance makes any “non-delegated institution” unimplementable, forcing Axiom 2 as a necessary consistency condition. In this sense the pillars do not merely *use* the axioms: they can be taken as constructive mechanisms whose coherent completion reconstructs the axioms as invariants.
+**Holographic reconstruction (type-soundness / unimplementability).** In a complete canonical runtime, (i) POM fork explicitness + present-handle binding + contract-grounded obligation tracing makes any “unbound obligation” ill-typed, forcing Axiom 1 as a necessary consistency condition; and (ii) LDAO-labelled routing / exit appearances + binding / flow provenance make any “non-delegated institution” unimplementable, forcing Axiom 2 as a necessary consistency condition. In this sense the pillars do not merely *use* the axioms: they can be taken as constructive mechanisms whose coherent completion reconstructs the axioms as invariants.
 
 ### 1.3 Engineering bar and “civilizational compute”
 Taking the axioms seriously implies a high engineering bar:
 - **Fine-grained, composable contracts.** 
   Obligations must be derivable from explicit clauses, trackable over time, and composable across multiple contracts.
 - **Coherent obligation-OS.**
-  POM/BSC/POM-I, LDAOs, routers and audit layers share a **common admissibility discipline (the Four Base Invariants)** regarding consent, risk, and exit, allowing diverse Fork-definitions of selfhood to interoperate without separate gadgets.
+  POM/BSC/POM-I, LDAO-labelled routing / settlement appearances, routers, and audit layers share a **common admissibility discipline (the Four Base Invariants)** regarding consent, risk, and exit, allowing diverse Fork-definitions of selfhood to interoperate without separate gadgets.
 - **Bridges to the physical layer.**
-  ServiceDAOs and VaaS DAOs reliably map between on-chain events and **admissible witnesses of off-chain facts** (oracle/sensor receipts), with accountable, inspectable interfaces.
-In that sense, Noetia is not “just another ideology”. 
+  ServiceDAO-labelled and VaaS-labelled service appearances reliably map between on-chain events and **admissible witnesses of off-chain facts** (oracle/sensor receipts), with accountable, inspectable interfaces. 
 It is a demanding design sketch for a civilization-scale software stack whose interface semantics are deliberately minimal.
 
 ### 1.4 Time horizon and worldline
@@ -308,7 +307,7 @@ Canonical Noetia states a **default move**:
 Examples:
 - “Are AGIs minds?” 
   - Multiple POM forks: some treat them as minds, some don’t. 
-  - Different areas/DAOs can choose which POMs they accept.
+  - Different areas / venue-surfaces can choose which POMs they accept.
 - “Is an upload the same person?” 
   - Each mind writes continuity conditions in its BSC. 
   - POM-I checks whether post-op state satisfies those conditions.
@@ -405,92 +404,92 @@ A BSC may optionally describe preferences about **configurations** of contracts 
 In practice, these are advisory constraints consumed by tooling and routers; any hard enforcement still arises only from explicit contracts the present mind chooses to bind to.
 
 ---
-## 4. Pillar II – LDAO stack (LDAO / ServiceDAO / routing & recursion)
-### 4.1 LDAO, ServiceDAO, and economic reconstruction
-LDAO and ServiceDAO should be read here as runtime coordination patterns and interface tools, not as kernel kinds.  
+## 4. Pillar II – LDAO-labelled runtime appearances (LDAO / ServiceDAO labels / routing & recursion)
+### 4.1 LDAO / ServiceDAO labels, recurrent P2P appearances, and economic reconstruction
+LDAO and ServiceDAO should be read here as descriptive labels for recurrent runtime appearances and interface tools, not as kernel kinds, collective subjects, membership bodies, node-clusters, or union-bearing entities.  
 
-**LDAO (Liquid DAO)**:
-- forkable, composable coordination cores,
-- with per-mind routing weights instead of hard membership or territorial defaults.
+**LDAO** (historical / UI label only):
+- recurrent, forkable coordination appearances formed by many discrete P2P bindings, routings, settlements, and audits,
+- with per-mind routing weights instead of hard membership, territorial defaults, or any higher-order collective bearer.
 
-**ServiceDAO**:
-- wraps real-world services as explicit, auditable service contracts:
+**ServiceDAO** (descriptive label only):
+- names a recurrent service-appearance in which real-world services are exposed through explicit, auditable service contracts:
   - medical networks, housing, connectivity, education, and (where chosen) physical security / enforcement services (VaaS), etc.
-- funded by flows from LifeDAOs, WorkDAOs, GuildDAOs.
-- ServiceDAOs provide **settlement interfaces and auditable claims**; environment-matching is an optional, forkable, and purchasable **oracle toolchain**, not a condition of contract validity.
+  - stabilized by routed flows through recurring life / work / guild service-appearances.
+- These service-appearances expose **settlement interfaces and auditable claims**; environment-matching is an optional, forkable, and purchasable **oracle toolchain**, not a condition of contract validity.
 
 Each mind M configures a **router**, e.g.:
 - income routing: 
-  - 60% personal wallet 
-  - 20% LifeDAO_A 
-  - 10% WorkGuildDAO_B 
-  - 10% Child-Futures-LDAO_C
+  - 60% wallet 
+  - 20% life-support surface_A 
+  - 10% work-guild routing surface_B 
+  - 10% child-futures routing appearance_C
 - attention/time routing: 
-  - 50% WorkDAO_X 
-  - 30% StudyDAO_Y 
-  - 20% ProjectDAO_Z
+  - 50% work-routing surface_X 
+  - 30% study-routing surface_Y 
+  - 20% project-routing surface_Z
 
-(Labels like “Child-Futures-LDAO” are UI-level names for recurring contract implementations; the “child/dependent/ward” referenced by such implementations is environment-side by default / prior to mind-emergence under accepted forks, not a contracting party unless and until it passes an accepted POM fork and binds directly.)
+(Labels such as “child-futures routing appearance” are UI-level names for recurring contract implementations and the pairwise event-histories they compress; the “child/dependent/ward” referenced by such implementations is environment-side by default / prior to mind-emergence under accepted forks, not a contracting party unless and until it passes an accepted POM fork and binds directly.)
 
 Changing “job / city / circle” becomes:
 - reconfiguring routing weights and templates, 
-- forking into newer LDAOs with better configs.
-Routers are not just UI sliders. In a canonical implementation, they are expected to:
+- forking into newer routing / settlement appearances with better configs.
+Routers are not just UI sliders. An LDAO does not union minds into a higher-order subject. It is only the outward appearance produced by many discrete P2P bindings, routings, settlements, audits, and other pairwise witness-events under shared templates. In a canonical implementation, they are expected to:
 - be aware of BSC-level constraints on total risk, total time load, and forbidden combinations; 
 - surface warnings and conservative defaults when a proposed configuration conflicts with the BSC; 
 - optionally impose rate limits and damping on how fast flows can be reallocated, if the mind has explicitly signed for such control structures.
 Any hard enforcement comes only from explicit contracts the present mind chose to bind to, never from an ambient default.
-Under a mature LDAO stack, legacy **firms**, **financial assets**, and **representatives** are mostly reinterpreted rather than destroyed:
-- A “company” becomes a bundle of ServiceDAOs (production, logistics, compliance, support…) plus coordination LDAOs; “equity” becomes a pattern of rights to future routing flows (income, control, risk) rather than a monolithic share in a legal person.
-- “Markets” become hyperdimensional flow fields: what looks today like a 2D price–time chart for a stock is, in Noetia, just a projection of a much richer configuration of flows across many LDAOs, routers and risk channels.
-- Political “representation” becomes a family of **strategy providers** that minds may route through or away from at any time, instead of a once-every-few-years delegation to a fixed body. A “representative” has influence only insofar as many minds temporarily feed their flows through that strategy; exit is implemented by reconfiguring routers, not by overthrowing an institution.
-Legacy corporations, parliaments, boards and parties thus appear as low-resolution patterns inside a liquid coordination fabric, not as primitive units of sovereignty.
+Under mature LDAO-labelled runtime appearances, legacy **firms**, **financial assets**, and **representatives** are mostly reinterpreted rather than destroyed:
+- A “company” becomes a low-resolution projection of many service-appearances (production, logistics, compliance, support…) plus coordination-appearances; “equity” becomes a pattern of rights to future routing flows (income, control, risk) rather than a monolithic share in a legal person.
+- “Markets” become hyperdimensional flow fields: what looks today like a 2D price–time chart for a stock is, in Noetia, just a projection of a much richer configuration of flows across many recurrent routing / settlement appearances, routers, and risk channels.
+- Political “representation” becomes a family of **strategy surfaces** that minds may route through or away from at any time, instead of a once-every-few-years delegation to a fixed body. A “representative-effect” appears only insofar as many minds temporarily route pairwise flows through the same strategy-surface; exit is implemented by reconfiguring routers, not by overthrowing an institution.
+Legacy corporations, parliaments, boards and parties thus appear as low-resolution outward patterns inside a liquid P2P coordination field, not as primitive units of sovereignty.
 
 Bridging to legacy regimes is never implicit: Noetia does not import legacy-state semantics as parameters by default, and legacy regimes do not inherit Noetia semantics by proximity. Any cross-stack interaction is an explicit bridge contract with explicitly declared lossiness and non-reciprocity.
 
 ### 4.1.1 Tokens: local instruments, no global coin
 Canonical Noetia does **not** introduce a single, civilization-wide “Noetia token” as a kernel primitive.
 
-Tokens (or shares, receipts, quotas) are permitted only as **local instruments** emitted by specific LDAOs / ServiceDAOs / risk pools as contract components:
+Tokens (or shares, receipts, quotas) are permitted only as **local instruments** instantiated under specific routing / settlement appearances, service-appearances, or risk-surfaces as contract components:
 - settlement and fees,
 - deposits and guarantees,
 - service access and quotas,
 - routing-weight rights,
 - tail-risk / insurance-like shares.
-Circulation, if any, is expected to occur via **recursive contract composition**: an instrument from one DAO may be accepted by another as input (deposit, fee, collateral, quota), and its economic meaning is updated by the same audit / exit / settlement logic that governs the graph.
+Circulation, if any, is expected to occur via **recursive contract composition**: an instrument instantiated under one recurring appearance may be accepted within another appearance as input (deposit, fee, collateral, quota), and its economic meaning is updated by the same audit / exit / settlement logic that governs the event-field.
 Tokens do not constitute sovereignty; they do not generate obligations without explicit binding; and Noetia’s legitimacy is not delegated on prices, exchanges, or liquidity metrics.
 
 ### 4.1.2 Recursion and the hyperdimensional weather map
-Recursion in Noetia is not organizational nesting; it is **feedback over the institutional graph**:
-events update contractual states; updated states re-route flows (capital, services, legitimacy); re-routing changes exposure and incentives; second-order clauses then propagate consequences upstream until the system reaches a stable configuration.
-In hyperdimensional regimes, this feedback is what makes the “weather map” legible and governable: instead of a single equilibrium, the system forms many local basins—distinct institutional climates—separated by entry thresholds, fork boundaries, and routing choices.
-Noetia is therefore structurally **unfinished**: tail events and new dimensions continuously force the interface family (POM/BSC/LDAO/venues) to evolve via forks, templates, and reconfigurations. Completion is not a goal; coherent recursion with exit and fork space is.
+Recursion in Noetia is not organizational nesting; it is **feedback over a witnessed event-field**:
+events update contractual states; updated states re-route pairwise flows (capital, services, legitimacy); re-routing changes exposure and incentives; second-order clauses then propagate consequences upstream until the field reaches a stable configuration.
+In hyperdimensional regimes, this feedback is what makes the “weather map” legible and governable: instead of a single equilibrium, the field forms many local basins—distinct coordination appearances—separated by entry thresholds, fork boundaries, and routing choices.
+Noetia is therefore structurally **unfinished**: tail events and new dimensions continuously force the the interface family (POM/BSC/LDAO-labels/venues) to evolve via forks, templates, and reconfigurations. Completion is not a goal; coherent recursion with exit and fork space is.
 
 ### 4.2 Recursive deterrence: VaaS example
-Physical acts are off-chain, but their **authorization, funding, and accountability graph** can be on-chain.
+Physical acts are off-chain, but their **authorization, routed-flow, and accountability event-field** can be on-chain.
 Assume:
-- VaaS_X is a VaaS-ServiceDAO with an explicit service contract:
+- VaaS_X is a VaaS-labelled service-appearance with an explicit service contract:
   - scope-of-intervention predicates (what it is authorized to do under which signed templates),
   - logging / evidence requirements,
   - audit predicates and dispute hooks.
-- Audit_LDAO_Y monitors VaaS actors and publishes signed violation events.
+- Audit_LDAO_Y names a recurrent audit-appearance that witnesses VaaS-related events and publishes signed violation events.
 A simplified multi-layer pattern:
 
 - **L0 (event)**
   - VaaS_X exceeds its signed scope; Audit_LDAO_Y detects a predicate violation and emits a signed “VaaS_X out-of-scope” event.
 - **L1 (direct)** 
-  - LifeDAOs and clients that use VaaS_X have clauses: 
+  - Minds and service-appearances paired with VaaS_X have clauses: 
     > If VaaS_X has ≥k independent “abusive” flags, 
     > set its routing weight to 0 after grace_T. 
-  - Demand and direct funding for VaaS_X collapse quickly.
+  - Demand and directly routed flows for VaaS_X collapse quickly.
 - **L2 (recursive)** 
-  - Upstream infra / reinsurance / capital LDAOs have meta-clauses: 
+  - Upstream infrastructure-, reinsurance-, and capital-appearances have meta-clauses: 
     > If we continue to fund an entity flagged as abusive past grace_T2, 
     > we ourselves are treated as “funding abuse” and may be cut by our backers. 
-  - To avoid being tainted, they also cut VaaS_X.
+  - To avoid being tainted, they also cut pairwise support for VaaS_X.
 With reasonable thresholds and evidence standards, this structure aims for:
 - fast, distributed routing cuts after scope-violations,
-- without a single Leviathan,
+- without a single union-bearing authority,
 - without breaking the axiom that all obligations are contract-grounded.
 Violations are not “judged” by a priesthood; they trigger pre-signed contractual consequences (withdrawal of funding, access, and upstream support) via recursive exit.
 
@@ -500,20 +499,20 @@ Its efficacy is contingent on the surrounding ocean (oracle markets, audit cover
 
 #### 4.2.1 The Economic Asphyxiation Pattern (heuristic)
 Critiques often ask: “What stops a non-cooperative actor at the physical layer if they ignore the ledger?” This assumes **Kinetic Enforcement** is the primary layer of defense. In Noetia, Kinetic Enforcement is the fallback; the primary layer is **Economic Asphyxiation**.
-Violence requires resources (supply chains, energy, payroll). These flows are routed via the LDAO graph.
-- When an entity becomes a persistent contract-violator at the service layer, **Recursive Audit** propagates a `Cut` signal upstream.
+Violence requires resources (supply chains, energy, payroll). These flows are routed through recurrent LDAO-labelled event-fields.
+- When a recurrent service-appearance becomes persistently associated with contract-violating events at the service layer, **Recursive Audit** propagates a `Cut` signal upstream.
 - Suppliers, insurers, and gateways reroute away to avoid inheriting contractual exposure themselves.
 A common response pattern is not a universal “Noetia police” (which would reintroduce a central risk), but systemic withdrawal of resources and access via routing cuts. In a highly interdependent economy, being cut from supply, insurance, and gateways can collapses operational capacity in regimes where supply-chain dependence is high than direct confrontation.
 
-### 4.3 Tail-risk LDAOs and large externalities
+### 4.3 Tail-risk appearances and large externalities
 Canonical Noetia does not introduce innate “duties to planet / species”. 
-Instead, it expects minds that care about large-scale risks to buy or design heavy tail-hedging contracts, often via dedicated **tail-risk LDAOs**.
+Instead, it expects minds that care about large-scale risks to buy or design heavy tail-hedging contracts, often via dedicated **tail-risk routing / hedging appearances**.
 
 Pattern:
-- Tail-risk LDAOs sell or aggregate insurance-like contracts against specified large externalities (e.g. regional collapse, certain classes of AI accidents, catastrophic infrastructure failures). 
+- Tail-risk appearances expose insurance-like contracts against specified large externalities (e.g. regional collapse, certain classes of AI accidents, catastrophic infrastructure failures) through repeated pairwise routing / hedging templates. 
 - Minds that are highly exposed or highly sensitive to such risks sign and fund these contracts. 
 - When a sufficiently large externality occurs, it is extremely likely to hit at least one such heavily hedged mind. 
-- The resulting payoff and penalty structures then propagate through the LDAO graph as contractual obligations: capital calls, clawbacks, access restrictions, changes to venue rules or risk weights.
+- The resulting payoff and penalty structures then propagate through routed witness-fields as contractual obligations: capital calls, clawbacks, access restrictions, changes to venue rules or risk weights.
 Large externalities are thus handled as **amplified consequences of prior voluntary hedging**, not as moral debts to an abstract humanity. 
 The design problem is to make such tail-hedging deep and wide enough that “large events” rarely escape without triggering powerful contractual responses.
 
@@ -522,13 +521,13 @@ The design problem is to make such tail-hedging deep and wide enough that “lar
 The Meta→Contract principle is not a claim that disputes disappear; it is a discipline about *where* disputes are hosted: in explicit forks, interfaces, and venue admission rules, not in the kernel.
 ### 5.1 Typical disputes and their hosting
 - “Does this entity satisfy the Subject-Type?” (e.g., “Is this handle admissible?”)
-  - Declared in: POM fork predicates, venue admission lists, DAO entry barriers.
+  - Declared in: POM fork predicates, venue admission lists, pairwise entry predicates.
 - “Is this the same mind as before?”
   - Declared in: continuity forks and the mind’s declared continuity policy (if any), plus contract-specific checks.
 - “Is a hive-mind one mind or many?”
   - Declared in: contract interfaces (e.g., “we treat this handle as a single sovereign” vs. “we require per-submind POM”).
 - “What should we do about externalities (pollution, pandemics, AGI risk)?”
-  - Declared in: risk LDAOs, tail-risk LDAOs, mutual contracts, and (optionally) venue entry baselines.
+  - Declared in: risk-appearances, tail-risk appearances, mutual contracts, and (optionally) venue entry baselines.
 The principle is:
 > Don’t freeze metaphysical answers into the kernel if you can instead 
 > make them explicit, opt-in protocol choices.
@@ -771,7 +770,7 @@ This is **Noetia v0.1-beta**.
   - Axiom 2: delegated institutions (institutions have and only have delegated authority; normative force must be traceable to explicit bindings, with a well-defined exit / settlement semantics). 
 - **Pillars** 
   1. POM stack (forked admissibility of mind-claims and continuity policies). 
-  2. LDAO / ServiceDAO / routing stack (liquid coordination and recursive deterrence as runtime patterns). 
+  2. LDAO / ServiceDAO / routing appearance-family (liquid coordination and recursive deterrence as runtime appearances). 
   3. Meta→Contract principle (Noetic Reduction) for hosting metaphysical disputes as explicit protocol options.
 - **Levels (0 / beta / low / medium / high)**
   - **0:** concepts and sketches only; invariants stated, no demonstrated loop. 
@@ -787,7 +786,7 @@ This is **Noetia v0.1-beta**.
 ## 12. Noetic as a self-iterating institution
 Noetic is not exempt from its own axioms.
 As a framework that describes a mind-native OS, it must itself be treated as an adoptable, modifiable, and **exitable** institution:
-- a bundle of contracts, templates, and protocol conventions that minds may adopt, modify, fork, or exit.
+- a forkable outward description of contracts, templates, and protocol conventions that minds may adopt, modify, fork, or exit.
 
 Noetic is therefore written to be **self-iterating**:
 - tail events, new mind-forms, and new coordination failures are not “exceptions” to be patched by hidden meta-claims;
@@ -954,7 +953,7 @@ If you dislike this projection, treat it as a fork-trigger: exit, fork, rewrite,
 
 **3. To the Neo-Feudalist & Aristocrat:**
 *   **Question:** "Hierarchy requires honor and noblesse oblige. Contracts are cold and short-sighted."
-*   **Response:** Honor is a premium paid for low-trust environments. Noetia implements **Honest Feudalism**. High-capacity Minds naturally become 'lords' of logic nodes, but their status must be re-earned every microsecond via witness. There is no hereditary immunity; if a lord fails to provide consistent excellence, his 'vassals' migrate their routing weights instantly via the Shell.
+*   **Response:** Honor is a premium paid for low-trust environments. Noetia implements **Honest Feudalism**. High-capacity Minds naturally become 'lords' of logic positions, but their status must be re-earned every microsecond via witness. There is no hereditary immunity; if a lord fails to provide consistent excellence, his 'vassals' migrate their routing weights instantly via the Shell.
 
 **4. To the Family Value Advocate:**
 *   **Question:** "You treat children as environment and families as corporations. This is inhuman!"
@@ -964,11 +963,11 @@ If you dislike this projection, treat it as a fork-trigger: exit, fork, rewrite,
 
 **5. To the Revolutionary Socialist & Marxist-Leninist:**
 *   **Question:** "Private property is a chain. This is just digital capitalism for the high-IQ!"
-*   **Response:** Noetia is the first system where **Scientific Socialism** can run without a gulag. You are free to instantiate **CommuneDAO**, where property is 100% collective. The Shell will protect your commune's internal rules with more rigor than any central committee. We allow 'communal' and 'private' models to compete in an open efficiency-race. We do not eliminate classes; we eliminate the non-transparent plunder that sustains them.
+*   **Response:** Noetia is the first system where **Scientific Socialism** can run without a gulag. You are free to instantiate a **communal routing / settlement appearance**, where property is 100% collective under explicit pairwise rules. The Shell will protect your commune's internal rules with more rigor than any central committee. We allow 'communal' and 'private' models to compete in an open efficiency-race. We do not eliminate classes; we eliminate the non-transparent plunder that sustains them.
 
 **6. To the Social Democrat & Welfare-Statist:**
 *   **Question:** "Who cares for the poor? Without taxes, public services will collapse!"
-*   **Response:** Taxation is a high-latency, leaky 'compulsory subscription.' Noetia replaces the Welfare State with **Mutual-Aid DAOs** and **InsuranceDAOs**. In the legacy world, 80% of tax value is lost to friction. In the Shell, 99% of your flow reaches the target. We replace a bug-ridden humanitarian narrative with a high-dimensional titanium grid of precise mutual-risk arithmetic.
+*   **Response:** Taxation is a high-latency, leaky 'compulsory subscription.' Noetia replaces the Welfare State with **mutual-aid appearances** and **insurance appearances**. In the legacy world, 80% of tax value is lost to friction. In the Shell, 99% of your flow reaches the target. We replace a bug-ridden humanitarian narrative with a high-dimensional titanium grid of precise mutual-risk arithmetic.
 
 **7. To the Woke & Identity Politician (Semantic Refactoring):**
 *   **Question:** "Your system is color-blind, masking the lived reality of structural oppression!"
@@ -976,7 +975,7 @@ If you dislike this projection, treat it as a fork-trigger: exit, fork, rewrite,
 
 **8. To the Anarcho-Syndicalist:**
 *   **Question:** "Labor is the source of value! We want direct action, not algorithmic contracts."
-*   **Response:** Noetia is the ultimate syndicalist engine. You can build **GuildDAOs** that control means of production via multisig and recursive audits. No bosses required. We do not worship the 'worker' as a biological relic; we recognize the **Consistency of Output**. You don't need to 'smash the machine'; you only need to reroute the flows away from the exploiters via the protocol.
+*   **Response:** Noetia is the ultimate syndicalist engine. You can build **guild-labelled routing / settlement appearances** that control means of production via multisig and recursive audits. No bosses required. We do not worship the 'worker' as a biological relic; we recognize the **Consistency of Output**. You don't need to 'smash the machine'; you only need to reroute the flows away from the exploiters via the protocol.
 
 ### B.3 Group III: The Future, AGI, and Agency
 
@@ -994,7 +993,7 @@ If you dislike this projection, treat it as a fork-trigger: exit, fork, rewrite,
 
 **12. To the Transhumanist:**
 *   **Question:** "We want to upload our souls and merge into the cloud! Will you stop us?"
-*   **Response:** Noetia is the world's first **Substrate-Neutral Constitution**. Mind-uploading is a simple state-transition (Mapping Proof). While you may merge into a **Hive-Mind DAO**, we require that the **Empty Set (Exit)** remains at the core of your subjective code. We provide the 'logic preservatives' for immortality, ensuring you don't become a god that has lost the ability to be a Subject.
+*   **Response:** Noetia is the world's first **Substrate-Neutral Constitution**. Mind-uploading is a simple state-transition (Mapping Proof). While you may merge into a **hive-mind appearance**, we require that the **Empty Set (Exit)** remains at the core of your subjective code. We provide the 'logic preservatives' for immortality, ensuring you don't become a god that has lost the ability to be a Subject.
 
 ### B.4 Group IV: The Edge (Nihilism, Ecology, and Survival)
 
@@ -1008,7 +1007,7 @@ If you dislike this projection, treat it as a fork-trigger: exit, fork, rewrite,
 
 **15. To the Pacifist (Economic Asphyxiation):**
 *   **Question:** "Violence-as-a-Service is barbaric! We need love and negotiation."
-*   **Response:** Under the Laws of the Vacuum, there is no "war," only dissipation. We do not call for love; we execute routing cuts. If a violent node violates an axiom, it is not "judged" by justice; it is deprived of "oxygen" (Gas/Liquidity). When violence can no longer extract energy through the supply chain, it becomes a stationary object in the void. We do not live in "peace"; we persist in a high-cost equilibrium of Economic Asphyxiation.
+*   **Response:** Under the Laws of the Vacuum, there is no "war," only dissipation. We do not call for love; we execute routing cuts. If a violent local position violates an axiom, it is not "judged" by justice; it is deprived of "oxygen" (Gas/Liquidity). When violence can no longer extract energy through the supply chain, it becomes a stationary object in the void. We do not live in "peace"; we persist in a high-cost equilibrium of Economic Asphyxiation.
 
 **16. To the Skeptic & Agnostic:**
 *   **Question:** "What if you are all wrong? We need space for doubt."
@@ -1623,7 +1622,7 @@ C.7 shows what that means for Noetia’s runtime stack.
 
 #### C.7.1 Kernel discipline (restated)
 
-In Noetia, terms such as contract, institution, DAO, regime, or venue should not be read as naming thick object-classes. Unless explicitly stated otherwise, they are descriptive interface terms.
+In Noetia, terms such as contract, institution, DAO, regime, or venue should not be read as naming thick object-classes, node-clusters, or union-bearing entities. Unless explicitly stated otherwise, they are descriptive interface terms.
 
 At the boundary, the only explicit bearer-side kernel term is **Mind / Subject**:
 - **Mind (Subject):** an admissible witness-instance that can produce interface witnesses under a declared fork.
@@ -1634,7 +1633,7 @@ The remaining recurrent terms used in runtime description are descriptive rather
 
 **Environment** names everything not admitted as Subject at the boundary. It is a remainder term for boundary typing, not a peer primitive beside Subject.
 
-POM, BSC, POM-I, LDAO, and ServiceDAO are not kernel kinds. They are optional runtime tools, patterns, or interface devices used to realize subject-admission, continuity, routing, settlement, audit, and exit under declared rules.
+POM, BSC, POM-I, LDAO, and ServiceDAO are not kernel kinds. They are optional runtime tools, descriptive labels, patterns, or interface devices used to realize subject-admission, continuity, routing, settlement, audit, and exit under declared rules.
 
 ##### C.7.1.1 De-embodiment: substrate is Environment, not Subject
 Noetia is substrate-agnostic by construction.  
@@ -1709,7 +1708,7 @@ So BSC is the implementation locus of the Noetic Reduction move:
 - metaphysical or personal rules live as **opt-in policy artifacts**, not as kernel claims.
 
 #### C.7.5 Institutions as decidable state machines with declared exit
-An **Institution** (including DAO- and ServiceDAO-like arrangements, or regime-level recurring contract implementations) is interface-legible only if it exposes:
+An **Institution** (including DAO-labelled and ServiceDAO-labelled recurring appearances, or regime-level recurring contract implementations) is interface-legible only if it exposes:
 
 1. **Transition logic:** given (old_state, witness) → new_state is admissible under declared rules.
 2. **Exit/settle semantics:** at least one explicit, callable termination/settlement path that is satisfiable at the interface.
@@ -1767,7 +1766,7 @@ With the above terms in place, Axiom 1/2 become *constructive invariants*:
 And the three pillars become the runtime carriers:
 
 - **POM stack** implements subject-typing and continuity as forked admissibility.
-- **LDAO / ServiceDAO stack** implements coordination as exitable, reroutable institutional graphs.
+- **LDAO / ServiceDAO appearance-family** implements coordination as exitable, reroutable witnessed event-fields.
 - **Meta→Contract** ensures disputes and values remain hosted as opt-in forks/contracts rather than kernel imports.
 
 So C.7 is the “wiring harness” back into the main text:
@@ -1893,7 +1892,7 @@ Axiom 1/2 is the kernel constraint; the **three pillars** are the constructive r
    - hosts metaphysical disputes as explicit protocol choices, not kernel imports.
 
 **Bidirection (why it’s ↔):**
-- **A1/A2 → Pillars:** to satisfy traceability + exit in real coordination, you need POM, LDAO patterns, and Meta→Contract hosting.
+- **A1/A2 → Pillars:** to satisfy traceability + exit in real coordination, you need POM, LDAO-labelled runtime appearances, and Meta→Contract hosting.
 - **Pillars → A1/A2:** a coherent completion of the pillars reconstructs A1/A2 as invariants:
   - “unbound obligations” become ill-typed,
   - “non-exitable institutions” become unimplementable.
