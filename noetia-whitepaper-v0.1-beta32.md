@@ -125,7 +125,7 @@ This is an interface semantics for provenance and settlement (similar to “happ
 - The Future cannot retroactively invalidate a settled event: once an exit/settle boundary is witnessed under a contract’s own rules, that settlement is final relative to that contract instance.
 Time, here, is not “what the universe is”; it is **what a contract agrees to recognize** for causality, concurrency, and settlement.
 
-### 1.1.3 Dimensional Accretion, Tail Typicality, Non-Scalar Strength , And The P2P Admissibility Ocean(model)
+### 1.1.3 Dimensional Accretion, Tail Typicality, Non-Scalar Strength , and The P2P Admissibility Ocean (model)
 **Status: model, not kernel.**  
 This section introduces an explanatory model used throughout the paper. It adds **no** normative force beyond Axiom 1 and Axiom 2, and it is **not** a claim about physical cosmology. It is a model of coordination complexity in a contract-forking civilization.  
 
