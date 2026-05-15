@@ -69,6 +69,16 @@ Noetia is not a detailed constitution. It is a minimal OS sketch.
 
 **Operational unpacking (not an extra axiom).** “Traceable” and “exit-capable” will later be given an interface-level meaning: obligations and authority claims must be *admissible by finite witness* (often ZK), and “exit/settle” must be a declared, callable settlement path. This is a reading of A1/A2, not a third axiom.
 
+**Ontological cut (not an extra axiom).**  
+Noetia does not install an ontology oracle at the kernel boundary.
+
+The kernel boundary does not decide what a mind is *in itself*. It does not test for soul, consciousness, sentience, free will, moral depth, human nature, or inner experience. It does not rank substrates by metaphysical dignity.
+
+Such predicates may be declared by POM forks, venues, care templates, BSC patterns, or philosophical communities. At the kernel boundary, they have no native force.
+
+A claim crosses the boundary only as an admissible witness under a named interface.  
+Metaphysics is not refuted. It is not imported.
+
 **Binding is a witness-event, not a psychology claim.**  
 Throughout this document, “explicit self-binding” means: a handle produced a valid **BindingEvent** witness under a named interface.  
 Noetia does **not** adjudicate voluntariness, coercion, or “true intent” at the kernel. Those are optional deep-layer products (insurance, γ-baselines, oracle services, venue policies).
@@ -221,12 +231,20 @@ In that regime, the two axioms—mind-only self-sovereignty, and intelligent, co
 It is entirely possible that, without an explicit mind-native OS, a civilization could develop starships, AGI, and genetic engineering, yet still be governed by priests and chieftains wrapped in ever more sophisticated myths.
 Noetia makes **no** promise of coherence under any horizon; it only specifies a boundary typing discipline.
 
+**Post-human pressure.**  
+Noetia is not anti-human; it is anti-human-kernel.
+
+A worldline containing AGI, engineered organisms, uploads, cyborg animals, synthetic agents, swarm handles, or composite minds does not invalidate Human forks. It only invalidates their claim to be the universal operating layer.
+
+Modern humanist politics may remain powerful inside Human-compatible venues. Noetia only refuses to let any successful fork become the native ontology of all possible subjects.
+
 ---
 ## 2. Axioms in detail
 ### 2.1 Axiom A — Mind-only self-sovereignty
 > **A1.** A mind has and only has self-sovereignty.
-We stay agnostic about metaphysical “essence”. 
-Operationally, a Mind is defined not by biology, but by **cryptographic subjectivity at the interface**.
+
+We stay agnostic about metaphysical “essence” as a kernel-boundary discipline, not as a deficit of theory.
+Operationally, a Mind is defined not by biology, consciousness, sentience, free will, human resemblance, or moral depth, but by **cryptographic subjectivity at the interface**.
 Concretely, “Mind” is always relative to an explicitly named POM fork: a Mind is any entity that satisfies that fork’s **minimum interface-admissibility predicate** (the floor is the set of **Four POM-Base Invariants**: Negation, Binding, Termination, and Groundedness, as witnessed at the interface).
 
 **Type cut (interface-level).** Any entity (including biological bodies, brains, hardware, or code) that lacks an interface-level ability to produce a witness satisfying the **Four POM-Base Invariants** (Negation, Binding, Termination, and Groundedness) is treated as Environment for boundary typing purposes.
@@ -241,7 +259,8 @@ Different forks can have different thresholds.
 Canonical Noetia does **not** hard-code one universal POM; it assumes an evolving ecosystem. If any legacy-stack notion (citizenship, statutory status, territorial duty) is to matter here, it must be introduced via an explicit bridge contract; it is never silently imported as a kernel variable.
 
 ### 2.2 Axiom B — Delegated, traceable institutions
-> **B1.** An institution has and only has delegated authority. 
+> **B1.** An institution has and only has delegated authority.
+
 Any institution that claims normative force over minds must have that force be, in principle, traceable to at least one mind’s explicit binding, with:
 - explicit interfaces (what it can do),
 - declared adjudication predicates (what makes a transition / claim admissible at the interface),
@@ -343,11 +362,32 @@ Canonical Noetia strictly separates **Mind (Subject)** from **Matter (Substrate)
 
 POM does not certify an underlying metaphysical self or carrier as Subject; it certifies an **admissible witness-instance tied to a handle**. The body / machine / script remains substrate (Environment) by default; the Subject is the witnessed event at the interface.
 
+#### 3.1.2.1 Interface Animism
+
+Noetia can look “animist” from the legacy human frame because subject-admissibility is not monopolized by any substrate class.
+
+This is an interface claim, not a panpsychist claim. A biological human, silicon agent, cyborg animal, swarm, script, or composite handle is not admitted because the kernel recognizes an inner life. It is admitted only insofar as an accepted fork verifies a witness-instance that satisfies the relevant predicates.
+
+Noetia does not say everything has mind.  
+It says no substrate owns mind-admissibility.
+
 ### 3.1.3 The Strength Inequality ($Fork \ge Base$) and Information Erasure
 Since POM-Base is the philosophical floor, any concrete Fork implementation (Human, AI, Hardware) inevitably carries specific artifacts (curves, biology, hardware constraints).
 - **Logic:** Valid Forks must satisfy `Strength(Fork) ≥ Strength(Base)`.
 - **Upcasting (Information Erasure):** To ensure interoperability, specific Forks perform **Zero-Knowledge Truncation**. They verify complex specific constraints (e.g., "I am a human with an iris" or "I am an AI with hashrate") inside the circuit, but output only the truncated signal: "I am a Valid POM-Base Subject." This allows the Kernel to treat diverse species (Carbon, Silicon, Gestalt) as ontologically equal peers. This upcasting is an interoperability move at the interface layer: it does not assert metaphysical sameness of species or substrates—only a common admissible subject-type for contracts.
 - **On scarcity (non-kernel).** Because a fork strengthens POM-Base by adding constraints, it typically induces some practical scarcity (cost, time, stake, history, specialized tooling). Noetia does not fix a universal scarcity primitive; scarcity is realized through fork constraints plus each venue’s acceptance surface.
+
+#### 3.1.3.1 Human as Fork, Not Ground
+
+Humanity is not erased in Noetia. It is forked.
+
+A Human fork may strengthen POM-Base through biological, historical, psychological, legal, or continuity constraints. It may be socially dominant, deeply funded, widely trusted, and highly optimized as a UX surface for human-compatible minds.
+
+But it remains a fork.
+
+No Human fork may claim that human form, human continuity, human cognition, or human moral grammar is the primitive condition of subjecthood. Such constraints may increase assurance inside accepting venues; they do not ground sovereignty at the kernel.
+
+Humanity is a powerful interface family, not a native type.
 
 ### 3.1.4 Fork Examples
 - **POM-U:** Low-friction fork for spam prevention; asserts existential mindhood with low assurance.
