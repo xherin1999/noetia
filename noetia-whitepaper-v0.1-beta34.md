@@ -14,6 +14,8 @@ Noetia takes:
 
 At the boundary, a Subject is a witness-instance; everything not typed as a Subject is Environment for boundary-typing purposes.
 
+“Mind” is used here as a boundary-type label, not as a claim about intelligence, thought, consciousness, personhood, or humanity.
+
 **Type-level sovereignty vs ocean weight.**  
 In this document, “sovereignty” is **type-level**: a handle that can produce an admissible witness under an accepted fork is a Subject for obligation-typing.  
 De facto leverage (“weight”) is an emergent property of the **P2P admissibility ocean** (acceptance histories, routing reach, service access, collateral/insurance depth, audit connectivity).  
@@ -25,7 +27,7 @@ This is not a third axiom: it is the operational meaning of “traceable” and 
 The goal is not to move one more step on a 2D grid of left/right or conservative/liberal, but to **equip** civilization with a **Large-Cardinal Lens**: an interface discipline that allows the OS to **match the dimensionality** of the coordination space rather than suppressing it.
 Noetia does not create the hyperdimensional risk; it acknowledges that we represent a civilization-state that has already outgrown low-dimensional governance. It provides a **Finite Admissibility Interface** capable of navigating an **Infinite Dimensional Flow Field**.
 (“Large-cardinal” here is a descriptive lens for the deep coordination regime, not a kernel commitment and not an interface requirement.):
-- Minds are primitives. 
+- Subjects / witness-instances are primitives. 
 - Obligations and institutions are encoded as computable structures. 
 - Power is routed by contracts, not by birth myths.
 Noetia does **not** claim that present-day human civilization is already hyperdimensional. Most of what we call “politics” still runs in a low-dimensional, myth-driven regime. Noetia is written for a later worldline: one where civilization is best modeled (for coordination purposes) as an **Infinite Dimensional Shell**.
@@ -344,7 +346,7 @@ Coercion-resistance, exit-feasibility (including “infinite-cost exit” defens
 ## 3. Pillar I – POM stack (POM / BSC / POM-I)
 ### 3.1 POM — Proof of Mind (Revised)
 **POM** is a family of protocols asserting:
-> “This Handle / Key / Address **instantiates a Sovereign Subject** (under this fork’s criteria).”
+> “This Handle / Key / Address carries a witness-instance typed as a Sovereign Subject (under this fork’s criteria).”
 Properties:
 - Not a mere CAPTCHA, not an IQ test. 
 - POM statements are always relative to a **named fork**; there is no hidden “one true POM”.
