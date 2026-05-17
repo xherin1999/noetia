@@ -8,9 +8,11 @@
 Noetia is a thought-experiment and protocol sketch for a **mind-native civilization**.
 Instead of treating “family”, “state”, “company”, or “nation” as primitive units,
 Noetia takes:
-- **Minds** as the only native sovereigns. 
-- **Obligations** as arising *only* from contracts that minds choose to anchor their subjectivity to. 
-- **Institutions** as composable, **computable** interface terms (descriptive DAO-labels, contracts, services), not as metaphysical authorities.
+- **Minds / Subjects** as the only native sovereigns. 
+- **Obligations** as admissible only when traceable to explicit self-binding. 
+- **Institutions** not as native units, but as composable, **computable** interface terms (descriptive DAO-labels, contracts, services), not as metaphysical authorities.  
+
+At the boundary, a Subject is a witness-instance; everything not typed as a Subject is Environment for boundary-typing purposes.
 
 **Type-level sovereignty vs ocean weight.**  
 In this document, “sovereignty” is **type-level**: a handle that can produce an admissible witness under an accepted fork is a Subject for obligation-typing.  
@@ -43,7 +45,7 @@ At the highest level:
   3. A Meta→Contract principle: whenever possible, push metaphysical and philosophical disputes down into POM forks and contract interfaces.
 In this document, the label **Noetia** refers to systems that satisfy, at minimum, these two axioms.
 This document sets out:
-1. The **core axioms** (mind-only sovereignty; intelligent institutions). 
+1. The **core axioms**: mind-only sovereignty; institutions only as delegated, traceable interface terms.  
 2. The three pillars: **POM**, **LDAO**, and the **Meta→Contract principle**. 
 3. A sharpened view on **reproduction and children** that stays fully inside these axioms. 
 4. The role of **recursive liquid coordination appearances** as both coordination fabric and deterrence mechanism. 
@@ -83,7 +85,10 @@ Metaphysics is not refuted. It is not imported.
 Throughout this document, “explicit self-binding” means: a handle produced a valid **BindingEvent** witness under a named interface.  
 Noetia does **not** adjudicate voluntariness, coercion, or “true intent” at the kernel. Those are optional deep-layer products (insurance, γ-baselines, oracle services, venue policies).
 
-**Domain separation.** Noetia maintains a hard boundary between (i) minds (subjects), (ii) contract / institution terms at the interface, and (iii) the environment (facts, resources, bodies, tools). Obligations `Obl(·,·)` are defined only over minds; non-minds may be acted on via contract state, but cannot be obligation-bearers.
+**Domain separation.**  
+Noetia maintains a hard boundary between **Subject** and **Environment**. A Subject is a witness-instance / witness-event at the interface; Environment is the non-Subject remainder for boundary typing.
+
+Obligations `Obl(·,·)` are defined only over Subjects / Minds. Contract and institution terms are witness-admissible interface machinery over Subject–Predicate bindings, not a third n ative kind.
 
 **Environment has no native normative force.**  
 Environment facts affect obligations only when **translated into contract state** via a declared evidence standard (witnesses, attestations, oracle receipts).  
@@ -92,7 +97,7 @@ Oracles are tools: at the boundary we admit only the **translated contract claim
 **Stack locality (no implicit semantic union).** Noetia’s semantics are stack-local: it does not “import” legacy state parameters (territory, citizenship, statutory duties, clocks) as Noetia-native variables by default.
 Interoperation—if any—must occur through explicit **bridge contracts**. A bridge is not a union of semantics: it is a narrow, typed adapter that translates *declared* interface claims across stacks, without making either stack accept the other’s native ontology.
 
-**Ground-0 minimization.** Canonical Noetia keeps the kernel as thin as possible: it fixes only boundary distinctions and quantifiers (mind / institution / existence and traceability). Anything else—metaphysics of personhood, identity, welfare, value—must be pushed down into forks, venue γ, and contract interfaces rather than frozen into the kernel. Kernel here refers to Axiom 1 and Axiom 2 only.
+**Kernel-boundary minimization.** Canonical Noetia keeps the kernel as thin as possible: it fixes only the Subject / non-Subject boundary and the traceability / exit conditions under which interface claims become admissible. Anything else—metaphysics of personhood, identity, welfare, value, or institutional form—must be pushed down into forks, venue γ, and contract interfaces rather than frozen into the kernel. Kernel here refers to Axiom 1 and Axiom 2 only.
 
 **Dual zero-state lemma (A1 ↔ A2).** Taking Axiom 1 literally implies an outside option for every mind: a “zero state” in which no normative constraints apply except those traceable to the mind’s currently active explicit bindings (and if there are none, the constraint set is empty). Conversely, taking Axiom 2 literally implies that every institution’s termination / settlement semantics must map to such a sovereignty-grounded outside option: exiting an institution must eliminate that institution’s residual normative force, returning the mind to a state constrained only by remaining bindings (possibly none).
 
@@ -207,7 +212,7 @@ These pillars should be read as runtime tool-families and coordination patterns,
      - instead of freezing one metaphysical answer into the kernel.
 This gives:
 - A thin, rigid kernel (what kinds of power are allowed to exist). 
-- A thick, flexible runtime (how minds, institutions, and metaphysics actually behave).
+- A thick, flexible runtime (how minds, institutions appearances, and metaphysics forks are hosted).
 **No implicit transitional union.** A “double-stack” world does not mean mutual acceptance of variables or obligations. Any cross-stack effect must be mediated by explicit bridge contracts that translate specific interface claims; otherwise, the stacks remain semantically disjoint by default.
 
 **Holographic reconstruction (type-soundness / unimplementability).** In a complete canonical runtime, (i) POM fork explicitness + present-handle binding + contract-grounded obligation tracing makes any “unbound obligation” ill-typed, forcing Axiom 1 as a necessary consistency condition; and (ii) LDAO-labelled routing / exit appearances + binding / flow provenance make any “non-delegated institution” unimplementable, forcing Axiom 2 as a necessary consistency condition. In this sense the pillars do not merely *use* the axioms: they can be taken as constructive mechanisms whose coherent completion reconstructs the axioms as invariants.
@@ -227,7 +232,7 @@ Noetia is not designed to “fix” present-day politics. It is written for a la
 - a civilization with far more technological capacity, 
 - many more kinds of minds, 
 - and far more dangerous tail risks than ours.
-In that regime, the two axioms—mind-only self-sovereignty, and intelligent, computable, exit-capable institutions—are not decorative philosophy but **interface constraints in this sketch**.
+In that regime, the two axioms—mind-only self-sovereignty, and delegated authority only through computable, exit-capable interface terms—are not decorative philosophy but **interface constraints in this sketch**.
 It is entirely possible that, without an explicit mind-native OS, a civilization could develop starships, AGI, and genetic engineering, yet still be governed by priests and chieftains wrapped in ever more sophisticated myths.
 Noetia makes **no** promise of coherence under any horizon; it only specifies a boundary typing discipline.
 
@@ -850,7 +855,8 @@ To verify the computability of Noetia, we provide the following draft implementa
 ### A.1 Core Data Structures
 
 ```rust
-// Noetia Kernel Types: v0.1-Refined
+// Noetia Interface Types: v0.1-Refined
+// Kernel commitments: A1/A2 only. The structs below are admissibility/interface representations, not native ontology.
 // Environment: ZK-VM (Finite-witness admissibility at the interface)
 // Interface discipline: minimal witnessable primitives (Appendix C is a lens, not a dependency)
 
@@ -895,8 +901,8 @@ trait BasicSovereigntyContract {
     fn continuity_invariant(state_t0: MindState, state_t1: MindState) -> bool;
 }
 
-// 2. Institution: The Decidable State Machine
-struct Institution<S: State, L: Logic> {
+// 2. DelegatedInterface: Decidable State Machine for admissible institutional effects
+struct DelegatedInterface<S: State, L: Logic> {
     id: Address,
     state_root: Hash,
     
