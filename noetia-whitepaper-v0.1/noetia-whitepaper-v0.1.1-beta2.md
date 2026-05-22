@@ -63,6 +63,11 @@ This document sets out:
 It creates **no obligations**, grants **no authority**, and is **not an institution** unless a later contract explicitly binds to a hash of it.  
 Normative force exists only inside **explicit contracts between admitted Subjects**.
 
+**Natural-language definitions are descriptive only.**  
+Natural-language definitions in this document are descriptive only.  
+They do not decide boundary cases by semantic force.  
+A boundary term becomes executable only when reduced to declared predicates, admissible witnesses, and explicit settlement / exit semantics.
+
 **Fork clarification — kernel minimalism and example morphology.**  
 In this fork, the Noetia kernel is deliberately kept thinner than the surrounding design language may suggest.
 
@@ -79,10 +84,6 @@ Everything else in this document is **example morphology** unless explicitly mar
 They are example names for possible witness-event morphologies: ways a Noetia-compatible runtime may choose to make Axiom 1 and Axiom 2 operational.
 
 A fork may omit, replace, weaken, strengthen, rename, or invert any such morphology while remaining Noetia-compatible, provided the kernel constraints remain intact: no obligation without explicit binding, no authority without delegated provenance, and no institution-like force without exit/settle.
-
-Natural-language definitions in this document are descriptive only.  
-They do not decide boundary cases by semantic force.  
-A boundary term becomes executable only when reduced to declared predicates, admissible witnesses, and explicit settlement / exit semantics.
 
 ---
 ## 1. Design goals
