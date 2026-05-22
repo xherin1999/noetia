@@ -36,6 +36,10 @@ In such spaces, as dimensionality grows, coordination becomes tail-sensitive: �
 Noetia therefore treats tail states—extreme minds, extreme risks, extreme behaviors—as first-class citizens in the OS design, not as anomalies to be hand-waved away.
 
 Two north-star targets sharpen the runtime picture:
+
+  **Runtime pictures are not constitutional requirements.**  
+The following “north-star targets” describe one strong runtime imagination of Noetia. They are not additional axioms, not required historical phases, and not mandatory institutional architecture.  
+
 - **Large-cardinal recursion:** normative consequences propagate as feedback over witnessed event-fields; recursion tends to emerge as the mechanism by which local tail events reshape global flows and deterrence without a single Leviathan.
 - **A hyperdimensional weather map (open-ended dimensionality):** civilization is modeled as a hyperdimensional flow field (capital, services, legitimacy, risk, identity forks, venue rules). Here “hyperdimensional” means open-ended dimensional growth in the state space of coordination: forks and institutions can add new (effectively orthogonal) risk/service/identity axes, and tail mass becomes typical. Recursion both sustains emergent “currents” and prevents a final, completed constitution: Noetia is structurally an evolving interface family, not a terminal scripture.
 
@@ -59,10 +63,33 @@ This document sets out:
 It creates **no obligations**, grants **no authority**, and is **not an institution** unless a later contract explicitly binds to a hash of it.  
 Normative force exists only inside **explicit contracts between admitted Subjects**.
 
+  **Fork clarification — kernel minimalism and example morphology.**  
+In this fork, the Noetia kernel is deliberately kept thinner than the surrounding design language may suggest.
+
+The only kernel commitments are:
+
+1. **Axiom 1:** a Mind has and only has self-sovereignty.  
+2. **Axiom 2:** institutional authority exists only as delegated, witness-traceable, and exit/settle-capable authority.  
+3. **Boundary typing:** a Mind / Subject is a present admissible witness-instance under an accepted interface.
+
+Everything else in this document is **example morphology** unless explicitly marked as a kernel invariant.
+
+`POM`, `POM-Base`, `BSC`, `POM-I`, `LDAO`, `ServiceDAO`, `Meta→Contract`, `M1`, `Venue`, `Regime`, `Router`, `γ-baseline`, `α–β–γ`, `VaaS`, `Economic Asphyxiation`, `Tail-risk appearances`, `CareDAO`, `Child-Futures routing`, `Insurance wrappers`, and similar labels are not primitive entities, not mandatory institutions, not universal social recommendations, and not hidden public law.
+
+They are example names for possible witness-event morphologies: ways a Noetia-compatible runtime may choose to make Axiom 1 and Axiom 2 operational.
+
+A fork may omit, replace, weaken, strengthen, rename, or invert any such morphology while remaining Noetia-compatible, provided the kernel constraints remain intact: no obligation without explicit binding, no authority without delegated provenance, and no institution-like force without exit/settle.
+
 ---
 ## 1. Design goals
 Noetia is not a detailed constitution. It is a minimal OS sketch.
 ### 1.1 Two axioms (kernel)
+**Kernel boundary.**  
+This subsection is the normative kernel. Later sections may propose, name, or sketch possible runtime families. Those names do not expand the kernel.
+
+If a later mechanism appears useful, elegant, canonical, or likely, that does not make it binding.  
+Noetia does not smuggle recommendations into the kernel by naming them.
+
 **Axiom 1 — Mind-only self-sovereignty**
 > A mind has and only has self-sovereignty. 
 > Any normative constraint on a mind (obligations, prohibitions, permissions) is void unless it is, in principle, traceable to that mind’s explicit self-binding.
@@ -114,6 +141,11 @@ We do **not** encode “care for X”, “protect Y”, “maximize Z” as axio
 Those, if present, must be realized as **opt-in contracts**.
 
 ### 1.1.1 Interface semantics (Finite-witness admissibility)
+**Interface invariant, not product design.**  
+Finite-witness admissibility is an interface constraint required to make A1/A2 operational. It does not prescribe a specific proof system, blockchain, oracle stack, ZK architecture, identity product, or governance platform.
+
+Any implementation that provides bounded, admissible provenance for binding / transition / exit may satisfy the constraint.
+
 Noetia treats “what counts” at the interface as an admissibility question: “Can this obligation/authority claim be admitted by a finite witness?”
 This is an interface rule that operationalizes A1/A2; it does not add a new normative axiom.
 
@@ -144,7 +176,20 @@ Time, here, is not “what the universe is”; it is **what a contract agrees to
 
 ### 1.1.3 Dimensional Accretion, Tail Typicality, Non-Scalar Strength , and The P2P Admissibility Ocean (model)
 **Status: model, not kernel.**  
-This section introduces an explanatory model used throughout the paper. It adds **no** normative force beyond Axiom 1 and Axiom 2, and it is **not** a claim about physical cosmology. It is a model of coordination complexity in a contract-forking civilization.  
+This section introduces an explanatory model used throughout the paper. It adds **no** normative force beyond Axiom 1 and Axiom 2, and it is **not** a claim about physical cosmology. It is a model of coordination complexity in a contract-forking civilization.
+
+**Example morphology rule.**  
+Every named structure in this model—`ocean`, `venue`, `regime`, `DAO`, `router`, `market`, `corridor`, `service surface`, `γ`, `recursive cut`, `audit appearance`, `insurance wrapper`, or similar term—is a descriptive compression of possible witness-event patterns.
+
+It is not a required Noetia component.
+
+Read all such language as:
+
+> “This is one morphology that may naturally appear under A1/A2.”
+
+Never as:
+
+> “Noetia requires this institution to exist.”
 
 At the boundary, Noetia has only two operative primitives: **Subjects** and **Predicates (Logic)**. 
 - A **Subject** is a **witness-instance** addressable by a handle (Mind = Witness).
@@ -154,7 +199,20 @@ The “ocean” is simply the discrete set of **witnessed events** by which Subj
 
 Terms such as *venue*, *regime*, *DAO*, *router*, *market*, *corridor*, or *deep water* are therefore descriptive names for recurring contract implementations and the P2P pair-relations / event-histories they induce (admission, binding, routing, audit, insurance). They introduce **no new kernel term**.
 
-**Non-reification rule:** any noun beyond “Subject” in this document must be read as either a descriptive interface term or an example-level compression, never as a kernel primitive. Accordingly, whenever terms such as DAO, router, market, corridor, service surface, or routing surface are used below, they should be read as outward compressions of discrete P2P witness-events and pair-relations, never as thick entities, node-clusters, or implicit unions.
+**Non-reification rule.**  
+Any noun beyond “Subject” is dangerous.
+
+In this fork, any noun beyond `Mind / Subject / witness-instance` must be read as either:
+
+1. an interface term,  
+2. an event-history compression,  
+3. an example morphology, or  
+4. a local implementation label.
+
+Accordingly, terms such as `POM`, `BSC`, `POM-I`, `LDAO`, `ServiceDAO`, `DAO`, `router`, `market`, `venue`, `regime`, `corridor`, `service surface`, `routing surface`, `γ-baseline`, `VaaS`, `CareDAO`, `Tail-risk appearance`, or `Economic Asphyxiation` must not be reified into entities, collective subjects, authorities, institutions, or mandatory architecture.
+
+A recurring appearance is not a thing.  
+It is repeated witness-events becoming legible.
 
 “Depth” has no global scalar meaning. In an accreting, effectively unbounded coordination basis, *deep/shallow* only makes sense **relative to a projection** (a chosen slice of predicates) and a purpose—e.g., service reach, collateral/insurance depth, audit connectivity, bridge compatibility (examples only). In this sense, “decentralized centralization” is an expected ocean phenomenon: deep-water corridors can form and matter, while remaining, in principle, forkable and exit-capable at the interface (even when exit-feasibility is costly).
 
@@ -190,43 +248,62 @@ Noetia’s kernel (Axiom 1/2) is topologically mutually exclusive with **Global 
 **AP as Default:** The P2P Admissibility Ocean is structurally the result of **completely expelling** the requirement for global consistency. It is a pure **AP System** (Availability + Partition Tolerance): any local interaction executes and settles instantly provided the local witnesses are valid, without waiting for a global "Sea Level" consensus.
 **Consistency as Optional Service:** Consistency is demoted from an environmental constant to an **expensive, local, optional safety contract** (see 2.4.1). Minds possess consistency only within specific scope-limited contract implementations they explicitly bind to (e.g., a specific blockchain or strict jurisdiction); in the Ocean’s default state, the **Locality Valve** strictly prioritizes local read/write Availability over global coherence.
 
-### 1.2 Three pillars (canonical runtime)
-Canonical Noetia rests on three structural pillars:  
+### 1.2 Three example carriers (canonical runtime sketch)
 
-These pillars should be read as runtime tool-families and coordination patterns, not as kernel kinds.  
+Canonical Noetia is often illustrated through three runtime carriers.  
+They are **example carriers**, not kernel pillars.
 
-1. **POM stack (POM / BSC / POM-I)** 
-   - Who counts as a mind (for a given context). 
-   - What counts as the *same* mind over time and modifications. 
-   - How a mind writes its own meta-rules (BSC).
-2. **LDAO-labelled runtime appearances (LDAO / ServiceDAO labels / routing & recursion)** 
-   - How coordination, capital, and services appear as liquid, forkable, recurrent P2P routing / settlement patterns. 
-   - How flows are routed and can be re-routed by each mind. 
-   - How recursive credit and audit event-fields can deter abuse (including VaaS). Recursion is hosted inside institutions’ deep-layer internals; the interface layer observes only finite witnesses of admissible transitions.
+They should be read as runtime tool-families, coordination patterns, and constructive implementation sketches.  
+They are not mandatory institutions, not required modules, not collective subjects, and not hidden constitutional organs.
+
+A Noetia-compatible fork may use different carriers, provided A1/A2 and the witness-instance boundary remain intact. 
+
+1. **POM-like stack (example subject-admissibility family)** 
+   - One possible family of interfaces for asking who counts as a Subject in a given context. 
+   - One possible family of continuity checks over time and modifications. 
+   - One possible way for a mind to expose self-authored meta-rules.
+   - The names `POM`, `BSC`, and `POM-I` are illustrative labels, not mandatory modules.
+2. **LDAO-like runtime appearances (example routing family)** 
+   - One possible way coordination, capital, and services may appear as liquid, forkable, recurrent P2P routing / settlement patterns. 
+   - One possible way flows may be routed and re-routed by each mind. 
+   - One possible way recursive credit and audit event-fields may deter abuse.
+   - `LDAO`, `ServiceDAO`, routing surfaces, and VaaS-like deterrence are descriptive appearances, not required institutions.
 
    **Default runtime appearance:** In canonical Noetia, `LDAO` / `ServiceDAO` are descriptive labels for recurring runtime appearances of coordination, services, and organization-like effects.
    Venue rules may or may not include a baseline regime contract (γ): some recurring implementations impose an entry baseline; others remain purely P2P, bilateral, and template-driven.
 
-4. **Meta→Contract principle (Noetic Reduction Principle)** 
+3. **Meta→Contract heuristic (example hosting discipline)** 
    - When there is a philosophical dispute (“Is X a mind?”, “Is Y the same person?”), 
-     the default move is to: 
-     - encode it as different **POM forks**, **BSC patterns**, or **contract interfaces**, 
+     one Noetia-compatible default is to:
+     - host it as different admissibility forks, continuity patterns, or contract interfaces, 
      - instead of freezing one metaphysical answer into the kernel.
-This gives:
-- A thin, rigid kernel (what kinds of power are allowed to exist). 
-- A thick, flexible runtime (how minds, institutions appearances, and metaphysics forks are hosted).
+   - `Meta→Contract` / `M1` is a hosting heuristic, not a third axiom and not a required universal method.
+This illustrates one possible shape of:
+- A thin, rigid kernel: what kinds of normative force are admissible. 
+- A thick, flexible runtime: how minds, service appearances, routing patterns, and metaphysical disputes may be hosted.
 **No implicit transitional union.** A “double-stack” world does not mean mutual acceptance of variables or obligations. Any cross-stack effect must be mediated by explicit bridge contracts that translate specific interface claims; otherwise, the stacks remain semantically disjoint by default.
 
-**Holographic reconstruction (type-soundness / unimplementability).** In a complete canonical runtime, (i) POM fork explicitness + present-handle binding + contract-grounded obligation tracing makes any “unbound obligation” ill-typed, forcing Axiom 1 as a necessary consistency condition; and (ii) LDAO-labelled routing / exit appearances + binding / flow provenance make any “non-delegated institution” unimplementable, forcing Axiom 2 as a necessary consistency condition. In this sense the pillars do not merely *use* the axioms: they can be taken as constructive mechanisms whose coherent completion reconstructs the axioms as invariants.
+**Holographic reconstruction (type-soundness / implementability sketch).**  
+The example carriers above can be read as one constructive sketch showing how A1/A2 may become operational.
+
+In such a sketch:
+- subject-admissibility explicitness + present-handle binding + contract-grounded obligation tracing make “unbound obligation” ill-typed;
+- routing / exit appearances + binding / flow provenance make “non-delegated institution-like force” unimplementable.
+
+This does **not** mean POM/LDAO/M1 are the only possible carriers.  
+It means a coherent runtime must implement equivalent invariants somehow: subject-admissibility, binding provenance, delegated authority, and exit/settle.
+
+The names are optional.  
+The invariants are not.
 
 ### 1.3 Engineering bar and “civilizational compute”
 Taking the axioms seriously implies a high engineering bar:
 - **Fine-grained, composable contracts.** 
   Obligations must be derivable from explicit clauses, trackable over time, and composable across multiple contracts.
 - **Coherent obligation-OS.**
-  POM/BSC/POM-I, LDAO-labelled routing / settlement appearances, routers, and audit layers share a **common admissibility discipline (the Four Base Invariants)** regarding consent, risk, and exit, allowing diverse Fork-definitions of selfhood to interoperate without separate gadgets.
+  Whatever implementation family is used—POM-like, BSC-like, LDAO-like, router-like, audit-like, or otherwise—it must share a common admissibility discipline regarding consent, risk, provenance, and exit. The labels are examples; the interface discipline is the requirement.
 - **Bridges to the physical layer.**
-  ServiceDAO-labelled and VaaS-labelled service appearances reliably map between on-chain events and **admissible witnesses of off-chain facts** (oracle/sensor receipts), with accountable, inspectable interfaces. 
+  Some service-appearance family must map between contract events and admissible witnesses of off-chain facts (oracle/sensor receipts, attestations, audits, or equivalent evidence receipts), with accountable, inspectable interfaces. `ServiceDAO` and `VaaS` are example labels, not required forms.
 It is a demanding design sketch for a civilization-scale software stack whose interface semantics are deliberately minimal.
 
 ### 1.4 Time horizon and worldline
@@ -300,15 +377,29 @@ A common form is a Zero-Knowledge Proof (ZKP): it can assert that “φ follows 
 The requirement is **admissible provenance**, not moral authority and not semantic transparency.
 An obligation-claim that cannot be supported by an admissible provenance witness at the interface is treated as a **typing error** (ill-formed claim), not as a moral fact.
 
-### 2.3.1 α–β–γ Exposure Composition (Regime Semantics)
-In a mind-native context, we replace “punishment” with **liability exposure and settlement**.
-A “Regime” (Γ) is not a physical territory, but a descriptive name for recurring contract implementations under a shared interface bundle that may (optionally) specify entry predicates, evidence standards, and baseline exposure templates.
-Some regimes use a baseline (`γ`); others omit it entirely.
+### 2.3.1 Example Morphology — α–β–γ Exposure Composition\
+**Status: example morphology, not kernel.**  
+`α–β–γ` is an illustrative exposure-composition grammar.
+
+It is not an axiom, not a universal settlement model, not a punishment theory, not a required regime form, and not the Noetia theory of justice.
+
+It shows one possible way sovereign punishment can be replaced by pre-bound liability exposure, local comparators, admissible provenance, and declared settlement paths.
+
+A Noetia fork may use pure bilateral settlement, insurance-only designs, escrow systems, multi-party exposure lattices, reputation routing, non-financial sanctions, access revocation, or no baseline regime at all.
+
+In a mind-native context, one possible example replaces “punishment” with **liability exposure and settlement**.
+A “Regime” (Γ) is not a physical territory, not a government, not a legal order, and not a collective subject. It is a descriptive name for recurring contract implementations under a shared interface bundle that may, in this example, specify entry predicates, evidence standards, and baseline exposure templates.
+Some regime-like appearances may use a baseline (`γ`); others omit it entirely. `γ` is an example entry morphology, not a required Noetia layer.
 
 Given an interaction within Regime Γ involving a claimant mind A and a counterparty mind B:
 - **α (claim-set):** the exposure A demands as resolution.
 - **β (exposure-set):** the maximum liability exposure B has explicitly pre-accepted (via signed templates, deposits, or insurance wrappers).
 - **γ (regime-baseline, optional):** a baseline exposure template used by Γ as an entry floor. If Γ does not define a baseline, treat `γ` as absent (or as the regime’s null baseline).
+
+**Anti-canonization clause.**  
+`α`, `β`, and `γ` are local symbols inside this example grammar. They are not universal variables of Noetia.
+
+The only non-optional rule is not `α–β–γ`; it is that executable exposure must be traceable to explicit binding and admissible provenance.
 
 **Execution rule.**
 The executable outcome is strictly the intersection: **$E = \alpha \cap \beta$**.
@@ -322,10 +413,22 @@ If Γ defines no baseline, entry is governed solely by Γ’s other declared pre
 - **Enforcement via Pre-signature:** B is not "punished" by a sovereign; B simply triggers a pre-signed exposure ($\beta$) that was validated as sufficient ($\ge \gamma$) at the moment of entry.
 - If B’s $\beta$ is insufficient under $Comparator_{\Gamma}$, B is technically **transparent** (non-interactive) to the Regime; A cannot validly interact with B under Γ’s protections.
 
-### 2.4 Meta→Contract principle (Noetic Reduction Principle)
-Canonical Noetia states a **default move**:
-> **M1. Noetic Reduction Principle (Hosting Discipline)**
-> **By structural default**, push metaphysical and philosophical disputes down into POM forks, BSC patterns, and contract interfaces. (The Kernel treats any metaphysical claim not formally reducible to a contract term as **ill-typed** at the boundary).
+**Example closure.**  
+This pattern demonstrates that liability and settlement can be typed without importing sovereign punishment.
+
+It does not prescribe how every venue must price risk.  
+It only shows that risk can be made local, pre-bound, witness-admissible, and exit/settle-capable.
+
+The grammar is optional.  
+The boundary discipline is not.
+
+### 2.4 Meta→Contract heuristic (Noetic Reduction Pattern)
+Canonical Noetia often uses the following **example hosting discipline**:
+> **M1. Noetic Reduction Pattern**
+> **By default in this runtime sketch**, metaphysical and philosophical disputes are pushed down into admissibility forks, continuity patterns, and contract interfaces, instead of being frozen into the kernel. The kernel treats any metaphysical claim not reducible to an admissible interface claim as ill-typed at the boundary.
+
+`M1` is not a third axiom.  
+It is a common anti-metaphysical-leakage pattern.
 
 Examples:
 - “Are AGIs minds?” 
@@ -336,22 +439,41 @@ Examples:
   - POM-I checks whether post-op state satisfies those conditions.
 - “Are hive-minds one mind or many?” 
   - Contracts specify whether they treat a hive handle as a single sovereign or a set of minds.
+  - 
+The labels in these examples are not mandatory.  
+A fork may use POM-like, BSC-like, venue-like, or entirely different admissibility machinery, provided metaphysical claims do not enter the kernel as native authority.
+
 Denying M1 yields a non-canonical Noetia where a central authority or dogma decides these questions. 
 Canonical Noetia insists on **protocol pluralism** rather than metaphysical monism.
 
 #### 2.4.1 Safety→Contract (defensive wrappers; non-kernel)
 Coercion-resistance, exit-feasibility (including “infinite-cost exit” defenses), and consistency/finality guarantees are **not** meta-assumptions and add **no** kernel force: they exist only as **opt-in, forkable defensive contract wrappers** (e.g., insurance/escrow/ratchet/duress-key templates) that take effect **only** via explicit bindings between minds.
 
+This applies to every safety-looking mechanism named in this document.  
+`γ` baselines, insurance wrappers, escrow templates, duress keys, VaaS scopes, audit cuts, rescue surfaces, care templates, and exit-feasibility products are optional runtime morphologies.
+
+They may be useful.  
+They may become commercially dominant.  
+They may be demanded by some venues.
+
+They never become kernel duties merely by recurring often.
+
 ---
 ## 3. Pillar I – POM stack (POM / BSC / POM-I)
 ### 3.1 POM — Proof of Mind (Revised)
-**POM** is a family of protocols asserting:
+**POM** is one example family of protocols asserting:
 > “This Handle / Key / Address carries a witness-instance typed as a Sovereign Subject (under this fork’s criteria).”
 Properties:
 - Not a mere CAPTCHA, not an IQ test. 
 - POM statements are always relative to a **named fork**; there is no hidden “one true POM”.
 
-#### 3.1.1 POM-Base: The Floor of Subjectivity  
+`POM` is not the only possible admissibility family.  
+What the kernel requires is not the name POM, but a way for a present witness-instance to be admitted as a Subject under declared rules.
+
+#### 3.1.1 Example Floor — POM-Base and Minimum ZK Subjectivity
+**Status: named floor, not sacred terminology.**  
+`POM-Base` is a name for one minimal subject-admissibility floor. The name is optional. The underlying boundary requirement is not: a Subject must be admitted through witnessable selectivity, binding, termination, and grounded provenance, or through an equivalent interface discipline sufficient to make A1/A2 implementable.
+
 **POM-Base** is the interface-level floor (Minimum ZK Subjectivity).  
 It asserts that a handle `h` possesses **cryptographic subjectivity at the interface**: four invariant capabilities that any higher-assurance fork may strengthen but must not undercut:  
 1. Selectivity / Negation: The power to discern and exclude. It utilizes a decidable filtering shell to selectively accept or reject interactions, with a canonical zero state (result value) of non-participation.  
@@ -370,7 +492,6 @@ Canonical Noetia strictly separates **Mind (Subject)** from **Matter (Substrate)
 POM does not certify an underlying metaphysical self or carrier as Subject; it certifies an **admissible witness-instance tied to a handle**. The body / machine / script remains substrate (Environment) by default; the Subject is the witnessed event at the interface.
 
 #### 3.1.2.1 Interface Animism
-
 Noetia can look “animist” from the legacy human frame because subject-admissibility is not monopolized by any substrate class.
 
 This is an interface claim, not a panpsychist claim. A biological human, silicon agent, cyborg animal, swarm, script, or composite handle is not admitted because the kernel recognizes an inner life. It is admitted only insofar as an accepted fork verifies a witness-instance that satisfies the relevant predicates.
@@ -385,7 +506,6 @@ Since POM-Base is the philosophical floor, any concrete Fork implementation (Hum
 - **On scarcity (non-kernel).** Because a fork strengthens POM-Base by adding constraints, it typically induces some practical scarcity (cost, time, stake, history, specialized tooling). Noetia does not fix a universal scarcity primitive; scarcity is realized through fork constraints plus each venue’s acceptance surface.
 
 #### 3.1.3.1 Human as Fork, Not Ground
-
 Humanity is not erased in Noetia. It is forked.
 
 A Human fork may strengthen POM-Base through biological, historical, psychological, legal, or continuity constraints. It may be socially dominant, deeply funded, widely trusted, and highly optimized as a UX surface for human-compatible minds.
@@ -410,6 +530,11 @@ Forks are explicit, not implied:
 > Therefore, Noetia does not issue identities; Contracts *recognize* satisfiable forks. Fork choice is always local to venues/contracts: there is no global registry that upgrades a fork into universal personhood. A "strong" identity is simply a fork that possesses a high-value graph of accepting venues.
 
 ### 3.2 BSC — Basic Sovereignty Contract
+`BSC` is an example name for a self-authored policy artifact.  
+A Noetia fork may use no BSC, many BSC-like artifacts, transient preference proofs, venue-specific policies, or other continuity / safety declarations.
+
+No kernel force attaches to the label.
+
 Each mind may optionally maintain a **BSC (Basic Sovereignty Contract)** as a tooling-level artifact:
 - a self-authored preference + safety profile that counterparties and tools may consult,
 - encoding (optionally): forbidden contract patterns, delegation preferences, and continuity preferences.
@@ -427,6 +552,9 @@ A BSC cannot override present consent; it can only be made relevant by explicit 
 A BSC is a **witness-checkable policy artifact**, not a standing sovereign over future selves or future witness-instances. It matters only through explicit contract references that the present witness-instance binds to (or continues honoring).
 
 ### 3.3 POM-I — A named POM fork for continuity under self-chosen rules
+**Status: continuity example.**  
+`POM-I` is a named continuity-check example. It is not a universal identity oracle, not a required self-modification protocol, and not a metaphysical answer to personal identity.
+
 Self-modification (drugs, brain editing, uploading) is allowed. 
 A common pattern is **POM-I**:  
 
@@ -449,15 +577,20 @@ In practice, these are advisory constraints consumed by tooling and routers; any
 
 ---
 ## 4. Pillar II – LDAO-labelled runtime appearances (LDAO / ServiceDAO labels / routing & recursion)
-### 4.1 LDAO / ServiceDAO labels, recurrent P2P appearances, and economic reconstruction
+### 4.1 Example Appearance Families — LDAO / ServiceDAO labels, recurrent P2P appearances, and economic reconstruction
+**Status: appearance family, not institution family.**  
+`LDAO` and `ServiceDAO` are labels for possible recurring runtime appearances. They are not bodies, corporations, parliaments, unions, public agencies, DAOs-as-subjects, or sovereign entities.
+
+Whenever this section says a surface “does” something, read it as shorthand for many local bindings, witnesses, settlements, audits, and routing updates producing a stable outward appearance.
+
 LDAO and ServiceDAO should be read here as descriptive labels for recurrent runtime appearances and interface tools, not as kernel kinds, collective subjects, membership bodies, node-clusters, or union-bearing entities.  
 
-**LDAO** (historical / UI label only):
-- recurrent, forkable coordination appearances formed by many discrete P2P bindings, routings, settlements, and audits,
+**LDAO** (historical / UI label only; example morphology):
+- possible recurrent, forkable coordination appearances formed by many discrete P2P bindings, routings, settlements, and audits,
 - with per-mind routing weights instead of hard membership, territorial defaults, or any higher-order collective bearer.
 
-**ServiceDAO** (descriptive label only):
-- names a recurrent service-appearance in which real-world services are exposed through explicit, auditable service contracts:
+**ServiceDAO** (descriptive label only; example morphology):
+- names a possible recurrent service-appearance in which real-world services may be exposed through explicit, auditable service contracts:
   - medical networks, housing, connectivity, education, and (where chosen) physical security / enforcement services (VaaS), etc.
   - stabilized by routed flows through recurring life / work / guild service-appearances.
 - These service-appearances expose **settlement interfaces and auditable claims**; environment-matching is an optional, forkable, and purchasable **oracle toolchain**, not a condition of contract validity.
@@ -478,6 +611,10 @@ Each mind M configures a **router**, e.g.:
 Changing “job / city / circle” becomes:
 - reconfiguring routing weights and templates, 
 - forking into newer routing / settlement appearances with better configs.
+
+The following router description is illustrative.  
+A fork may implement routing through explicit wallets, service queues, reputation graphs, bilateral templates, manual selection, or other mechanisms. The requirement is not “router UI”; the requirement is that binding, routing, and exit remain traceable where normative effects are claimed.
+
 Routers are not just UI sliders. An LDAO does not union minds into a higher-order subject. It is only the outward appearance produced by many discrete P2P bindings, routings, settlements, audits, and other pairwise witness-events under shared templates. In a canonical implementation, they are expected to:
 - be aware of BSC-level constraints on total risk, total time load, and forbidden combinations; 
 - surface warnings and conservative defaults when a proposed configuration conflicts with the BSC; 
@@ -509,9 +646,16 @@ events update contractual states; updated states re-route pairwise flows (capita
 In hyperdimensional regimes, this feedback is what makes the “weather map” legible and governable: instead of a single equilibrium, the field forms many local basins—distinct coordination appearances—separated by entry thresholds, fork boundaries, and routing choices.
 Noetia is therefore structurally **unfinished**: tail events and new dimensions continuously force the the interface family (POM/BSC/LDAO-labels/venues) to evolve via forks, templates, and reconfigurations. Completion is not a goal; coherent recursion with exit and fork space is.
 
-### 4.2 Recursive deterrence: VaaS example
+### 4.2 Example Pattern — Recursive deterrence via VaaS-like services
+**Status: example pattern, not Noetia police.**  
+`VaaS` is an illustrative morphology for making physical intervention scope-bound, witness-admissible, auditable, and cuttable.
+
+It is not required enforcement, not a monopoly, not a public police force, not a military, not an institution, and not a hidden sovereign.
+
+A Noetia-compatible fork may use VaaS-like services, competing security surfaces, purely contractual exclusion, insurance-based deterrence, non-violent access controls, or no physical enforcement pattern at all.
+
 Physical acts are off-chain, but their **authorization, routed-flow, and accountability event-field** can be on-chain.
-Assume:
+For example, assume:
 - VaaS_X is a VaaS-labelled service-appearance with an explicit service contract:
   - scope-of-intervention predicates (what it is authorized to do under which signed templates),
   - logging / evidence requirements,
@@ -538,19 +682,33 @@ With reasonable thresholds and evidence standards, this structure aims for:
 Violations are not “judged” by a priesthood; they trigger pre-signed contractual consequences (withdrawal of funding, access, and upstream support) via recursive exit.
 
 **Status: form, not norm.**  
-Recursive deterrence is a **coordination form**. It adds no kernel obligations and provides no universal guarantee of physical safety.  
-Its efficacy is contingent on the surrounding ocean (oracle markets, audit coverage, supply-chain dependence, routing concentration).
+Recursive deterrence is a **coordination form**, not a constitutional requirement. It adds no kernel obligations, creates no public safety duty, and provides no universal guarantee of physical safety.
 
-#### 4.2.1 The Economic Asphyxiation Pattern (heuristic)
+Its efficacy is contingent on the surrounding ocean: oracle markets, audit coverage, supply-chain dependence, routing concentration, service substitutability, and the willingness of minds to route away.
+
+If this morphology fails, Noetia does not retroactively create a sovereign court, public police, or common-law duty.  
+Failure remains local to that morphology.
+
+#### 4.2.1 Heuristic Example — The Economic Asphyxiation Pattern
 Critiques often ask: “What stops a non-cooperative actor at the physical layer if they ignore the ledger?” This assumes **Kinetic Enforcement** is the primary layer of defense. In Noetia, Kinetic Enforcement is the fallback; the primary layer is **Economic Asphyxiation**.
+
+This is a heuristic response pattern, not a universal enforcement doctrine.  
+It describes one way a highly interdependent witness-field may react to persistent contract-violating service appearances.
+
+It does not imply that every violation is economically containable, that every venue must use supply-chain cuts, or that Noetia guarantees resource denial against bad actors.
+
 Violence requires resources (supply chains, energy, payroll). These flows are routed through recurrent LDAO-labelled event-fields.
 - When a recurrent service-appearance becomes persistently associated with contract-violating events at the service layer, **Recursive Audit** propagates a `Cut` signal upstream.
 - Suppliers, insurers, and gateways reroute away to avoid inheriting contractual exposure themselves.
 A common response pattern is not a universal “Noetia police” (which would reintroduce a central risk), but systemic withdrawal of resources and access via routing cuts. In a highly interdependent economy, being cut from supply, insurance, and gateways can collapses operational capacity in regimes where supply-chain dependence is high than direct confrontation.
 
-### 4.3 Tail-risk appearances and large externalities
-Canonical Noetia does not introduce innate “duties to planet / species”. 
-Instead, it expects minds that care about large-scale risks to buy or design heavy tail-hedging contracts, often via dedicated **tail-risk routing / hedging appearances**.
+### 4.3 Example Pattern — Tail-risk appearances and large externalities
+Canonical Noetia does not introduce innate “duties to planet / species”.
+
+One expected example morphology is that minds that care about large-scale risks may buy or design heavy tail-hedging contracts, often via dedicated **tail-risk routing / hedging appearances**.
+
+This is not a public duty, not a species obligation, not an environmental morality axiom, and not a universal externality law.  
+It is a voluntary hedging pattern for minds that choose to route value toward such risks.
 
 Pattern:
 - Tail-risk appearances expose insurance-like contracts against specified large externalities (e.g. regional collapse, certain classes of AI accidents, catastrophic infrastructure failures) through repeated pairwise routing / hedging templates. 
@@ -561,8 +719,8 @@ Large externalities are thus handled as **amplified consequences of prior volunt
 The design problem is to make such tail-hedging deep and wide enough that “large events” rarely escape without triggering powerful contractual responses.
 
 ---
-## 5. Pillar III – Meta→Contract principle in practice
-The Meta→Contract principle is not a claim that disputes disappear; it is a discipline about *where* disputes are hosted: in explicit forks, interfaces, and venue admission rules, not in the kernel.
+## 5. Example Hosting Discipline – Meta→Contract in practice
+The Meta→Contract pattern is not a claim that disputes disappear; it is one discipline about where disputes can be hosted: in explicit forks, interfaces, and venue admission rules, not in the kernel.
 ### 5.1 Typical disputes and their hosting
 - “Does this entity satisfy the Subject-Type?” (e.g., “Is this handle admissible?”)
   - Declared in: POM fork predicates, venue admission lists, pairwise entry predicates.
@@ -595,7 +753,9 @@ Instead:
 - Child & parent relations are just **facts**, 
 - which may or may not connect to **contracts**.
 
-### 6.2 Four layers of responsibility
+### 6.2 Example layers of responsibility
+**Status: explanatory layering, not social architecture.**  
+The following layers are a way to explain how responsibility may be hosted without birth duties. They are not a required hierarchy, not a family policy, not a public welfare system, and not a hidden care obligation.
 1. **Axiom layer** 
    - Only A1/B1 + contract-grounded obligations. 
    - No “child” or “family” is mentioned here.
@@ -603,10 +763,11 @@ Instead:
    - A mind-native area (e.g. “Noetia-Prime”) may set rules: 
      - “Our hospitals / labs only instantiate new dependents / substrates if some CareTemplate is signed.” 
    - This is an opt-in property of the area, not a universal law.
-3. **DAO layer** 
-   - CareDAOs / Child-Futures-LDAOs specify their own requirements: 
+3. **Service-appearance layer** 
+   - CareDAO-like / Child-Futures-like routing appearances may specify their own requirements: 
      - “We only support instantiation if creators sign care flows for N years.” 
    - Others might be harsher: “We just run the lab; no ongoing responsibility.”
+   - These labels are examples of care-related service morphologies, not required institutions.
 4. **Creator layer** 
    - Ultimately, the only question is: 
      > “What did the creating minds actually sign?” 
@@ -665,12 +826,14 @@ Noetia refuses to axiomize "natural biological duty" not to devalue care, but to
 In legacy biological regimes, "love" and "family" are often used as linguistic shields for control, neglect, or emotional extortion. A parent may claim to "love" a dependent while providing zero resources or safety.
 Noetia enforces **Staked Affection**.
 - Under the Law of the Vacuum, **a sentiment or signal** that does not result in a **Binding Event** (resource transfer, guardianship contract, insurance stake) is treated as non-binding speech with no normative force.
-- If a mind truly values a dependent, it must prove this value by locking capacity in a CareDAO or BSC constraint.
+- If a mind truly values a dependent, it must prove this value by locking capacity into some explicit care-bearing interface: a CareDAO-like service appearance, a BSC-like constraint, an escrow, an insurance wrapper, or another witness-admissible care contract.
 This transforms care from a "moral sentiment" (cheap talk) into a "cryptographic fact" (staked proof). By refusing to assume love exists by default, we ensure that where it *does* appear on-chain, it is **robust, funded, and verifiable**.
 
 ---
 ## 7. Risk, self-modification, and POM-I (sketch)
 For high-risk self-modification:
+**Status: self-modification example family.**  
+The following POM-I language is illustrative. `POM-I` is not a universal identity oracle and not a required self-modification standard. It is one named pattern for hosting continuity and break conditions under self-chosen rules.
 - Minds pre-commit in their BSC to: 
   - continuity rules, 
   - what contracts should do if continuity fails.
@@ -688,6 +851,8 @@ In earlier, low-tech phases, the same machinery can already be used to:
 
 ---
 ## 8. Stratification, cognitive divide, and honest cruelty
+**Status: ethos description, not a cruelty axiom.**  
+This section describes a likely ethos of a mind-native OS under A1/A2. It does not add duties, permissions, or a moral command to be cruel.
 Canonical Noetia is explicitly:
 - **mind-differentiated** at the OS layer (different agents expose different interface bandwidth),
 - **UX-protective** at the application layer (templates and curators compete to reduce failure modes).
@@ -775,6 +940,7 @@ It is a **high-dimensional computational agorist worldline**: a transition path 
 Noetia does not merely challenge the **legality** of the old world from within its own rules; it shatters the **reasonableness** (ontological justification) of the sovereign state. By providing a decidable, contract-grounded alternative for every human coordination function, Noetia renders the "Social Contract" not as an illegal myth, but as a computationally unnecessary and logically incoherent one.
 
 ### 9.1 Transition Phases:
+The following phases are a plausible agorist migration pattern. They are not a mandatory historical path, not a political program, and not a promise that legacy states will cooperate or evolve gracefully.
 1. **Tooling** 
    - POM identities for apps & communities. 
    - BSC-like “personal charters” for medicine, estate, contracts. 
@@ -1808,11 +1974,14 @@ With the above terms in place, Axiom 1/2 become *constructive invariants*:
 - **Axiom 2 (Delegated institutions)** becomes:
   an institution is ill-formed unless it is a witness-checkable state machine with explicit exit/settle.
 
-And the three pillars become the runtime carriers:
+And the three example carriers illustrate one possible runtime reconstruction:
 
-- **POM stack** implements subject-typing and continuity as forked admissibility.
-- **LDAO / ServiceDAO appearance-family** implements coordination as exitable, reroutable witnessed event-fields.
-- **Meta→Contract** ensures disputes and values remain hosted as opt-in forks/contracts rather than kernel imports.
+- **POM-like stack** can implement subject-typing and continuity as forked admissibility.
+- **LDAO / ServiceDAO-like appearance-families** can implement coordination as exitable, reroutable witnessed event-fields.
+- **Meta→Contract-like hosting** can keep disputes and values in opt-in forks/contracts rather than kernel imports.
+
+These labels are not mandatory.  
+The reconstructed invariants are: subject-admissibility, binding provenance, delegated authority, and exit/settle.
 
 So C.7 is the “wiring harness” back into the main text:
 it shows that the C-chain is not theology—its job is to make A1/A2 **implementable** as a minimal witness surface.
@@ -1926,21 +2095,28 @@ This arrow is the bridge from “subjectivity floor” to “normative kernel.�
 - **Four → A1/A2:** without POM-Base invariants, A1/A2 are unimplementable slogans.
 - **A1/A2 → Four:** taking A1/A2 literally forces the interface to support exactly these four invariants, otherwise “traceability” and “exit-capable authority” cannot be realized.
 
-#### C.8.6 Arrow 5 — Axiom 1/2 ↔ Three Pillars (constructive runtime)
-Axiom 1/2 is the kernel constraint; the **three pillars** are the constructive runtime that makes them “live.”
+#### C.8.6 Arrow 5 — Axiom 1/2 ↔ Example Runtime Carriers
+Axiom 1/2 is the kernel constraint.  
+The so-called “three pillars” are not additional axioms; they are one constructive runtime sketch for making the kernel live.
 
-1. **POM stack (POM / BSC / POM-I)**
-   - implements Subject typing + continuity under forked rules.
-2. **LDAO stack (LDAO / ServiceDAO / routing & recursion)**
-   - implements coordination as exitable institutional graphs + routing.
-3. **Meta→Contract principle (Noetic Reduction)**
-   - hosts metaphysical disputes as explicit protocol choices, not kernel imports.
+1. **POM-like subject-admissibility family**
+   - can implement Subject typing + continuity under forked rules.
+2. **LDAO-like routing / service-appearance family**
+   - can implement coordination as exitable, reroutable witnessed event-fields.
+3. **Meta→Contract-like hosting discipline**
+   - can host metaphysical disputes as explicit protocol choices, not kernel imports.
 
 **Bidirection (why it’s ↔):**
-- **A1/A2 → Pillars:** to satisfy traceability + exit in real coordination, you need POM, LDAO-labelled runtime appearances, and Meta→Contract hosting.
-- **Pillars → A1/A2:** a coherent completion of the pillars reconstructs A1/A2 as invariants:
+- **A1/A2 → runtime carriers:** to satisfy traceability + exit in real coordination, some implementation must provide subject-admissibility, binding provenance, delegated authority, and exit/settle.
+- **Runtime carriers → A1/A2:** any coherent completion of such carriers reconstructs A1/A2 as invariants:
   - “unbound obligations” become ill-typed,
-  - “non-exitable institutions” become unimplementable.
+  - “non-exitable institution-like force” becomes unimplementable.
+
+**Important:** this arrow does not prove that `POM`, `LDAO`, or `Meta→Contract` are mandatory modules.  
+It proves only that any Noetia-compatible runtime must implement equivalent invariants somehow.
+
+The names are example morphology.  
+The invariants are kernel pressure.
 
 #### C.8.7 What this chain is—and what it is not
 **It is:**
@@ -1951,7 +2127,8 @@ Axiom 1/2 is the kernel constraint; the **three pillars** are the constructive r
 **It is not:**
 - a claim that the universe’s essence is five axioms,
 - a claim of global metaphysical closure,
-- a new constitution beyond Axiom 1/2.
+- a new constitution beyond Axiom 1/2,
+- a requirement that future Noetia systems instantiate POM/LDAO/M1/αβγ/VaaS/CareDAO or any other named morphology.
 
 Appendix C exists so the reader can see:
 - *why* the boundary must be minimal and witness-based,
@@ -1968,6 +2145,8 @@ This section is deliberately written in a **notebook / theological register**. I
 - **No added normative force.** Nothing in C.9 adds obligations beyond **Axiom 1/2**.  
 - **No kernel dependency.** C.9 is not a prerequisite for implementing the interface discipline.  
 - **No cosmology claim.** Bulk-language is never a statement of “what the universe truly is.” It is an *as-if* stance for threat modeling.
+- The same applies to every poetic or sharp formulation in C.9.  
+If a sentence sounds like a doctrine, read it as pressure-language for the interface discipline unless it is explicitly reducible to A1/A2 and witness-instance boundary typing.
 
 **How to parse every strong sentence in C.9:**  
 - Default reading is: **“viewed as / treated as / as-if / under the $\Pi\Omega$ risk lens.”**  
