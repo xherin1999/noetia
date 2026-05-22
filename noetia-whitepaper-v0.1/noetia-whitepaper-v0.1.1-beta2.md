@@ -80,6 +80,10 @@ They are example names for possible witness-event morphologies: ways a Noetia-co
 
 A fork may omit, replace, weaken, strengthen, rename, or invert any such morphology while remaining Noetia-compatible, provided the kernel constraints remain intact: no obligation without explicit binding, no authority without delegated provenance, and no institution-like force without exit/settle.
 
+Natural-language definitions in this document are descriptive only.  
+They do not decide boundary cases by semantic force.  
+A boundary term becomes executable only when reduced to declared predicates, admissible witnesses, and explicit settlement / exit semantics.
+
 ---
 ## 1. Design goals
 Noetia is not a detailed constitution. It is a minimal OS sketch.
