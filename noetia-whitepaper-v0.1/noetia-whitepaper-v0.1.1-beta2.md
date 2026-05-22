@@ -1,5 +1,5 @@
 # Noetia – A Mind-Native Worldline 
-**Whitepaper v0.1-beta**
+**Whitepaper v0.1.1-beta**
 *Working draft. This is not a product, not a token, not legal advice. 
  Just axioms and sketches for an alternative worldline.*
 
@@ -117,7 +117,7 @@ Noetia does **not** adjudicate voluntariness, coercion, or “true intent” at 
 **Domain separation.**  
 Noetia maintains a hard boundary between **Subject** and **Environment**. A Subject is a witness-instance / witness-event at the interface; Environment is the non-Subject remainder for boundary typing.
 
-Obligations `Obl(·,·)` are defined only over Subjects / Minds. Contract and institution terms are witness-admissible interface machinery over Subject–Predicate bindings, not a third n ative kind.
+Obligations `Obl(·,·)` are defined only over Subjects / Minds. Contract and institution terms are witness-admissible interface machinery over Subject–Predicate bindings, not a third native kind.
 
 **Environment has no native normative force.**  
 Environment facts affect obligations only when **translated into contract state** via a declared evidence standard (witnesses, attestations, oracle receipts).  
@@ -231,7 +231,7 @@ Under Axiom 1/2 + forkability, `D(t)` is generically non-decreasing: new contrac
 #### Non-scalar strength (informal)
 In an open-ended, high-dimensional basis, there is typically **no single scalar** that ranks agents as “stronger/weaker” in a total order. Instead, strength becomes **axis-local**:
 - An agent may have decisive advantages along some coordinates (e.g., privacy discipline, risk capital, continuity rigor, venue reach),
-- while being have decisive advantages along others (e.g., biological maintenance capacity, social routing, enforcement access, compute leverage).
+- while other agents may have decisive advantages along different coordinates (e.g., biological maintenance capacity, social routing, enforcement access, compute leverage).
 Therefore most pairs of agents are **incomparable** under any one global metric: competence and leverage form a **partial order** rather than a universal ladder.
 This is not a moral claim. It is a modeling consequence of allowing many predicates/axes to coexist and remain orthogonal enough that “wins” do not collapse into a single scoreboard.
 
@@ -248,10 +248,11 @@ Noetia’s kernel (Axiom 1/2) is topologically mutually exclusive with **Global 
 **AP as Default:** The P2P Admissibility Ocean is structurally the result of **completely expelling** the requirement for global consistency. It is a pure **AP System** (Availability + Partition Tolerance): any local interaction executes and settles instantly provided the local witnesses are valid, without waiting for a global "Sea Level" consensus.
 **Consistency as Optional Service:** Consistency is demoted from an environmental constant to an **expensive, local, optional safety contract** (see 2.4.1). Minds possess consistency only within specific scope-limited contract implementations they explicitly bind to (e.g., a specific blockchain or strict jurisdiction); in the Ocean’s default state, the **Locality Valve** strictly prioritizes local read/write Availability over global coherence.
 
-### 1.2 Three example carriers (canonical runtime sketch)
+### 1.2 Three pillars (canonical runtime)
 
-Canonical Noetia is often illustrated through three runtime carriers.  
-They are **example carriers**, not kernel pillars.
+Canonical Noetia rests on three structural pillars.
+
+These pillars should be read as runtime tool-families, coordination patterns, and constructive implementation sketches, not as kernel kinds.
 
 They should be read as runtime tool-families, coordination patterns, and constructive implementation sketches.  
 They are not mandatory institutions, not required modules, not collective subjects, and not hidden constitutional organs.
@@ -284,7 +285,7 @@ This illustrates one possible shape of:
 **No implicit transitional union.** A “double-stack” world does not mean mutual acceptance of variables or obligations. Any cross-stack effect must be mediated by explicit bridge contracts that translate specific interface claims; otherwise, the stacks remain semantically disjoint by default.
 
 **Holographic reconstruction (type-soundness / implementability sketch).**  
-The example carriers above can be read as one constructive sketch showing how A1/A2 may become operational.
+The pillars above can be read as one constructive sketch showing how A1/A2 may become operational.
 
 In such a sketch:
 - subject-admissibility explicitness + present-handle binding + contract-grounded obligation tracing make “unbound obligation” ill-typed;
@@ -377,7 +378,7 @@ A common form is a Zero-Knowledge Proof (ZKP): it can assert that “φ follows 
 The requirement is **admissible provenance**, not moral authority and not semantic transparency.
 An obligation-claim that cannot be supported by an admissible provenance witness at the interface is treated as a **typing error** (ill-formed claim), not as a moral fact.
 
-### 2.3.1 Example Morphology — α–β–γ Exposure Composition\
+### 2.3.1 Example Morphology — α–β–γ Exposure Composition
 **Status: example morphology, not kernel.**  
 `α–β–γ` is an illustrative exposure-composition grammar.
 
@@ -439,7 +440,7 @@ Examples:
   - POM-I checks whether post-op state satisfies those conditions.
 - “Are hive-minds one mind or many?” 
   - Contracts specify whether they treat a hive handle as a single sovereign or a set of minds.
-  - 
+
 The labels in these examples are not mandatory.  
 A fork may use POM-like, BSC-like, venue-like, or entirely different admissibility machinery, provided metaphysical claims do not enter the kernel as native authority.
 
@@ -644,7 +645,7 @@ Tokens do not constitute sovereignty; they do not generate obligations without e
 Recursion in Noetia is not organizational nesting; it is **feedback over a witnessed event-field**:
 events update contractual states; updated states re-route pairwise flows (capital, services, legitimacy); re-routing changes exposure and incentives; second-order clauses then propagate consequences upstream until the field reaches a stable configuration.
 In hyperdimensional regimes, this feedback is what makes the “weather map” legible and governable: instead of a single equilibrium, the field forms many local basins—distinct coordination appearances—separated by entry thresholds, fork boundaries, and routing choices.
-Noetia is therefore structurally **unfinished**: tail events and new dimensions continuously force the the interface family (POM/BSC/LDAO-labels/venues) to evolve via forks, templates, and reconfigurations. Completion is not a goal; coherent recursion with exit and fork space is.
+Noetia is therefore structurally **unfinished**: tail events and new dimensions continuously force the interface family (POM/BSC/LDAO-labels/venues) to evolve via forks, templates, and reconfigurations.
 
 ### 4.2 Example Pattern — Recursive deterrence via VaaS-like services
 **Status: example pattern, not Noetia police.**  
@@ -700,7 +701,7 @@ It does not imply that every violation is economically containable, that every v
 Violence requires resources (supply chains, energy, payroll). These flows are routed through recurrent LDAO-labelled event-fields.
 - When a recurrent service-appearance becomes persistently associated with contract-violating events at the service layer, **Recursive Audit** propagates a `Cut` signal upstream.
 - Suppliers, insurers, and gateways reroute away to avoid inheriting contractual exposure themselves.
-A common response pattern is not a universal “Noetia police” (which would reintroduce a central risk), but systemic withdrawal of resources and access via routing cuts. In a highly interdependent economy, being cut from supply, insurance, and gateways can collapses operational capacity in regimes where supply-chain dependence is high than direct confrontation.
+A common response pattern is not a universal “Noetia police” (which would reintroduce a central risk), but systemic withdrawal of resources and access via routing cuts. In a highly interdependent economy, being cut from supply, insurance, and gateways can collapse operational capacity more effectively than direct confrontation, especially in regimes where supply-chain dependence is high.
 
 ### 4.3 Example Pattern — Tail-risk appearances and large externalities
 Canonical Noetia does not introduce innate “duties to planet / species”.
@@ -805,7 +806,7 @@ Examples:
 - Forced pregnancy:
   - The coercer (or the controlling service/venue that executed the coercion) is the primary liable party under any venue that recognizes harm/care templates.
   - The gestational body is a claimant under harm exposure, and is not automatically the obligor for care absent an explicit binding path.
-  - 
+
 There is **no** world-spirit speaking for “all future children” in Noetia. 
 There are only:
 - contracts, 
@@ -830,11 +831,12 @@ Noetia enforces **Staked Affection**.
 This transforms care from a "moral sentiment" (cheap talk) into a "cryptographic fact" (staked proof). By refusing to assume love exists by default, we ensure that where it *does* appear on-chain, it is **robust, funded, and verifiable**.
 
 ---
-## 7. Risk, self-modification, and POM-I (sketch)
-For high-risk self-modification:
+## 7. Risk, self-modification, and POM-I (sketch)=
 **Status: self-modification example family.**  
 The following POM-I language is illustrative. `POM-I` is not a universal identity oracle and not a required self-modification standard. It is one named pattern for hosting continuity and break conditions under self-chosen rules.
-- Minds pre-commit in their BSC to: 
+
+For high-risk self-modification:
+- Minds pre-commit in their BSC to:
   - continuity rules, 
   - what contracts should do if continuity fails.
 - POM-I is used to: 
@@ -956,7 +958,7 @@ Noetia does not “accept” legacy sovereign semantics as native variables. A b
 
 ---
 ## 10. Open technical questions
-v0.1-beta focuses the engineering horizon on the following essential domains:
+v0.1.1-beta focuses the engineering horizon on the following essential domains:
 
 - **Boundary admissibility & finite witnesses:** 
   Specify the admissibility surface so that normative claims (obligations, authority effects) are accepted only with a **finite, checkable witness** tied to explicit bindings and declared rules, with explicit exit/settlement semantics. The goal is a bounded, verifier-level judgment of admissibility, not a universal execution model for the Bulk.
@@ -973,7 +975,7 @@ v0.1-beta focuses the engineering horizon on the following essential domains:
 
 ---
 ## 11. Status
-This is **Noetia v0.1-beta**.
+This is **Noetia v0.1.1-beta**.
 
 - **Kernel** 
   - Axiom 1: mind-only self-sovereignty (normative constraints on a mind are void unless, in principle, traceable to that mind’s explicit self-binding). 
@@ -993,12 +995,12 @@ This is **Noetia v0.1-beta**.
 > then a civilization-scale stack must eventually make those invariants legible at the interface layer.
 
 ---
-## 12. Noetic as a self-iterating institution
-Noetic is not exempt from its own axioms.
+## 12. Noetia as a self-iterating institution
+Noetia is not exempt from its own axioms.
 As a framework that describes a mind-native OS, it must itself be treated as an adoptable, modifiable, and **exitable** institution:
 - a forkable outward description of contracts, templates, and protocol conventions that minds may adopt, modify, fork, or exit.
 
-Noetic is therefore written to be **self-iterating**:
+Noetia is therefore written to be **self-iterating**:
 - tail events, new mind-forms, and new coordination failures are not “exceptions” to be patched by hidden meta-claims;
 - they are inputs that can force the interface family (fork policies, venue predicates, templates, routing patterns) to evolve.
 
@@ -1023,7 +1025,7 @@ To verify the computability of Noetia, we provide the following draft implementa
 ### A.1 Core Data Structures
 
 ```rust
-// Noetia Interface Types: v0.1-Refined
+// Noetia Interface Types: v0.1.1-Refined
 // Kernel commitments: A1/A2 only. The structs below are admissibility/interface representations, not native ontology.
 // Environment: ZK-VM (Finite-witness admissibility at the interface)
 // Interface discipline: minimal witnessable primitives (Appendix C is a lens, not a dependency)
@@ -1974,7 +1976,7 @@ With the above terms in place, Axiom 1/2 become *constructive invariants*:
 - **Axiom 2 (Delegated institutions)** becomes:
   an institution is ill-formed unless it is a witness-checkable state machine with explicit exit/settle.
 
-And the three example carriers illustrate one possible runtime reconstruction:
+And the three pillars illustrate one possible runtime reconstruction:
 
 - **POM-like stack** can implement subject-typing and continuity as forked admissibility.
 - **LDAO / ServiceDAO-like appearance-families** can implement coordination as exitable, reroutable witnessed event-fields.
@@ -2095,7 +2097,7 @@ This arrow is the bridge from “subjectivity floor” to “normative kernel.�
 - **Four → A1/A2:** without POM-Base invariants, A1/A2 are unimplementable slogans.
 - **A1/A2 → Four:** taking A1/A2 literally forces the interface to support exactly these four invariants, otherwise “traceability” and “exit-capable authority” cannot be realized.
 
-#### C.8.6 Arrow 5 — Axiom 1/2 ↔ Example Runtime Carriers
+#### C.8.6 Arrow 5 — Axiom 1/2 ↔ Three Pillars
 Axiom 1/2 is the kernel constraint.  
 The so-called “three pillars” are not additional axioms; they are one constructive runtime sketch for making the kernel live.
 
