@@ -37,7 +37,7 @@ Noetia therefore treats tail states—extreme minds, extreme risks, extreme beha
 
 Two north-star targets sharpen the runtime picture:
 
-  **Runtime pictures are not constitutional requirements.**  
+**Runtime pictures are not constitutional requirements.**  
 The following “north-star targets” describe one strong runtime imagination of Noetia. They are not additional axioms, not required historical phases, and not mandatory institutional architecture.  
 
 - **Large-cardinal recursion:** normative consequences propagate as feedback over witnessed event-fields; recursion tends to emerge as the mechanism by which local tail events reshape global flows and deterrence without a single Leviathan.
@@ -59,11 +59,11 @@ This document sets out:
 6. The engineering bar implied by taking the axioms literally: Noetia as a civilization-scale software stack, not just an “ideology”. 
 7. Far-worldline lens (non-guarantee): Noetia is written for later, higher-risk regimes. It makes **no** stability, safety, or survivability guarantees.
 
-  **Typing note (non-binding).** This whitepaper is an environment-side artifact in Noetia’s boundary language.  
+**Typing note (non-binding).** This whitepaper is an environment-side artifact in Noetia’s boundary language.  
 It creates **no obligations**, grants **no authority**, and is **not an institution** unless a later contract explicitly binds to a hash of it.  
 Normative force exists only inside **explicit contracts between admitted Subjects**.
 
-  **Fork clarification — kernel minimalism and example morphology.**  
+**Fork clarification — kernel minimalism and example morphology.**  
 In this fork, the Noetia kernel is deliberately kept thinner than the surrounding design language may suggest.
 
 The only kernel commitments are:
@@ -174,7 +174,7 @@ This is an interface semantics for provenance and settlement (similar to “happ
 - The Future cannot retroactively invalidate a settled event: once an exit/settle boundary is witnessed under a contract’s own rules, that settlement is final relative to that contract instance.
 Time, here, is not “what the universe is”; it is **what a contract agrees to recognize** for causality, concurrency, and settlement.
 
-### 1.1.3 Dimensional Accretion, Tail Typicality, Non-Scalar Strength , and The P2P Admissibility Ocean (model)
+### 1.1.3 Dimensional Accretion, Tail Typicality, Non-Scalar Strength, and The P2P Admissibility Ocean (model)
 **Status: model, not kernel.**  
 This section introduces an explanatory model used throughout the paper. It adds **no** normative force beyond Axiom 1 and Axiom 2, and it is **not** a claim about physical cosmology. It is a model of coordination complexity in a contract-forking civilization.
 
@@ -831,7 +831,7 @@ Noetia enforces **Staked Affection**.
 This transforms care from a "moral sentiment" (cheap talk) into a "cryptographic fact" (staked proof). By refusing to assume love exists by default, we ensure that where it *does* appear on-chain, it is **robust, funded, and verifiable**.
 
 ---
-## 7. Risk, self-modification, and POM-I (sketch)=
+## 7. Risk, self-modification, and POM-I (sketch)
 **Status: self-modification example family.**  
 The following POM-I language is illustrative. `POM-I` is not a universal identity oracle and not a required self-modification standard. It is one named pattern for hosting continuity and break conditions under self-chosen rules.
 
@@ -855,6 +855,7 @@ In earlier, low-tech phases, the same machinery can already be used to:
 ## 8. Stratification, cognitive divide, and honest cruelty
 **Status: ethos description, not a cruelty axiom.**  
 This section describes a likely ethos of a mind-native OS under A1/A2. It does not add duties, permissions, or a moral command to be cruel.
+
 Canonical Noetia is explicitly:
 - **mind-differentiated** at the OS layer (different agents expose different interface bandwidth),
 - **UX-protective** at the application layer (templates and curators compete to reduce failure modes).
