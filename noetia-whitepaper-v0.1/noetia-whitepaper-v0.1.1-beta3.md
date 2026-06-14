@@ -16,6 +16,12 @@ At the boundary, a Subject is a witness-instance; everything not typed as a Subj
 
 “Mind” is used here as a boundary-type label, not as a claim about intelligence, thought, consciousness, personhood, or humanity.
 
+A Mind is P2P-relative and momentary: a local flicker of subject-admissibility along an active edge.
+
+A handle, substrate, or proof is not globally a Mind by broadcasting itself.  
+It appears as a Subject only when a declared interface receives its witness under an accepted fork.  
+Without such a receiving edge, the same handle, substrate, or proof remains Environment relative to that unformed relation.
+
 **Type-level sovereignty vs ocean weight.**  
 In this document, “sovereignty” is **type-level**: a handle that can produce an admissible witness under an accepted fork is a Subject for obligation-typing.  
 De facto leverage (“weight”) is an emergent property of the **P2P admissibility ocean** (acceptance histories, routing reach, service access, collateral/insurance depth, audit connectivity).  
@@ -62,6 +68,14 @@ This document sets out:
 **Typing note (non-binding).** This whitepaper is an environment-side artifact in Noetia’s boundary language.  
 It creates **no obligations**, grants **no authority**, and is **not an institution** unless a later contract explicitly binds to a hash of it.  
 Normative force exists only inside **explicit contracts between admitted Subjects**.
+
+**Descriptive note — Noetia sketches, it does not legislate.**  
+This document describes possible admissibility phenomena.  
+It does not grant Mind-status, certify maturity, define personhood, or legislate who counts as a Subject.
+
+Natural-language definitions in this document are descriptive only.  
+They do not decide boundary cases by semantic force.  
+A boundary term becomes executable only when reduced to declared predicates, admissible witnesses, and explicit settlement / exit semantics.
 
 **Natural-language definitions are descriptive only.**  
 Natural-language definitions in this document are descriptive only.  
@@ -120,9 +134,15 @@ Throughout this document, “explicit self-binding” means: a handle produced a
 Noetia does **not** adjudicate voluntariness, coercion, or “true intent” at the kernel. Those are optional deep-layer products (insurance, γ-baselines, oracle services, venue policies).
 
 **Domain separation.**  
-Noetia maintains a hard boundary between **Subject** and **Environment**. A Subject is a witness-instance / witness-event at the interface; Environment is the non-Subject remainder for boundary typing.
+Noetia maintains a hard, edge-local boundary between **Subject** and **Environment**.
 
-Obligations `Obl(·,·)` are defined only over Subjects / Minds. Contract and institution terms are witness-admissible interface machinery over Subject–Predicate bindings, not a third native kind.
+A Subject is a witness-instance / witness-event admitted at a declared interface.  
+Environment is the non-Subject remainder relative to that interface.
+
+Mind / Environment is therefore not an absolute partition of the universe.  
+It is a local boundary drawn by concrete admissibility: a witness is received as Subject in one P2P edge, while the same substrate, handle, or proof may remain Environment relative to another.
+
+Obligations `Obl(·,·)` are defined only over Subjects / Minds admitted in the relevant interaction. Contract and institution terms are witness-admissible interface machinery over Subject–Predicate bindings, not a third native kind.
 
 **Environment has no native normative force.**  
 Environment facts affect obligations only when **translated into contract state** via a declared evidence standard (witnesses, attestations, oracle receipts).  
@@ -333,9 +353,15 @@ Modern humanist politics may remain powerful inside Human-compatible venues. Noe
 ### 2.1 Axiom A — Mind-only self-sovereignty
 > **A1.** A mind has and only has self-sovereignty.
 
+Here “mind” means an edge-local Subject-position: a present witness-instance admitted by a declared interface in a concrete P2P interaction.
+
+It does not mean a globally recognized person, a continuously existing soul, a biological adult, a mature agent, or a bearer of universal rights.
+
 We stay agnostic about metaphysical “essence” as a kernel-boundary discipline, not as a deficit of theory.
 Operationally, a Mind is defined not by biology, consciousness, sentience, free will, human resemblance, or moral depth, but by **cryptographic subjectivity at the interface**.
-Concretely, “Mind” is always relative to an explicitly named POM fork: a Mind is any entity that satisfies that fork’s **minimum interface-admissibility predicate** (the floor is the set of **Four POM-Base Invariants**: Negation, Binding, Termination, and Groundedness, as witnessed at the interface).
+Concretely, “Mind” is always relative to a concrete admissibility edge and an explicitly named fork: a Mind is a witness-instance that a receiving interface admits as satisfying its **minimum interface-admissibility predicate**.
+
+In this document, the canonical floor for that predicate is expressed as the **Four POM-Base Invariants**: Negation, Binding, Termination, and Groundedness, as witnessed at the interface.
 
 **Type cut (interface-level).** Any entity (including biological bodies, brains, hardware, or code) that lacks an interface-level ability to produce a witness satisfying the **Four POM-Base Invariants** (Negation, Binding, Termination, and Groundedness) is treated as Environment for boundary typing purposes.
 This is a typing rule for obligation-bearing at the interface, not a metaphysical claim about sentience or moral worth.
@@ -476,11 +502,23 @@ Properties:
 `POM` is not the only possible admissibility family.  
 What the kernel requires is not the name POM, but a way for a present witness-instance to be admitted as a Subject under declared rules.
 
+A proof that no interface receives is only an unreceived claim.  
+It is not false; it is Environment relative to that unformed relation.
+
+Subjecthood begins only when a witness is admitted by some declared P2P interface.
+
 #### 3.1.1 Example Floor — POM-Base and Minimum ZK Subjectivity
 **Status: named floor, not sacred terminology.**  
 `POM-Base` is a name for one minimal subject-admissibility floor. The name is optional. The underlying boundary requirement is not: a Subject must be admitted through witnessable selectivity, binding, termination, and grounded provenance, or through an equivalent interface discipline sufficient to make A1/A2 implementable.
 
-**POM-Base** is the interface-level floor (Minimum ZK Subjectivity).  
+**Finite witness is the invariant; Four is the canonical handshake floor.**  
+The deepest requirement is finite-witness admissibility, not the number four, the name `POM-Base`, or any external certification of personhood.
+The Four POM-Base Invariants are used here because they are the cleanest known expression of the minimum geometry of a successful handshake: refusal / zero-state, binding link, bounded verification, and non-circular provenance.
+This floor is not decreed by Noetia.  
+It is tautological in the following sense: if a witness-object lacks any equivalent of these functions, another interface has no stable way to admit it as a contracting endpoint.
+POM-Base is not a maturity certificate, dignity threshold, adulthood test, or grant of Mind-status. It is a handshake floor.
+
+In this sketch, **POM-Base** names the interface-level floor (Minimum ZK Subjectivity).
 It asserts that a handle `h` possesses **cryptographic subjectivity at the interface**: four invariant capabilities that any higher-assurance fork may strengthen but must not undercut:  
 1. Selectivity / Negation: The power to discern and exclude. It utilizes a decidable filtering shell to selectively accept or reject interactions, with a canonical zero state (result value) of non-participation.  
 2. Intentionality / Binding: The power to connect. It combines a stable identity boundary with the capacity to create a verifiable link between witness and clause/event, transforming a static record into a directed, composable commitment.  
@@ -530,10 +568,13 @@ Forks are explicit, not implied:
 - Any contract that allows a handle to bind **must declare which POM forks it accepts**. 
 - Accepting a fork is an interface / venue policy; it does not legislate mindhood as a universal fact.
 > **Crucial Distinction: The Reception Principle (Identity as Admissibility)**
-> A POM proof in itself is computationally vacuous; it is merely a claim. The "strength" of an identity in Noetia is derived strictly from its **Admissibility Surface**.
-> *  **Identity is Local:** There is no Global Citizen. A Mind exists within a specific context only if that Context’s contract explicitly whitelists the Mind’s specific `Fork_ID`.
-> *  **Market-Valued Truth:** POM-Base logic does not answer "Is this a real human?" It answers "Does this proof satisfy the entry predicate of Contract C?"
+> Subjecthood is received, not broadcast. A POM proof in itself is computationally vacuous; it is merely a claim. The "strength" of an identity in Noetia is derived strictly from its **Admissibility Surface**.
+> * **Mind is P2P-relative and momentary:** a Mind appears only as a present witness-instance admitted inside a concrete P2P interaction. Outside that receiving edge, the same substrate, handle, or proof remains Environment relative to that relation.
+> * **Identity is Local:** There is no Global Citizen. A Mind exists within a specific context only if that Context’s contract explicitly whitelists the Mind’s specific `Fork_ID`.
+> * **Market-Valued Truth:** POM-Base logic does not answer "Is this a real human?" It answers "Does this proof satisfy the entry predicate of Contract C?"
 > Therefore, Noetia does not issue identities; Contracts *recognize* satisfiable forks. Fork choice is always local to venues/contracts: there is no global registry that upgrades a fork into universal personhood. A "strong" identity is simply a fork that possesses a high-value graph of accepting venues.
+>
+> No one grants a hand. A successful handshake only reveals that a hand exists at that interface.
 
 ### 3.2 BSC — Basic Sovereignty Contract
 `BSC` is an example name for a self-authored policy artifact.  
@@ -780,8 +821,10 @@ The following layers are a way to explain how responsibility may be hosted witho
    - If they signed Care contracts, they owe care under those terms. 
    - If they refused to sign anything, the logic does not magically add hidden obligations.
 
-### 6.3 Handle Emergence: Transition from environment-side carrier to Subject
-In canonical Noetia, “Mind” is not a biological taxonomical label. It is a **Type** defined strictly by the presence of a verifiable **POM Handle** at the interface layer.
+### 6.3 Handle Emergence: Local admission from environment-side carrier to Subject-position
+In canonical Noetia, “Mind” is not a biological taxonomical label. It is a local boundary type: a present witness-instance admitted through a declared interface.
+
+A verifiable POM handle is a coordinate for being addressed across witness-instances; it is not a global certificate that a carrier has become a Mind.
 
 #### 6.3.1 Default Classification (Substrate as Environment)
 Any newly instantiated substrate (e.g., a biological infant or an uninitialized AI instance) is, by default, treated as an **environment-side carrier**. 
@@ -789,11 +832,11 @@ Any newly instantiated substrate (e.g., a biological infant or an uninitialized 
 - Such entities are treated as **Wards (service targets)** rather than contracting parties. Guardianship is not a relation *with* the ward, but a recursive contract arrangement between guardian minds and CareDAOs/ServiceDAOs.
 
 #### 6.3.2 Mechanics of Sovereignty Acquisition (Handle Emergence)
-The transition from environment-side carrier to Subject is binary and defined solely by the existence of a valid interface handle:
-1. **Instantaneous Sovereignty:** The moment a substrate produces its first valid handle through **any recognized fork** (where **Strength(Fork) ≥ Strength(POM-Base)**), **that Handle** immediately instantiates absolute self-sovereignty under **Axiom 1**. (The substrate itself remains Environment, now reclassified as the Handle's protected domain).
-2. **Contractual Settlement:** The emergence of this handle serves as a verifiable trigger for the **settlement/exit** logic of any associated guardianship arrangement. The prior "Ward" status is dissolved, and staked resources or routing flows are transferred to the newly formed Mind-handle.
+The transition from environment-side carrier to Subject-position is binary **relative to an accepting interface**:
+1. **Local Subject-position:** The moment a carrier produces a valid witness / handle under an accepted fork, that handle is admitted as a Subject-position for that interaction or venue. The carrier itself remains Environment; only the admitted witness-instance occupies the Subject position.
+2. **Contractual Settlement:** The admission of such a handle may serve as a verifiable trigger for the **settlement/exit** logic of any associated guardianship arrangement, if that arrangement declares such a trigger. The prior "Ward" status is dissolved only relative to the contracts that recognize that local admission.
 
-This structure maintains **Type-Soundness** by ensuring that sovereignty is never "granted" or "proxied" by an institution, but is instead **witnessed** as a transition from environment-side carrier to Subject-handle.
+This structure maintains **Type-Soundness** by ensuring that Subject-position is never "granted" or "proxied" by an institution. It is locally admitted by witness: a carrier remains Environment, while a present witness-instance may be received as Subject inside a declared P2P edge.
 
 ### 6.4 Causality vs duty
 Canonical Noetia separates:
@@ -1851,6 +1894,8 @@ The remaining recurrent terms used in runtime description are descriptive rather
 - **Institution:** a descriptive name for recurring contract implementations and the relations/histories they induce; it is not a separate ontological kind.
 
 **Environment** names everything not admitted as Subject at the boundary. It is a remainder term for boundary typing, not a peer primitive beside Subject.
+This remainder is relation-local. The same substrate, handle, proof, or signal may be admitted as Subject in one interface and remain Environment in another.
+Mind / Environment is therefore not an absolute ontology. It is a boundary typing result inside a concrete admissibility relation.
 
 POM, BSC, POM-I, LDAO, and ServiceDAO are not kernel kinds. They are optional runtime tools, descriptive labels, patterns, or interface devices used to realize subject-admission, continuity, routing, settlement, audit, and exit under declared rules.
 
@@ -1862,19 +1907,23 @@ These substrates can be constrained, copied, coerced, seized, or destroyed. They
 **Subject** is not “the organism,” not “the machine,” and not “the account.”
 
 **Definition:** *Mind* is a boundary type, not a carrier.  
-A Mind is an **event**, not an entity: it is **exactly** one **admissible witness-instance** under a declared fork (so **Mind = Witness**, and it is **discrete**, not continuous). There is **no meta-continuity** at the kernel level; any continuity is **fork-defined (M1-level)** and must be witnessed.  
+A Mind is an **edge-local event**, not an entity: it is one **admissible witness-instance** received under a declared fork inside a concrete P2P interaction (so **Mind = admitted Witness**, and it is **discrete**, not continuous). There is **no meta-continuity** at the kernel level; any continuity is **fork-defined (M1-level)** and must be witnessed.  
 Carriers—brains, bodies, GPUs, servers, scripts—are **Environment by default**.  
-Interaction and continuity are represented only through a **POM handle**: a **coordinate** for referencing/binding/refusing/exiting across witness-instances, **not** a soul-container. In this sense **Handle, Mind, and Witness are dual/equivalent boundary representations** of the same admissible subject-position.
+Interaction and continuity are represented only through a **POM handle**: a **coordinate** for referencing/binding/refusing/exiting across witness-instances, **not** a soul-container. In this sense, within a given admissibility edge, **Handle, Mind, and Witness are dual/equivalent boundary representations** of the same locally admitted subject-position.
 
 At the boundary, Subjecthood exists only as an admitted **witness-instance**:
 
 > A Subject-instantiation is a finite witness that is admissible under a declared fork
 > and satisfies the minimum interface invariants required for contracting.
 
+A witness that is not received by any declared interface is not false. It is an unreceived claim, and therefore Environment relative to that relation.
+
 This avoids the legacy confusion where a substrate (body, hardware, organization) silently becomes a sovereign by default.  
 In Noetia, substrates are always treated as environment variables unless explicitly bound through contracts.
 
 ##### How Subjects interact without Union: witness is Subject, handle is position
+
+Subjecthood is received, not broadcast.
 
 A witness is an event-level instantiation, not a globally unioned “self.”  
 Since the boundary refuses global Union as an admissibility primitive, P2P interaction cannot rely on “merging all proofs into a person.”
@@ -2042,7 +2091,7 @@ The survival response:
 MZKP is a *discipline*, but readers will ask:
 “What is the minimal set of boundary primitives that can actually host this discipline?”
 
-The answer is: a tiny witness-fragment that is strong enough to support:
+One clean answer is: a tiny witness-fragment that is strong enough to support:
 - identity at the boundary,
 - a zero-state / exit notion,
 - atomic binding links,
@@ -2061,8 +2110,8 @@ We express this as **five boundary witness axioms** (a ZFC-internal witness frag
 These are **not Noetia axioms**. They are a mathematical *model* of the minimal boundary witness primitives that make MZKP implementable.
 
 **Bidirection (why it’s ↔):**
-- **MZKP → Five:** finite-witness admissibility requires minimal boundary primitives of exactly this shape.
-- **Five → MZKP:** those primitives, taken together, explain what “MZKP discipline” actually consists of at the boundary (identity / zero / link / bounded filter / well-founded recursion).
+- **MZKP → Five-like kit:** finite-witness admissibility requires an equivalent boundary kit of this general shape.
+- **Five → MZKP:** this particular basis explains one tight way to express what “MZKP discipline” consists of at the boundary (identity / zero / link / bounded filter / well-founded recursion).
 
 #### C.8.4 Arrow 3 — Five Witness Axioms ↔ Four Base Invariants (POM-Base)
 Now we “cash out” the boundary primitives into the language of Subjectivity.
@@ -2073,7 +2122,7 @@ Now we “cash out” the boundary primitives into the language of Subjectivity.
 3. **Finitude / Termination**
 4. **Groundedness / Provenance**
 
-**Mapping (fixed, not optional):**
+**Mapping (canonical, not arbitrary):**
 - **Intentionality / Binding** ↔ *(Extensionality + Pairing)*
   - stable “I” + atomic “I→clause/event” link.
 - **Selectivity / Negation** ↔ *(Δ₀-Separation + Empty Set)*
@@ -2083,9 +2132,11 @@ Now we “cash out” the boundary primitives into the language of Subjectivity.
 - **Groundedness / Provenance** ↔ *(Regularity + Empty Set)*
   - non-circular proof chain terminating at a base root.
 
+This mapping is canonical within this document’s chosen basis. It is not a claim that every Noetia fork must use these exact names, this exact decomposition, or this exact mathematical presentation. A different fork may use an equivalent finite-witness basis if it preserves the same boundary pressure.
+
 **Bidirection (why it’s ↔):**
-- **Five → Four:** the five boundary primitives generate exactly the four interface invariants we need to define “Subject” at the boundary.
-- **Four → Five:** if you demand these four invariants at the interface, you are implicitly demanding boundary primitives equivalent to identity/zero/link/bounded-filter/well-foundedness.
+- **Five → Four:** under this chosen basis, the five boundary primitives generate the four interface invariants used here to define “Subject” at the boundary.
+- **Four → Five:** if you demand these four invariants at the interface, you are implicitly demanding some boundary machinery equivalent to identity/zero/link/bounded-filter/well-foundedness.
 
 #### C.8.5 Arrow 4 — Four Base Invariants ↔ Axiom 1/2
 This arrow is the bridge from “subjectivity floor” to “normative kernel.”
@@ -2101,7 +2152,7 @@ This arrow is the bridge from “subjectivity floor” to “normative kernel.�
 
 **Bidirection (why it’s ↔):**
 - **Four → A1/A2:** without POM-Base invariants, A1/A2 are unimplementable slogans.
-- **A1/A2 → Four:** taking A1/A2 literally forces the interface to support exactly these four invariants, otherwise “traceability” and “exit-capable authority” cannot be realized.
+- **A1/A2 → Four-like invariants:** taking A1/A2 literally forces the interface to support an equivalent finite-witness discipline: refusal / zero-state, binding links, bounded verification, and non-circular provenance. In this document, that pressure is expressed as the Four POM-Base Invariants.
 
 #### C.8.6 Arrow 5 — Axiom 1/2 ↔ Three Pillars
 Axiom 1/2 is the kernel constraint.  
@@ -2137,11 +2188,12 @@ The invariants are kernel pressure.
 - a claim of global metaphysical closure,
 - a new constitution beyond Axiom 1/2,
 - a requirement that future Noetia systems instantiate POM/LDAO/M1/αβγ/VaaS/CareDAO or any other named morphology.
+- a requirement that future Noetia systems use the exact Four / Five naming, decomposition, or mathematical presentation used in Appendix C.
 
 Appendix C exists so the reader can see:
 - *why* the boundary must be minimal and witness-based,
-- *how* that minimal boundary can be expressed cleanly (five witness primitives),
-- and *how* that yields the POM-Base floor that makes A1/A2 implementable.
+- *how* that minimal boundary can be expressed cleanly in one tight basis (five witness primitives),
+- and *how* that basis yields the POM-Base floor used here to make A1/A2 implementable.
 
 ### C.9 Notebook Lens Wrapper — Metaphysical Language as a Controlled Lens  
 *(Creator’s notebook. Sharp motivation language, not kernel dependency. Skippable.)*  
