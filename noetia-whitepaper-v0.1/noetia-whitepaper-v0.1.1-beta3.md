@@ -148,8 +148,7 @@ Obligations `Obl(·,·)` are defined only over Subjects / Minds admitted in the 
 Environment facts affect obligations only when **translated into contract state** via a declared evidence standard (witnesses, attestations, oracle receipts).  
 Oracles are tools: at the boundary we admit only the **translated contract claims**, not the environment-as-such.
 
-**Stack locality (no implicit semantic union).** Noetia’s semantics are stack-local: it does not “import” legacy state parameters (territory, citizenship, statutory duties, clocks) as Noetia-native variables by default.
-Interoperation—if any—must occur through explicit **bridge contracts**. A bridge is not a union of semantics: it is a narrow, typed adapter that translates *declared* interface claims across stacks, without making either stack accept the other’s native ontology.
+**Stack locality (no implicit semantic union).** Noetia’s semantics are stack-local: it does not “import” legacy-state parameters (territory, citizenship, statutory duties, clocks, state identity, corporate personality) as Noetia-native variables by default. A legacy fact affects a Noetia contract only if the contract names it as evidence for a declared predicate under a declared evidence rule. Noetia does not inherit legacy authority by proximity.
 
 **Kernel-boundary minimization.** Canonical Noetia keeps the kernel as thin as possible: it fixes only the Subject / non-Subject boundary and the traceability / exit conditions under which interface claims become admissible. Anything else—metaphysics of personhood, identity, welfare, value, or institutional form—must be pushed down into forks, venue γ, and contract interfaces rather than frozen into the kernel. Kernel here refers to Axiom 1 and Axiom 2 only.
 
@@ -307,7 +306,7 @@ A Noetia-compatible fork may use different carriers, provided A1/A2 and the witn
 This illustrates one possible shape of:
 - A thin, rigid kernel: what kinds of normative force are admissible. 
 - A thick, flexible runtime: how minds, service appearances, routing patterns, and metaphysical disputes may be hosted.
-**No implicit transitional union.** A “double-stack” world does not mean mutual acceptance of variables or obligations. Any cross-stack effect must be mediated by explicit bridge contracts that translate specific interface claims; otherwise, the stacks remain semantically disjoint by default.
+**No implicit legacy import.** External records, statuses, titles, clocks, registries, courts, territories, or identities do not enter Noetia by proximity. If such a fact matters, the receiving contract must name the evidence source, predicate, scope, and settlement effect. Otherwise it remains Environment.
 
 **Holographic reconstruction (type-soundness / implementability sketch).**  
 The pillars above can be read as one constructive sketch showing how A1/A2 may become operational.
@@ -328,7 +327,7 @@ Taking the axioms seriously implies a high engineering bar:
   Obligations must be derivable from explicit clauses, trackable over time, and composable across multiple contracts.
 - **Coherent obligation-OS.**
   Whatever implementation family is used—POM-like, BSC-like, LDAO-like, router-like, audit-like, or otherwise—it must share a common admissibility discipline regarding consent, risk, provenance, and exit. The labels are examples; the interface discipline is the requirement.
-- **Bridges to the physical layer.**
+- **Physical-layer witnesses.**
   Some service-appearance family must map between contract events and admissible witnesses of off-chain facts (oracle/sensor receipts, attestations, audits, or equivalent evidence receipts), with accountable, inspectable interfaces. `ServiceDAO` and `VaaS` are example labels, not required forms.
 It is a demanding design sketch for a civilization-scale software stack whose interface semantics are deliberately minimal.
 
@@ -673,7 +672,7 @@ Under mature LDAO-labelled runtime appearances, legacy **firms**, **financial as
 - Political “representation” becomes a family of **strategy surfaces** that minds may route through or away from at any time, instead of a once-every-few-years delegation to a fixed body. A “representative-effect” appears only insofar as many minds temporarily route pairwise flows through the same strategy-surface; exit is implemented by reconfiguring routers, not by overthrowing an institution.
 Legacy corporations, parliaments, boards and parties thus appear as low-resolution outward patterns inside a liquid P2P coordination field, not as primitive units of sovereignty.
 
-Bridging to legacy regimes is never implicit: Noetia does not import legacy-state semantics as parameters by default, and legacy regimes do not inherit Noetia semantics by proximity. Any cross-stack interaction is an explicit bridge contract with explicitly declared lossiness and non-reciprocity.
+Legacy reference is never implicit: Noetia does not import legacy-state semantics as parameters by default, and legacy regimes do not inherit Noetia semantics by proximity. A legacy record matters only where a receiving contract names it as evidence for a declared predicate, with declared scope, lossiness, and non-reciprocity.
 
 ### 4.1.1 Tokens: local instruments, no global coin
 Canonical Noetia does **not** introduce a single, civilization-wide “Noetia token” as a kernel primitive.
@@ -984,26 +983,33 @@ As dimensionality $D \to \infty$, the concept of "General Intelligence" fracture
 The LDAO structure facilitates this **granular exchange of competence**. We do not ask "Who is the leader?"; we ask "Which vector are you optimizing?" This is not feudalism; it is the **efficient routing of comparative cognitive advantage** across infinite axes.
 
 ---
-## 9. Legacy states, agorism, and transition
-Noetia is not a manifesto for violent revolution. 
-It is a **high-dimensional computational agorist worldline**: a transition path where legacy law is treated as a secondary, low-fidelity interface while mind-native contracts become the primary coordination substrate. By default the stacks remain semantically disjoint; any cross-stack effect is mediated only by explicit bridge contracts.
+## 9. Legacy semantics and non-import
 
-Noetia does not merely challenge the **legality** of the old world from within its own rules; it shatters the **reasonableness** (ontological justification) of the sovereign state. By providing a decidable, contract-grounded alternative for every human coordination function, Noetia renders the "Social Contract" not as an illegal myth, but as a computationally unnecessary and logically incoherent one.
+Noetia is not a manifesto for violent revolution.
 
-### 9.1 Transition Phases:
-The following phases are a plausible agorist migration pattern. They are not a mandatory historical path, not a political program, and not a promise that legacy states will cooperate or evolve gracefully.
-1. **Tooling** 
-   - POM identities for apps & communities. 
-   - BSC-like “personal charters” for medicine, estate, contracts. 
-   - LDAO patterns for guilds, co-ops, ecosystems.
-2. **Double-stack (Bi-directional Accretion)** 
-   - **From Minds:** Individual sovereigns migrate non-exclusively from legacy states and patriarchal structures into the Noetia regime, treating legacy law as a secondary, low-fidelity interface.
-   - **From Institutions:** Legacy states may adopt parts of the Noetia stack to optimize administrative interfaces. They may choose to "plug in" specific functions (e.g., property registries, procurement, licensing, compliance attestations) as explicit institutional interface terms to reduce friction, improve auditability, and remain relevant in a digital-native world.
-   - **Double-stack bridge is not parameter inheritance.**  
-Noetia does not “accept” legacy sovereign semantics as native variables. A bridge, if any, is a translation interface: legacy venues interpret Noetia events under legacy rules; Noetia venues interpret legacy events only through explicitly declared adapters. Parameters, authorities, and normative primitives do not silently carry across the bridge in either direction.
-3. **Functional replacement (The Post-Modern Evolution)** 
-   - As Noetia becomes the primary substrate for handling obligations, work, and risk, the state undergoes a phase transition. By accepting Noetia’s axioms (traceability and exit), the state evolves from a **"Chief and Priest" system** (authority based on myth and lineage) to a **Post-modern Service Infrastructure**.
-   - **Non-retroactivity (interface stance):** Noetia does not encode retroactive claims about legacy history. Existing assets and positions remain where they are under legacy semantics unless voluntarily re-expressed as explicit, exit-capable institutional interface terms. The only hard constraint Noetia enforces is forward-looking: any *normative force inside Noetia* must be contract-grounded and exit-capable.
+It does not need to deny that legacy states, laws, courts, registries, passports, borders, corporations, titles, or offices exist. They may persist as environment-side facts, service surfaces, risk surfaces, records, or low-resolution coordination shells.
+
+What does not cross the boundary by default is their authority.
+
+Noetia does not import territory, citizenship, statutory duty, public law, state-recognized identity, corporate personality, or sovereign status as native variables. A Noetia contract may refer to a legacy fact only by explicit evidence rule:
+
+> Treat legacy record `R` from legacy venue `L` as evidence for predicate `P` inside contract `C`.
+
+That reference imports no residual authority from `L`. It is scoped, lossy, non-reciprocal, and settleable inside `C`.
+
+No reference is the default.
+
+### 9.1 Non-retroactivity
+
+Noetia does not encode retroactive claims about legacy history.
+
+Existing assets, titles, identities, liabilities, and institutional positions remain inside the semantics that produced them unless a present Subject explicitly re-expresses a claim as a Noetia contract input.
+
+The hard constraint is forward-looking and internal:
+
+> Any normative force inside Noetia must be traceable to explicit binding, admissible by finite witness, and exit / settle capable.
+
+Legacy may remain powerful, useful, or dangerous as Environment. It does not become kernel.
 
 ---
 ## 10. Open technical questions
