@@ -1,8 +1,3 @@
 # Noetia
 
-Noetia is a mind-native worldline:  
-two axioms (mind-only sovereignty, intelligent institutions)  
-and three pillars (POM stack, LDAO stack, Meta→Contract principle)  
-for encoding obligations and institutions as computable structures instead of birth myths.
-
-- 📄 Whitepaper: `noetia-whitepaper.md`
+- 📄 Whitepaper: `noetia-whitepaper-v1.0.md`
